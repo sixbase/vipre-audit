@@ -2,3 +2,7 @@ node_modules
 .venv
 dist
 .DS_Store
+
+# capture harness — never commit your portal session or raw shots
+capture/.auth
+capture/out

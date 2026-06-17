@@ -1,0 +1,33 @@
+[
+  {
+    "name": "ies-allow-list",
+    "url": "/ies/allow-list",
+    "note": "Plain page capture. 'url' is a best-guess from the original filename — open the page in your browser and paste the REAL url here if it differs.",
+    "settle": 800
+  },
+  {
+    "name": "ies-allow-list-new-rule-modal",
+    "url": "/ies/allow-list",
+    "note": "MODAL example — clicks the button that opens the dialog, waits for it, then captures the full page with the modal open. Replace the selector with the real one (right-click the button in the browser → Inspect to find it, or just use interactive mode instead).",
+    "steps": [
+      { "click": "text=New Rule" },
+      { "waitFor": ".modal, [role=dialog]" }
+    ]
+  },
+  {
+    "name": "edr-esm-sites-detail-drawer",
+    "url": "/edr-esm/sites/sitelist",
+    "note": "DRAWER example — opens a side drawer by clicking a row, then captures. Selectors are placeholders.",
+    "steps": [
+      { "click": "table tbody tr:first-child" },
+      { "waitFor": "[class*=drawer i], [role=dialog]" }
+    ]
+  },
+  {
+    "name": "modal-only-element-shot",
+    "url": "/ies/allow-list",
+    "note": "Optional: capture ONLY the modal element (tight crop) instead of the whole page, by setting clipSelector.",
+    "steps": [{ "click": "text=New Rule" }],
+    "clipSelector": "[role=dialog]"
+  }
+]

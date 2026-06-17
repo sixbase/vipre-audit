@@ -17,6 +17,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # capture/ uses Playwright; the Pages build never drives a browser,
+      # so skip the ~150MB browser download during install.
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
