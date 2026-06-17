@@ -30,8 +30,8 @@ button { font-family: inherit; cursor: pointer; }
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
-.brand { display: flex; align-items: center; gap: var(--s-3); font-weight: 600; letter-spacing: -.01em; }
-.brand .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+.brand { display: flex; align-items: center; gap: var(--s-3); font-weight: 600; letter-spacing: -.01em; white-space: nowrap; flex: 0 0 auto; }
+.brand .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: 0 0 auto; }
 .brand small { color: var(--ink-3); font-weight: 500; }
 .nav { display: flex; gap: var(--s-2); }
 .nav button {
@@ -187,6 +187,12 @@ footer { color: var(--ink-4); font-size: var(--t-xs); padding: var(--s-7) 0; tex
     border-radius: 100px; border: 1px solid var(--line-2);
   }
   .wall-index button.on { border-color: var(--ink); }
+}
+
+/* ── narrow: collapse topbar to two rows before it ever cramps ── */
+@media (max-width: 700px) {
+  .topbar { flex-wrap: wrap; row-gap: var(--s-2); }
+  .nav { width: 100%; justify-content: space-between; }
 }
 
 /* ── phone ────────────────────────────────────── */
