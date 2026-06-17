@@ -42,7 +42,7 @@ function Thesis({ setView }) {
   return (
     <div className="wrap thesis">
       <div className="eyebrow">Production UI audit · June 2026 · 58 screens, 4 products</div>
-      <h1>There is no design system to match.</h1>
+      <h1>One portal, four design languages.</h1>
       <p className="lede">
         The brief was “make it match the design system look and feel.” But across IES, EDR/ESM,
         SafeSend and the shared Portal, the products already disagree with each other at the
