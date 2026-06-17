@@ -260,14 +260,16 @@ export default function App() {
   const openType = t => { setSelected(t); setView('components') }
 
   return (
-    <>
+    <div className="app">
       <Topbar view={view} setView={setView} />
-      {view === 'thesis' && <Thesis setView={setView} />}
-      {view === 'scorecard' && <Scorecard openType={openType} />}
-      {view === 'components' && <Components selected={selected} setSelected={setSelected} openShot={setShot} />}
-      {view === 'screens' && <Screens openShot={setShot} />}
+      <main className="app-main">
+        {view === 'thesis' && <Thesis setView={setView} />}
+        {view === 'scorecard' && <Scorecard openType={openType} />}
+        {view === 'components' && <Components selected={selected} setSelected={setSelected} openShot={setShot} />}
+        {view === 'screens' && <Screens openShot={setShot} />}
+      </main>
       <footer>Vipre Consistency Audit · {HEADLINE.screens} screens · documentation of current state, June 2026</footer>
       <Lightbox slug={shot} onClose={() => setShot(null)} />
-    </>
+    </div>
   )
 }
