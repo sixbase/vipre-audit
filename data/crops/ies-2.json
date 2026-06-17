@@ -1,0 +1,173 @@
+{
+  "crops": [
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "component_type": "search",
+      "variant_label": "search bar",
+      "box": [0.116, 0.083, 0.485, 0.030]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "component_type": "button",
+      "variant_label": "Add column ghost",
+      "box": [0.642, 0.282, 0.064, 0.027]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "component_type": "button",
+      "variant_label": "search submit icon",
+      "box": [0.602, 0.083, 0.027, 0.030]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "component_type": "empty-state",
+      "variant_label": "no data table",
+      "box": [0.235, 0.345, 0.420, 0.060]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "component_type": "tab",
+      "variant_label": "ALL count tab",
+      "box": [0.116, 0.166, 0.106, 0.025]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "component_type": "dropdown-menu",
+      "variant_label": "Remediate split",
+      "box": [0.712, 0.282, 0.062, 0.027]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "component_type": "checkbox-radio-toggle",
+      "variant_label": "filter checkbox row",
+      "box": [0.062, 0.346, 0.110, 0.018]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "component_type": "pagination",
+      "variant_label": "table pager",
+      "box": [0.620, 0.692, 0.330, 0.025]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "component_type": "badge-status",
+      "variant_label": "verdict dot",
+      "box": [0.905, 0.310, 0.040, 0.014]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "component_type": "data-card",
+      "variant_label": "Real Time Analyses chart",
+      "box": [0.300, 0.118, 0.430, 0.090]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_04_02.png",
+      "component_type": "data-card",
+      "variant_label": "report tile",
+      "box": [0.162, 0.097, 0.118, 0.120]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_04_02.png",
+      "component_type": "breadcrumb",
+      "variant_label": "account context bar",
+      "box": [0.006, 0.006, 0.330, 0.024]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_17_05.png",
+      "component_type": "data-card",
+      "variant_label": "report tile w icon",
+      "box": [0.290, 0.097, 0.118, 0.120]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_03_52.png",
+      "component_type": "kpi-tile",
+      "variant_label": "Attack Severity empty",
+      "box": [0.183, 0.328, 0.103, 0.115]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_03_52.png",
+      "component_type": "search",
+      "variant_label": "compact search",
+      "box": [0.097, 0.095, 0.245, 0.032]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_03_52.png",
+      "component_type": "button",
+      "variant_label": "header date pill",
+      "box": [0.502, 0.067, 0.110, 0.030]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_16_58.png",
+      "component_type": "kpi-tile",
+      "variant_label": "donut metric tile",
+      "box": [0.483, 0.247, 0.108, 0.095]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_16_58.png",
+      "component_type": "badge-status",
+      "variant_label": "severity dot row",
+      "box": [0.930, 0.425, 0.030, 0.012]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_16_58.png",
+      "component_type": "checkbox-radio-toggle",
+      "variant_label": "verdict checkbox",
+      "box": [0.062, 0.560, 0.115, 0.017]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_16_58.png",
+      "component_type": "pagination",
+      "variant_label": "explorer pager",
+      "box": [0.620, 0.945, 0.330, 0.025]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "component_type": "button",
+      "variant_label": "Export primary",
+      "box": [0.872, 0.024, 0.072, 0.030]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "component_type": "avatar",
+      "variant_label": "user initials avatar",
+      "box": [0.060, 0.095, 0.020, 0.022]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "component_type": "filter-chip",
+      "variant_label": "+1 Other group chip",
+      "box": [0.350, 0.225, 0.060, 0.020]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "component_type": "badge-status",
+      "variant_label": "Microsoft 365 source",
+      "box": [0.700, 0.143, 0.075, 0.020]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "component_type": "pagination",
+      "variant_label": "users pager",
+      "box": [0.790, 0.760, 0.165, 0.030]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_17_13.png",
+      "component_type": "filter-chip",
+      "variant_label": "+3 others chip",
+      "box": [0.350, 0.330, 0.060, 0.020]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_17_13.png",
+      "component_type": "breadcrumb",
+      "variant_label": "reseller path",
+      "box": [0.006, 0.030, 0.300, 0.030]
+    }
+  ]
+}

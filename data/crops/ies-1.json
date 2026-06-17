@@ -1,0 +1,185 @@
+{
+  "crops": [
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_02_47.png",
+      "component_type": "button",
+      "variant_label": "primary CTA Get started",
+      "box": [0.527, 0.668, 0.083, 0.030]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_02_47.png",
+      "component_type": "empty-state",
+      "variant_label": "account config empty state",
+      "box": [0.195, 0.405, 0.610, 0.300]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_02_47.png",
+      "component_type": "breadcrumb",
+      "variant_label": "reseller > tenant breadcrumb",
+      "box": [0.005, 0.005, 0.300, 0.030]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "component_type": "search",
+      "variant_label": "search input full width",
+      "box": [0.135, 0.100, 0.770, 0.040]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "component_type": "button",
+      "variant_label": "primary New Rule",
+      "box": [0.820, 0.040, 0.080, 0.040]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "component_type": "button",
+      "variant_label": "disabled Delete",
+      "box": [0.825, 0.142, 0.070, 0.035]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "component_type": "checkbox-radio-toggle",
+      "variant_label": "table header checkbox",
+      "box": [0.150, 0.190, 0.025, 0.022]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "component_type": "data-card",
+      "variant_label": "no-data table card",
+      "box": [0.135, 0.160, 0.770, 0.130]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-audit-logs-2026-06-17-08_08_11.png",
+      "component_type": "button",
+      "variant_label": "Add column",
+      "box": [0.835, 0.058, 0.085, 0.024]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-audit-logs-2026-06-17-08_08_11.png",
+      "component_type": "badge-status",
+      "variant_label": "TIME range pill",
+      "box": [0.690, 0.030, 0.110, 0.020]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-audit-logs-2026-06-17-08_08_11.png",
+      "component_type": "pagination",
+      "variant_label": "numbered pager",
+      "box": [0.560, 0.835, 0.290, 0.040]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-audit-logs-2026-06-17-08_08_11.png",
+      "component_type": "data-card",
+      "variant_label": "audit events table",
+      "box": [0.150, 0.070, 0.770, 0.800]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-detection-settings-2026-06-17-08_06_18.png",
+      "component_type": "checkbox-radio-toggle",
+      "variant_label": "enabled toggle (Sandbox)",
+      "box": [0.165, 0.130, 0.030, 0.022]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-detection-settings-2026-06-17-08_06_18.png",
+      "component_type": "checkbox-radio-toggle",
+      "variant_label": "toggle M365 Allow List",
+      "box": [0.165, 0.275, 0.030, 0.022]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-detection-settings-2026-06-17-08_06_18.png",
+      "component_type": "data-card",
+      "variant_label": "settings section card",
+      "box": [0.150, 0.085, 0.835, 0.235]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_04_49.png",
+      "component_type": "data-card",
+      "variant_label": "Microsoft 365 source card",
+      "box": [0.282, 0.170, 0.170, 0.180]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_04_49.png",
+      "component_type": "data-card",
+      "variant_label": "Google Workspace source card",
+      "box": [0.680, 0.170, 0.170, 0.180]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_04_49.png",
+      "component_type": "empty-state",
+      "variant_label": "select a source prompt",
+      "box": [0.140, 0.115, 0.730, 0.250]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "component_type": "button",
+      "variant_label": "primary Add M365",
+      "box": [0.752, 0.046, 0.085, 0.030]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "component_type": "button",
+      "variant_label": "primary Add Google Workspace",
+      "box": [0.845, 0.046, 0.135, 0.030]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "component_type": "badge-status",
+      "variant_label": "CONNECTED status badge",
+      "box": [0.232, 0.099, 0.075, 0.022]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "component_type": "data-card",
+      "variant_label": "connected source w/ sparkline",
+      "box": [0.155, 0.090, 0.270, 0.150]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "component_type": "kpi-tile",
+      "variant_label": "top metrics strip tile",
+      "box": [0.084, 0.022, 0.085, 0.022]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "component_type": "data-card",
+      "variant_label": "Top Threat Types chart card",
+      "box": [0.150, 0.330, 0.250, 0.115]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "component_type": "tab",
+      "variant_label": "Emails/Spam legend tabs",
+      "box": [0.820, 0.092, 0.155, 0.018]
+    },
+
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+      "component_type": "tab",
+      "variant_label": "config sub-tabs row",
+      "box": [0.150, 0.092, 0.700, 0.030]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+      "component_type": "checkbox-radio-toggle",
+      "variant_label": "radio Block selected",
+      "box": [0.162, 0.300, 0.090, 0.024]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+      "component_type": "input",
+      "variant_label": "Email timeout numeric input",
+      "box": [0.162, 0.235, 0.130, 0.028]
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+      "component_type": "button",
+      "variant_label": "Save changes",
+      "box": [0.760, 0.560, 0.090, 0.028]
+    }
+  ]
+}

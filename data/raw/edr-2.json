@@ -1,0 +1,890 @@
+{
+  "product": "EDR/ESM",
+  "screens": [
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "screen_label": "Applications (Patches)",
+      "module": "Patches / Applications",
+      "layout_notes": "Left dark-navy nav sidebar + dark-navy page header bar with white title; full-width data table below on white body. Light-blue (#eaf2fb) hover row striping. Consistent VIPRE Site Manager shell."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-vulnerabilities-ungrouped-2026-06-17-08_24_54.png",
+      "screen_label": "Vulnerabilities (Ungrouped)",
+      "module": "Patches / Vulnerabilities",
+      "layout_notes": "Same shell. Segmented tab control (Ungrouped / Grouped by ID / Grouped by Device) under header. A small inline scatter/dot trend chart + two KPI count tiles at top, then a dense data table. Multiple inline filter dropdowns above table. Export CSV button top-right."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-policy-list-windows-2026-06-17-08_23_37.png",
+      "screen_label": "Policies",
+      "module": "Manage / Policies",
+      "layout_notes": "Vertical OS tab rail (Windows/Mac/Linux/Android) with arrow-tab/chevron pointer styling on light-blue panel — a DIFFERENT tab idiom than the horizontal segmented tabs elsewhere. Three 'Policy Assignment' data-cards in a row (Laptops/Workstations/Servers). Radio group + checkbox filter row. Empty-state table ('No policies found.'). 'Add Policy' primary button top-right."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-quarantine-2026-06-17-08_19_32.png",
+      "screen_label": "Quarantine",
+      "module": "Monitor / Quarantine",
+      "layout_notes": "Two-pane: left faceted-filter sidebar (Platform / Severity / Category / Source checkboxes) on white, right very dense data table with colored severity text. No page header bar visible (table starts at top). Numbered pagination at bottom. Denser, older-looking table than the Applications screen."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-rbi-2026-06-17-08_26_10.png",
+      "screen_label": "Remote Browser Isolation (RBI)",
+      "module": "Investigate / RBI",
+      "layout_notes": "Marketing/explainer style page — distinct from data-table screens. URL input with circular send button, illustrated diagram, 'How does it work?' / 'How does it integrate?' sections with screenshot thumbnails framed in orange annotation boxes. Feels like a different design era (content/onboarding page)."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-reports-2026-06-17-08_20_01.png",
+      "screen_label": "Reports",
+      "module": "Monitor / Reports",
+      "layout_notes": "Card grid (6-up) of report tiles, each an outlined light-bordered card with a centered dark-navy icon and 2-line title. Clean, modern card layout — distinct from dense tables."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_20_15.png",
+      "screen_label": "Sites — list (collapsed row)",
+      "module": "Manage / Sites",
+      "layout_notes": "Horizontal underline tabs (Sites / Site Managers). Bright blue (#1b75bb) filter/toolbar bar with pill toggle filters (All Sites / Expired / Needing Attention / Billed) and rounded search input. Table with seats progress bar and a small area sparkline in THREATS column. Note: this state rendered at a wider/zoomed scale than other screens."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_21_05.png",
+      "screen_label": "Sites — list (expanded detail row)",
+      "module": "Manage / Sites",
+      "layout_notes": "Same Sites page with a row expanded into a 3-column detail panel (Contract / Operational / Security) containing mini KPI stats, a stacked device-type bar, sparkline area trend charts, and a top-threats mini list. Mixed card/inline-stat composition."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_22_51.png",
+      "screen_label": "Loading state",
+      "module": "Sites (transition)",
+      "layout_notes": "Full-screen branded loading splash: blue building-photo gradient background with centered white 'Loading' text. Top breadcrumb tab bar present. DIFFERENT visual era — photographic gradient, no app chrome."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_23_01.png",
+      "screen_label": "Sign in / Login",
+      "module": "Auth",
+      "layout_notes": "DIFFERENT design era / standalone auth page. Dark blue dotted-halftone photographic background, centered white card split into 'New Features' (left, icon list) and 'Sign in' (right, email/password). Uses a VIPRE EDR logo (not Site Manager) and a PEACH/SALMON (#f0a878) primary Sign In button — an accent color not seen anywhere else in the product."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-system-notifications-2026-06-17-08_26_57.png",
+      "screen_label": "System — Notifications",
+      "module": "Setup / System",
+      "layout_notes": "Vertical chevron/arrow tab rail (Notifications / Webhooks / Keys / Customer Support) with stacked icon+label tabs — same arrow-tab idiom as Policies. Empty-state table ('No notifications found.'). 'Add Notification' primary button top-right. Rendered at wider scale like the Sites screens."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-threats-2026-06-17-08_19_10.png",
+      "screen_label": "Threat Dashboard",
+      "module": "Monitor / Threats",
+      "layout_notes": "Dashboard layout: top row of stat/KPI summary tiles, a large bar+scatter timeline 'Threat Trend' chart center, two threat lists flanking, plus bottom 'Severity Breakdown' horizontal bar chart, a sites-with-most-threats bar, and an 'Actions Taken' donut chart with legend. Multiple chart types on one canvas."
+    }
+  ],
+  "observations": [
+    {
+      "component_type": "nav-sidebar",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "primary-left-nav-dark-navy",
+      "attributes": {
+        "position": "left",
+        "width_px_guess": 200,
+        "bg_color": "#0e1a2b",
+        "item_style": "icon + text, grouped under uppercase gray section headers (MONITOR/MANAGE/INVESTIGATE/SETUP); active item full-width blue (#1b6ec2) highlight",
+        "active_color": "#1b6ec2",
+        "section_header_color": "#7a8aa0",
+        "icon_set": "Font Awesome-style line icons",
+        "collapse_control": "double-chevron collapse button top"
+      },
+      "location": "full-height left",
+      "verbatim_label": "Dashboard / EDR Dashboard / Threats / Quarantine / Reports / Sites / Devices / Policies / Applications / Vulnerabilities / RBI / Events / Usage / System / Deploy / Help"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "page-header-dark-navy-band",
+      "attributes": {
+        "bg_color": "#0e2a4a",
+        "title_color": "#ffffff",
+        "title_weight": "bold",
+        "height_px_guess": 56,
+        "has_cta": true
+      },
+      "location": "top, right of sidebar",
+      "verbatim_label": "Applications"
+    },
+    {
+      "component_type": "breadcrumb",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "context-switcher-pill-tabs-dark",
+      "attributes": {
+        "bg_color": "#1b1b1b",
+        "item_style": "rounded pill tabs with folder icons, active pill lighter gray",
+        "text_color": "#cccccc"
+      },
+      "location": "very top, above header",
+      "verbatim_label": "Gus Endpont Distributor 001 > Gus Dist Reseller - Endpoint 001"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "secondary-outline-on-dark-header",
+      "attributes": {
+        "fill": "transparent/outline",
+        "shape_radius": 4,
+        "color": "#ffffff border",
+        "text_color": "#ffffff",
+        "size": "md",
+        "has_icon": false,
+        "casing": "Title Case",
+        "role": "secondary"
+      },
+      "location": "header top-right",
+      "verbatim_label": "Update to Latest"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "applications-airy-table",
+      "attributes": {
+        "header_fill": "#ffffff",
+        "row_striping": "hover light-blue (#eaf2fb)",
+        "border_style": "thin bottom rules only",
+        "density": "comfortable",
+        "sort_affordance": "up/down carets on sortable headers",
+        "pagination_style": "none visible",
+        "row_action_style": "blue text link with icon ('Update')"
+      },
+      "location": "body",
+      "verbatim_label": "APPLICATION / INSTALLED VERSION / LATEST AVAILABLE / DEVICES / VULNERABILITIES / FIXED BY LATEST / ACTION"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "row-action-update-link",
+      "attributes": {
+        "color": "#1b6ec2",
+        "has_icon": true,
+        "icon": "download",
+        "underline": false
+      },
+      "location": "table ACTION column",
+      "verbatim_label": "Update"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "inline-progress-bar-percent",
+      "attributes": {
+        "chart_type": "horizontal progress/percent bar",
+        "palette": ["#36a85b green", "#e3a008 amber"],
+        "style": "thin inline bar with % label (100% / 50%)"
+      },
+      "location": "FIXED BY LATEST column",
+      "verbatim_label": "100% / 50%"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "vuln-severity-microbar",
+      "attributes": {
+        "shape": "small stacked bar glyph",
+        "color_map": {"high": "#d9534f", "medium": "#e3a008", "count": "#1b6ec2 number"}
+      },
+      "location": "VULNERABILITIES column",
+      "verbatim_label": "4 / 3 / 2"
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "pill-search-light-input",
+      "attributes": {
+        "border": "1px #cfd8e3",
+        "radius": 16,
+        "height": 30,
+        "icon": "magnifier right",
+        "label_position": "placeholder"
+      },
+      "location": "above table, right",
+      "verbatim_label": "Search"
+    },
+    {
+      "component_type": "dropdown-menu",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "inline-filter-caret-blue-text",
+      "attributes": {
+        "trigger_style": "blue text + down caret, no border",
+        "color": "#1b6ec2",
+        "label_prefix": "FILTER:"
+      },
+      "location": "filter row above table",
+      "verbatim_label": "All Vendors / All Applications / All Versions"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+      "variant_key": "status-checkmark-up-to-date",
+      "attributes": {
+        "color": "#36a85b",
+        "glyph": "double check / arrow",
+        "meaning": "up-to-date vs update available (blue right arrow)"
+      },
+      "location": "LATEST AVAILABLE column",
+      "verbatim_label": "Up-to-date"
+    },
+    {
+      "component_type": "tab",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-vulnerabilities-ungrouped-2026-06-17-08_24_54.png",
+      "variant_key": "segmented-pill-tabs-top",
+      "attributes": {
+        "shape": "joined segmented control, rounded ends",
+        "active_fill": "#1b6ec2",
+        "active_text": "#ffffff",
+        "inactive_text": "#5a6b80"
+      },
+      "location": "top center under header",
+      "verbatim_label": "Ungrouped / Grouped by ID / Grouped by Device"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-vulnerabilities-ungrouped-2026-06-17-08_24_54.png",
+      "variant_key": "open-vulns-count-tile",
+      "attributes": {
+        "bg": "#ffffff",
+        "number_color": "#0e2a4a",
+        "label_color": "#7a8aa0",
+        "accent_bar": "severity colored mini stack"
+      },
+      "location": "top-right",
+      "verbatim_label": "OPEN VULNERABILITIES / Devices"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-vulnerabilities-ungrouped-2026-06-17-08_24_54.png",
+      "variant_key": "vuln-scatter-dot-trend",
+      "attributes": {
+        "chart_type": "scatter/dot timeline",
+        "palette": ["#36a85b", "#e3a008", "#d9534f", "#1b6ec2"],
+        "style": "colored dots over date axis, slim"
+      },
+      "location": "top, 'VULNERABILITIES IN LAST 7 DAYS'",
+      "verbatim_label": "VULNERABILITIES IN LAST 7 DAYS"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-vulnerabilities-ungrouped-2026-06-17-08_24_54.png",
+      "variant_key": "vulnerabilities-dense-table",
+      "attributes": {
+        "header_fill": "#ffffff",
+        "row_striping": "very light alternating",
+        "border_style": "thin rules",
+        "density": "dense",
+        "sort_affordance": "carets",
+        "pagination_style": "none visible",
+        "row_action_style": "blue 'Update' text link"
+      },
+      "location": "body",
+      "verbatim_label": "ID / SEVERITY / VENDOR / APPLICATION / SIZE / HOSTNAME / FIRST SEEN / STATUS / REMEDIATE"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-vulnerabilities-ungrouped-2026-06-17-08_24_54.png",
+      "variant_key": "severity-text-color-coded",
+      "attributes": {
+        "shape": "plain colored text (no pill)",
+        "color_map": {"Critical": "#d9534f", "Moderate": "#e3a008", "Low": "#36a85b"}
+      },
+      "location": "SEVERITY column",
+      "verbatim_label": "4.9 - Moderate / 7.9 - Moderate / 4.4 - Low"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-vulnerabilities-ungrouped-2026-06-17-08_24_54.png",
+      "variant_key": "export-secondary-outline-dark",
+      "attributes": {
+        "fill": "outline",
+        "shape_radius": 4,
+        "color": "#ffffff border on dark header",
+        "text_color": "#ffffff",
+        "size": "sm",
+        "has_icon": false,
+        "casing": "Title Case",
+        "role": "secondary"
+      },
+      "location": "header top-right",
+      "verbatim_label": "Export CSV"
+    },
+    {
+      "component_type": "tab",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-policy-list-windows-2026-06-17-08_23_37.png",
+      "variant_key": "vertical-chevron-os-rail",
+      "attributes": {
+        "orientation": "vertical",
+        "shape": "stacked cards with right-pointing chevron/arrow notch on active",
+        "bg": "#eef5fc light-blue panel",
+        "active_indicator": "white card + arrow point",
+        "item_style": "icon above label"
+      },
+      "location": "left of content area",
+      "verbatim_label": "Windows / Mac / Linux / Android"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-policy-list-windows-2026-06-17-08_23_37.png",
+      "variant_key": "policy-assignment-card",
+      "attributes": {
+        "bg": "#f4f9fe",
+        "border": "1px #d5e4f2",
+        "radius": 6,
+        "content": "uppercase category label, centered device icon, policy name, inherited-from caption, two text-link actions",
+        "icon_color": "#0e2a4a"
+      },
+      "location": "Policy Assignments row (3 cards)",
+      "verbatim_label": "LAPTOPS / WORKSTATIONS / SERVERS — VSM Enterprise / VSM Windows Servers"
+    },
+    {
+      "component_type": "checkbox-radio-toggle",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-policy-list-windows-2026-06-17-08_23_37.png",
+      "variant_key": "radio-group-plus-checkbox-filter",
+      "attributes": {
+        "radio_active_color": "#1b6ec2",
+        "checkbox_active_color": "#1b6ec2",
+        "label_position": "right of control"
+      },
+      "location": "Policy List filter row",
+      "verbatim_label": "TYPE: All / VSM / Local — Show unused policies"
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-policy-list-windows-2026-06-17-08_23_37.png",
+      "variant_key": "table-empty-centered-text",
+      "attributes": {
+        "style": "plain centered gray text inside empty table, no illustration",
+        "text_color": "#5a6b80"
+      },
+      "location": "Policy List table body",
+      "verbatim_label": "No policies found."
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-policy-list-windows-2026-06-17-08_23_37.png",
+      "variant_key": "primary-solid-blue-add",
+      "attributes": {
+        "fill": "solid",
+        "shape_radius": 4,
+        "color": "#1b6ec2",
+        "text_color": "#ffffff",
+        "size": "md",
+        "has_icon": false,
+        "casing": "Title Case",
+        "role": "primary"
+      },
+      "location": "header top-right",
+      "verbatim_label": "Add Policy"
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-policy-list-windows-2026-06-17-08_23_37.png",
+      "variant_key": "rounded-search-policies",
+      "attributes": {
+        "border": "1px #cfd8e3",
+        "radius": 16,
+        "height": 30,
+        "icon": "magnifier right",
+        "label_position": "placeholder"
+      },
+      "location": "Policy List, right",
+      "verbatim_label": "Search Policies"
+    },
+    {
+      "component_type": "nav-sidebar",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-quarantine-2026-06-17-08_19_32.png",
+      "variant_key": "faceted-filter-sidebar-white",
+      "attributes": {
+        "position": "left (secondary, inside content)",
+        "width_px_guess": 150,
+        "bg_color": "#ffffff",
+        "item_style": "collapsible groups with checkbox + count facets",
+        "group_headers": "Platform / Severity / Category / Source",
+        "icon_set": "small caret expanders"
+      },
+      "location": "left of quarantine table",
+      "verbatim_label": "Platform / Severity / Category / Source"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-quarantine-2026-06-17-08_19_32.png",
+      "variant_key": "quarantine-ultra-dense-table",
+      "attributes": {
+        "header_fill": "#f5f7fa",
+        "row_striping": "subtle alternating",
+        "border_style": "full thin grid rules",
+        "density": "ultra-dense",
+        "sort_affordance": "carets",
+        "pagination_style": "numbered pager bottom",
+        "row_action_style": "icon actions in trailing columns"
+      },
+      "location": "body",
+      "verbatim_label": "TIME / NAME / PLATFORM / CATEGORY / SEVERITY / SOURCE / DEVICES / SITES"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-quarantine-2026-06-17-08_19_32.png",
+      "variant_key": "severity-text-colored-quarantine",
+      "attributes": {
+        "shape": "plain colored text",
+        "color_map": {"Severe": "#d9534f", "High": "#e3702d", "Moderate": "#e3a008", "Low": "#36a85b"}
+      },
+      "location": "SEVERITY column",
+      "verbatim_label": "Severe / High / Moderate / Low"
+    },
+    {
+      "component_type": "pagination",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-quarantine-2026-06-17-08_19_32.png",
+      "variant_key": "numbered-pager-blue-active",
+      "attributes": {
+        "style": "numbered boxes with prev/next chevrons",
+        "active_fill": "#1b6ec2",
+        "active_text": "#ffffff"
+      },
+      "location": "below table",
+      "verbatim_label": "1 2"
+    },
+    {
+      "component_type": "input",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-rbi-2026-06-17-08_26_10.png",
+      "variant_key": "url-input-with-circle-send",
+      "attributes": {
+        "border": "1px #cfd8e3",
+        "radius": 4,
+        "height": 40,
+        "label_position": "placeholder",
+        "trailing": "round blue send/arrow button"
+      },
+      "location": "top of RBI page",
+      "verbatim_label": "Enter a URL"
+    },
+    {
+      "component_type": "banner",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-rbi-2026-06-17-08_26_10.png",
+      "variant_key": "explainer-intro-banner",
+      "attributes": {
+        "bg": "#ffffff",
+        "text_color": "#5a6b80",
+        "style": "descriptive paragraph, no border"
+      },
+      "location": "top under header",
+      "verbatim_label": "RBI enables users to safely browse the Internet without risk of exposing their devices to potentially malicious websites."
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-rbi-2026-06-17-08_26_10.png",
+      "variant_key": "integration-screenshot-card-orange-annot",
+      "attributes": {
+        "bg": "#ffffff",
+        "border": "1px light",
+        "content": "embedded product screenshot with orange highlight box + connector annotation",
+        "accent": "#f08a3c orange annotation"
+      },
+      "location": "'How does it integrate?' section",
+      "verbatim_label": "Link Analysis / Web Activity Summary Reports"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-reports-2026-06-17-08_20_01.png",
+      "variant_key": "report-tile-outline-icon",
+      "attributes": {
+        "bg": "#ffffff",
+        "border": "1px #cfe0f0",
+        "radius": 6,
+        "icon_color": "#0e2a4a",
+        "icon_position": "top center",
+        "title": "2-line centered dark text",
+        "shadow": "none/flat"
+      },
+      "location": "card grid (6 across, 2 rows)",
+      "verbatim_label": "Threat Detection Report / Device Registration Report / Scan Report / Device Summary Report / Web Activity Summary Report / Web Access Control Report / Applications Update Report / Shell History Report / Audit Report / Device Control Report"
+    },
+    {
+      "component_type": "tab",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_20_15.png",
+      "variant_key": "underline-tabs-top",
+      "attributes": {
+        "shape": "text tabs with active underline + white pill backdrop",
+        "active_color": "#0e2a4a",
+        "active_underline": "#1b6ec2",
+        "inactive_text": "#5a6b80"
+      },
+      "location": "top of content",
+      "verbatim_label": "Sites / Site Managers"
+    },
+    {
+      "component_type": "filter-chip",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_20_15.png",
+      "variant_key": "radio-pill-filters-on-blue-bar",
+      "attributes": {
+        "bar_bg": "#1b75bb",
+        "shape": "radio dot + label, white text",
+        "active_text": "#ffffff",
+        "count_suffix": "trailing count number"
+      },
+      "location": "blue toolbar above table",
+      "verbatim_label": "ALL SITES 1 / Expired 0 / Needing Attention 1 / Billed 1"
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_20_15.png",
+      "variant_key": "rounded-search-on-blue-bar",
+      "attributes": {
+        "border": "none, white fill",
+        "radius": 18,
+        "height": 32,
+        "icon": "magnifier right",
+        "label_position": "placeholder",
+        "context": "sits on bright blue toolbar"
+      },
+      "location": "blue toolbar, right",
+      "verbatim_label": "Search Sites"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_20_15.png",
+      "variant_key": "sites-table-with-inline-viz",
+      "attributes": {
+        "header_fill": "#ffffff",
+        "row_striping": "none",
+        "border_style": "thin bottom rule",
+        "density": "comfortable",
+        "sort_affordance": "active caret on SITE col",
+        "pagination_style": "none (single row)",
+        "row_action_style": "inline metrics + sparkline + badge"
+      },
+      "location": "body",
+      "verbatim_label": "SITE / ENTITLEMENTS / SEATS / DEVICES / ACTIVE / ATTN / THREATS"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_20_15.png",
+      "variant_key": "entitlement-pill-edr",
+      "attributes": {
+        "shape": "rounded pill with icon",
+        "color_map": {"EDR": "#3a4a5e gray-navy fill, white text"}
+      },
+      "location": "ENTITLEMENTS column",
+      "verbatim_label": "EDR"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_20_15.png",
+      "variant_key": "seats-progress-bar-inline",
+      "attributes": {
+        "chart_type": "progress bar",
+        "palette": ["#1b6ec2 fill", "#dbe3ec track"],
+        "style": "thin bar with '50% of seats' caption"
+      },
+      "location": "DEVICES column",
+      "verbatim_label": "50% of seats"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_20_15.png",
+      "variant_key": "threats-area-sparkline",
+      "attributes": {
+        "chart_type": "area sparkline",
+        "palette": ["#9cc4e8 fill", "#1b6ec2 line"],
+        "style": "small filled peak area, no axes"
+      },
+      "location": "THREATS column",
+      "verbatim_label": "48"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_21_05.png",
+      "variant_key": "expanded-detail-inline-stats",
+      "attributes": {
+        "layout": "3 columns Contract / Operational / Security",
+        "number_color": "#0e2a4a",
+        "label_color": "#7a8aa0",
+        "delta_color": "#d9534f (+48 red)",
+        "style": "borderless stat blocks, not boxed tiles"
+      },
+      "location": "expanded row detail panel",
+      "verbatim_label": "CONTRACT Perpetual / OPERATIONAL 5 devices / SECURITY (7 DAYS) 48 threats detected +48"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_21_05.png",
+      "variant_key": "device-types-stacked-bar",
+      "attributes": {
+        "chart_type": "single stacked horizontal bar",
+        "palette": ["#36a85b", "#e3a008", "#1b6ec2", "#8a4fd0"],
+        "style": "segmented legend (Laptop/Server/Workstation/Mobile)"
+      },
+      "location": "Operational column",
+      "verbatim_label": "DEVICE TYPES"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_21_05.png",
+      "variant_key": "trend-area-sparkline-detail",
+      "attributes": {
+        "chart_type": "area sparkline",
+        "palette": ["#9cc4e8 fill", "#1b6ec2 line"],
+        "style": "peak labelled area mini-charts (active + threat trend)"
+      },
+      "location": "Operational & Security columns",
+      "verbatim_label": "ACTIVE TREND (30 DAYS) / THREAT TREND (7 DAYS)"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_21_05.png",
+      "variant_key": "go-to-site-link-icon",
+      "attributes": {
+        "color": "#1b6ec2",
+        "has_icon": true,
+        "underline": false
+      },
+      "location": "Contract column footer",
+      "verbatim_label": "Go to Site"
+    },
+    {
+      "component_type": "loading-state",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_22_51.png",
+      "variant_key": "fullscreen-photo-gradient-splash",
+      "attributes": {
+        "bg": "blue building photograph gradient (#1b6fb5 -> #0d4d8f)",
+        "text": "centered white 'Loading'",
+        "text_color": "#ffffff",
+        "spinner": "none visible",
+        "style": "branded marketing splash, no app chrome"
+      },
+      "location": "full viewport",
+      "verbatim_label": "Loading"
+    },
+    {
+      "component_type": "input",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_23_01.png",
+      "variant_key": "login-field-light-thin-border",
+      "attributes": {
+        "border": "1px #d8dde3",
+        "radius": 3,
+        "height": 34,
+        "label_position": "placeholder (Email / Password)",
+        "bg": "#ffffff"
+      },
+      "location": "Sign in card, right",
+      "verbatim_label": "Email / Password"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_23_01.png",
+      "variant_key": "signin-peach-solid",
+      "attributes": {
+        "fill": "solid",
+        "shape_radius": 3,
+        "color": "#f0a878 (peach/salmon)",
+        "text_color": "#ffffff",
+        "size": "md full-width",
+        "has_icon": false,
+        "casing": "Title Case",
+        "role": "primary"
+      },
+      "location": "Sign in card",
+      "verbatim_label": "Sign In"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_23_01.png",
+      "variant_key": "reset-password-blue-link",
+      "attributes": {
+        "color": "#1b6ec2",
+        "underline": false,
+        "casing": "lowercase"
+      },
+      "location": "below Sign In button",
+      "verbatim_label": "reset password"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_23_01.png",
+      "variant_key": "login-feature-list-card",
+      "attributes": {
+        "bg": "#f4f7fb (left half), #ffffff (right half)",
+        "content": "icon + bold title + gray description rows",
+        "icon_color": "#1b6ec2 in circle"
+      },
+      "location": "Sign in card, left",
+      "verbatim_label": "NEW FEATURES — Correlated Behavior Engine / Incident Management / Remote Control"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_23_01.png",
+      "variant_key": "vipre-edr-logo-variant",
+      "attributes": {
+        "color": "#ffffff",
+        "lockup": "VIPRE wordmark + 'EDR' sublabel (NOT 'SITE MANAGER')"
+      },
+      "location": "top center of login",
+      "verbatim_label": "VIPRE EDR"
+    },
+    {
+      "component_type": "tab",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-system-notifications-2026-06-17-08_26_57.png",
+      "variant_key": "vertical-chevron-system-rail",
+      "attributes": {
+        "orientation": "vertical",
+        "shape": "stacked icon+label cards, active = white card with right chevron notch",
+        "bg": "#eef5fc",
+        "active_indicator": "white + arrow point",
+        "icon_set": "Font Awesome line icons (bell/plug/key/people)"
+      },
+      "location": "left of content area",
+      "verbatim_label": "Notifications / Webhooks / Keys / Customer Support"
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-system-notifications-2026-06-17-08_26_57.png",
+      "variant_key": "table-empty-centered-text",
+      "attributes": {
+        "style": "plain centered gray text, no illustration",
+        "text_color": "#5a6b80"
+      },
+      "location": "table body",
+      "verbatim_label": "No notifications found."
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-system-notifications-2026-06-17-08_26_57.png",
+      "variant_key": "primary-solid-blue-add-notification",
+      "attributes": {
+        "fill": "solid",
+        "shape_radius": 4,
+        "color": "#1b6ec2",
+        "text_color": "#ffffff",
+        "size": "md",
+        "has_icon": false,
+        "casing": "Title Case",
+        "role": "primary"
+      },
+      "location": "header top-right",
+      "verbatim_label": "Add Notification"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-system-notifications-2026-06-17-08_26_57.png",
+      "variant_key": "notifications-empty-header-only",
+      "attributes": {
+        "header_fill": "#ffffff",
+        "row_striping": "n/a",
+        "border_style": "bottom rule under header",
+        "density": "comfortable",
+        "sort_affordance": "up/down carets on all cols",
+        "pagination_style": "none",
+        "row_action_style": "n/a (empty)"
+      },
+      "location": "body",
+      "verbatim_label": "NAME / TYPE / FREQUENCY / RECIPIENTS / SCOPE / ACTIONS"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-threats-2026-06-17-08_19_10.png",
+      "variant_key": "threat-summary-stat-tiles",
+      "attributes": {
+        "bg": "#ffffff",
+        "number_color": "#0e2a4a",
+        "label_color": "#7a8aa0",
+        "leading_icon": "colored circular badges",
+        "style": "row of bordered stat tiles"
+      },
+      "location": "top dashboard row",
+      "verbatim_label": "Quarantined Threats / Devices Affected / Sites / Active Protection / Detection Sources (Email / Scanned)"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-threats-2026-06-17-08_19_10.png",
+      "variant_key": "threat-trend-bar-scatter",
+      "attributes": {
+        "chart_type": "vertical bar + scatter timeline",
+        "palette": ["#1b6ec2 tall bar", "#e3702d orange dots", "#36a85b green dots"],
+        "style": "axis-gridded time series with y-axis"
+      },
+      "location": "center 'THREAT TREND'",
+      "verbatim_label": "THREAT TREND"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-threats-2026-06-17-08_19_10.png",
+      "variant_key": "severity-breakdown-hbar",
+      "attributes": {
+        "chart_type": "horizontal bar",
+        "palette": ["#d9534f", "#e3702d", "#e3a008", "#36a85b"],
+        "style": "labelled count horizontal bars by severity"
+      },
+      "location": "bottom-left",
+      "verbatim_label": "SEVERITY BREAKDOWN"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-threats-2026-06-17-08_19_10.png",
+      "variant_key": "actions-taken-donut",
+      "attributes": {
+        "chart_type": "donut",
+        "palette": ["#1b6ec2", "#e3702d", "#36a85b"],
+        "style": "donut with right-side legend"
+      },
+      "location": "bottom-right",
+      "verbatim_label": "ACTIONS TAKEN"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-threats-2026-06-17-08_19_10.png",
+      "variant_key": "sites-most-threats-hbar",
+      "attributes": {
+        "chart_type": "horizontal bar list",
+        "palette": ["#1b6ec2"],
+        "style": "site name + bar + count"
+      },
+      "location": "bottom-center",
+      "verbatim_label": "SITES WITH MOST AFFECTED DEVICES"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-threats-2026-06-17-08_19_10.png",
+      "variant_key": "page-header-with-date-range",
+      "attributes": {
+        "bg_color": "#0e2a4a",
+        "title_color": "#ffffff",
+        "subtitle": "date range caption next to title"
+      },
+      "location": "top",
+      "verbatim_label": "Threat Dashboard"
+    }
+  ],
+  "tokens": {
+    "colors": [
+      "#0e1a2b (sidebar darkest navy)",
+      "#0e2a4a (page header navy band)",
+      "#1b1b1b (top breadcrumb/context bar near-black)",
+      "#1b6ec2 (primary action blue)",
+      "#1b75bb (sites toolbar bright blue)",
+      "#9cc4e8 (sparkline area fill light blue)",
+      "#eaf2fb (table hover light blue)",
+      "#eef5fc (vertical tab rail panel)",
+      "#f4f9fe (assignment card bg)",
+      "#ffffff (body/card white)",
+      "#f5f7fa (subtle table header gray)",
+      "#36a85b (success/low green)",
+      "#e3a008 (medium/amber)",
+      "#e3702d (high orange)",
+      "#d9534f (critical/severe red)",
+      "#8a4fd0 (mobile device-type purple)",
+      "#f0a878 (login Sign In peach/salmon)",
+      "#f08a3c (RBI orange annotation)",
+      "#3a4a5e (EDR entitlement pill gray-navy)",
+      "#0e2a4a (heading/number dark text)",
+      "#5a6b80 (body/secondary text gray)",
+      "#7a8aa0 (label/muted gray)",
+      "#cfd8e3 (input border light gray)",
+      "#d5e4f2 (card border light blue)",
+      "#dbe3ec (progress track gray)"
+    ],
+    "accent_primary": ["#1b6ec2", "#1b75bb"],
+    "font_family_guess": "Sans-serif; UI body looks like Open Sans / Segoe-style; VIPRE logo wordmark is a custom geometric italic. (No Rubik — this is the legacy product, not the Vipre Design System POC.)",
+    "heading_sizes_px_guess": [28, 22, 16, 13, 11],
+    "radii_px_guess": [3, 4, 6, 16],
+    "spacing_notes": "Tables range from comfortable (Applications) to ultra-dense (Quarantine) with inconsistent row heights. Two distinct tab idioms coexist: horizontal segmented/underline tabs vs vertical chevron-notch card rails (Policies, System). Toolbar treatment inconsistent — Sites uses a saturated blue bar with white pill filters while Applications/Vulnerabilities use plain blue-text caret dropdowns on white. Login page is a clearly different design era (peach primary button, EDR logo lockup, dotted-halftone photo bg) vs the in-app Site Manager navy theme. Loading splash is a photographic gradient with no chrome."
+  }
+}

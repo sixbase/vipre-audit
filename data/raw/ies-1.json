@@ -1,0 +1,641 @@
+{
+  "product": "IES",
+  "screens": [
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "screen_label": "Allow List",
+      "module": "Settings",
+      "layout_notes": "Dark navy fixed left sidebar (~220px) + light gray body. Dark navy top bar carries a 'New Rule' primary blue button. Page title 'Allow List' with a small shield glyph rendered large/bold at top of content. White search bar spanning full width with a blue magnifier search button on the right. Below: a white table card with a disabled gray 'Delete' bulk-action button top-right, header row in light gray, and a 'No data' / 'Found 0 matches' empty state. House style is a dense enterprise admin look distinct from a modern token-based DS; mixes very large page title typography with small table type."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-audit-logs-2026-06-17-08_08_11.png",
+      "screen_label": "Audit Logs",
+      "module": "Admins",
+      "layout_notes": "Same dark sidebar shell. Content is a single full-width white table card titled 'Audit events' with a 'TIME' date-range chip top-right and an 'Add column +' control. Dense, many-row data table (Timestamp/User/Action/Target/Error columns). Bottom shows 'Found 320 matches' and numbered pagination (1 2 3 4 5 ... ) with prev/next arrows. Classic enterprise data-grid era."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-detection-settings-2026-06-17-08_06_18.png",
+      "screen_label": "Detection Settings",
+      "module": "Settings",
+      "layout_notes": "Settings form layout: white card on light gray body holding stacked sections ('Sandbox', 'Microsoft 365 Allow List') each with a bold heading, helper text, a bulleted list of file extensions, and an iOS-style pill toggle switch ('Enable ...'). Toggles appear off (gray). Calm form-centric layout."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_04_49.png",
+      "screen_label": "Email Configuration (source picker / empty)",
+      "module": "Settings",
+      "layout_notes": "Onboarding/selector screen. Centered prompt 'Select a source below to configure and add to IES.' with three large equal white selection cards (Microsoft 365 / IMAP / Google Workspace), each with a brand glyph and bold label, subtle rounded corners and shadow. Distinct centered marketing-style layout vs the data-grid screens."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "screen_label": "Email Configuration (configured sources)",
+      "module": "Settings",
+      "layout_notes": "Populated state of Email Configuration. Top bar has three blue primary buttons (Add IMAP / Add M365 / Add Google Workspace) each with an icon. Body shows two side-by-side white data-cards per connected source, each with brand glyph + name, green 'CONNECTED' status badge, a refresh icon and kebab menu, key/value meta rows (Type/Mode/Source ID), two inline metric numbers with tiny red down-arrows ('Emails in the last week / last 24 hours'), and a small sparkline/area mini-chart with Jun 11-17 axis. Mixed card+metric+chart composition."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_02_47.png",
+      "screen_label": "Dashboard (empty / get started)",
+      "module": "Overview",
+      "layout_notes": "Empty-state dashboard. Large white card filling body with a faint dotted/graph-paper background, a centered line-art envelope+gears illustration, heading 'Start your account configuration', a paragraph of muted body copy, and a single blue 'Get started!' primary button. Friendly onboarding empty state."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "screen_label": "Dashboard (populated)",
+      "module": "Overview",
+      "layout_notes": "Dense analytics dashboard. Top row of KPI tiles separated by vertical dividers (Emails 27, Internal/External 3, Attachments 3, Users 163, Data 17, Clean 11, plus more) with small colored icons. 'TIME' date chip top-right. 'Emails vs Threats' wide combo chart (bars + area lines) with a legend (Emails/Phishing/Suspicious/Malware). Row of small white list-cards (Top Attackers, Top Threat Tactics, Top Targets, Top Targeted Groups) with mini tables. Second row: a treemap ('Top Threat Types' Malware/Spam/Unrated), horizontal bar 'Threat Severity' and 'Threat Vectors' meters, and a donut/bubble 'Top Engines by Detections'. Full-width 'Attack Origins' world map with plotted points and + zoom control. Heaviest, most chart-rich screen; busy enterprise BI aesthetic."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+      "screen_label": "Link Isolation",
+      "module": "Settings",
+      "layout_notes": "Settings screen with a horizontal tab strip (URL Filter Configuration / Allowed IPs/Domains / Denied IPs/Domains / Templates). Body is a long form: master 'Enable Link Isolation' toggle, sub-sections (Click-time Protection, URL Rewriting) with radio groups (Block / Click Through), a numbered 'EMAIL TIMEOUT (SECONDS)' input, and multiple toggles. A blue 'Save Changes' button bottom-right. Tabbed form pattern not seen on other screens."
+    }
+  ],
+  "observations": [
+    {
+      "component_type": "nav-sidebar",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "dark-navy-fixed-grouped",
+      "attributes": {
+        "position": "left",
+        "width_px_guess": 220,
+        "bg_color": "#0f2238",
+        "item_style": "icon + label, grouped under small uppercase section headers (OVERVIEW/ANALYTICS/SETTINGS/ADMINS/TOOLS); active item has bright blue fill #2f6fdb pill",
+        "active_color": "#2f6fdb",
+        "label_color": "#c8d2de",
+        "section_header_color": "#5b6b7d",
+        "icon_set": "line/monochrome glyphs"
+      },
+      "location": "full-height left",
+      "verbatim_label": "Dashboard / Message Logs / Threat Explorer / Reports / Users / Email Configuration / Action Rules / Banner Management / Allow List / Detection Settings / Link Isolation / Audit Logs / RBI"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "dark-navy-topbar-with-cta",
+      "attributes": {
+        "bg_color": "#0f2238",
+        "title_style": "very large bold dark/navy title with leading glyph",
+        "title_color": "#1c2b3a",
+        "has_breadcrumb_chip": true,
+        "right_cta": "blue primary button"
+      },
+      "location": "top spanning content",
+      "verbatim_label": "Allow List"
+    },
+    {
+      "component_type": "breadcrumb",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "darkbar-folder-chip",
+      "attributes": {
+        "bg_color": "#0a1929",
+        "text_color": "#aebccd",
+        "style": "folder icon + text > selected dark pill chip",
+        "separator": "chevron"
+      },
+      "location": "very top thin bar",
+      "verbatim_label": "DEV - Monthly Reseller - DO NOT DELETE > Zack IES Safesend Combo"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "primary-blue-topbar",
+      "attributes": {
+        "fill": "solid",
+        "color": "#2f6fdb",
+        "text_color": "#ffffff",
+        "shape_radius": "4px",
+        "size": "md",
+        "has_icon": false,
+        "casing": "Title Case",
+        "role": "primary"
+      },
+      "location": "top bar right",
+      "verbatim_label": "New Rule"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "disabled-gray-bulk",
+      "attributes": {
+        "fill": "solid",
+        "color": "#e3e6ea",
+        "text_color": "#9aa3ad",
+        "shape_radius": "4px",
+        "size": "sm",
+        "has_icon": false,
+        "casing": "Title Case",
+        "role": "destructive-disabled"
+      },
+      "location": "above table, right",
+      "verbatim_label": "Delete"
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "fullwidth-bar-with-blue-button",
+      "attributes": {
+        "border": "1px #d7dde4",
+        "radius": "4px",
+        "height": "44px",
+        "bg": "#fbfcfd",
+        "trailing_button_color": "#5b86c4",
+        "trailing_icon": "magnifier"
+      },
+      "location": "top of content card",
+      "verbatim_label": "Search"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "light-grid-checkbox-select",
+      "attributes": {
+        "header_fill": "#f4f6f8",
+        "header_text_color": "#6b7785",
+        "row_striping": "none",
+        "border_style": "light horizontal rules",
+        "density": "comfortable",
+        "sort_affordance": "none visible",
+        "pagination_style": "match-count text only",
+        "row_action_style": "leading checkbox column for bulk select"
+      },
+      "location": "main content card",
+      "verbatim_label": "FROM / TO / IGNORE / UPDATED"
+    },
+    {
+      "component_type": "checkbox-radio-toggle",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "table-select-checkbox-square",
+      "attributes": {
+        "type": "checkbox",
+        "shape": "square",
+        "border": "#c2cad3",
+        "size": "16px"
+      },
+      "location": "table header/rows",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "table-inline-no-data",
+      "attributes": {
+        "style": "plain 'No data' gray text inside table body, no illustration",
+        "text_color": "#9aa3ad"
+      },
+      "location": "inside table body",
+      "verbatim_label": "No data"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "product-shield-blue",
+      "attributes": {
+        "style": "filled shield with check",
+        "color": "#2f6fdb"
+      },
+      "location": "left of page title",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+      "variant_key": "feedback-tab-blue",
+      "attributes": {
+        "fill": "solid",
+        "color": "#2b7fb8",
+        "text_color": "#ffffff",
+        "shape_radius": "rounded-left pill",
+        "orientation": "vertical",
+        "role": "persistent-utility",
+        "has_icon": true
+      },
+      "location": "fixed right edge mid-page",
+      "verbatim_label": "Feedback"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-audit-logs-2026-06-17-08_08_11.png",
+      "variant_key": "dense-data-grid-multicol",
+      "attributes": {
+        "header_fill": "#f4f6f8",
+        "header_text_color": "#6b7785",
+        "row_striping": "none/very subtle",
+        "border_style": "thin horizontal rules",
+        "density": "compact",
+        "sort_affordance": "column header icons",
+        "pagination_style": "numbered pager 1-5 with prev/next arrows + match count",
+        "row_action_style": "read-only rows"
+      },
+      "location": "main content card",
+      "verbatim_label": "TIMESTAMP / USER / ACTION / TARGET / ERROR"
+    },
+    {
+      "component_type": "pagination",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-audit-logs-2026-06-17-08_08_11.png",
+      "variant_key": "numbered-pager-arrows",
+      "attributes": {
+        "style": "numbered pages 1 2 3 4 5 ... with prev/next chevron buttons",
+        "active_color": "#2f6fdb",
+        "shape": "square buttons"
+      },
+      "location": "bottom of table",
+      "verbatim_label": "1 2 3 4 5"
+    },
+    {
+      "component_type": "filter-chip",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-audit-logs-2026-06-17-08_08_11.png",
+      "variant_key": "time-range-chip",
+      "attributes": {
+        "style": "outlined chip with TIME label + date range",
+        "border": "#d7dde4",
+        "text_color": "#5b6b7d"
+      },
+      "location": "top-right of content",
+      "verbatim_label": "TIME"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-audit-logs-2026-06-17-08_08_11.png",
+      "variant_key": "add-column-text-button",
+      "attributes": {
+        "fill": "outline/ghost",
+        "color": "transparent",
+        "text_color": "#3a4a5a",
+        "has_icon": true,
+        "casing": "Title Case",
+        "role": "secondary"
+      },
+      "location": "table header right",
+      "verbatim_label": "Add column +"
+    },
+    {
+      "component_type": "checkbox-radio-toggle",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-detection-settings-2026-06-17-08_06_18.png",
+      "variant_key": "ios-pill-toggle-off",
+      "attributes": {
+        "type": "toggle",
+        "shape": "pill",
+        "track_color_off": "#c2cad3",
+        "knob_color": "#ffffff",
+        "state": "off",
+        "label_position": "right"
+      },
+      "location": "per settings section",
+      "verbatim_label": "Enable Sandbox settings / Enable Microsoft 365 Allow List"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-detection-settings-2026-06-17-08_06_18.png",
+      "variant_key": "settings-section-card",
+      "attributes": {
+        "bg": "#ffffff",
+        "border": "1px #e6e9ed",
+        "radius": "6px",
+        "heading_weight": "bold",
+        "content": "heading + helper text + bulleted list + toggle"
+      },
+      "location": "main body",
+      "verbatim_label": "Sandbox / Microsoft 365 Allow List"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_04_49.png",
+      "variant_key": "source-selection-tile",
+      "attributes": {
+        "bg": "#fbfcfd",
+        "border": "1px #e6e9ed",
+        "radius": "8px",
+        "shadow": "soft",
+        "layout": "centered brand glyph + bold label",
+        "size": "large equal-width",
+        "interactive": true
+      },
+      "location": "centered 3-up row",
+      "verbatim_label": "Microsoft 365 / IMAP / Google Workspace"
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_04_49.png",
+      "variant_key": "centered-prompt-source-picker",
+      "attributes": {
+        "style": "centered instructional heading above selection cards, no illustration",
+        "heading_color": "#3a4a5a"
+      },
+      "location": "centered top of body",
+      "verbatim_label": "Select a source below to configure and add to IES."
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_04_49.png",
+      "variant_key": "brand-glyphs-color",
+      "attributes": {
+        "style": "brand logos: Microsoft colored squares, blue envelope, Google G",
+        "color_map": {"microsoft": "#5b9bd5-tinted", "imap": "#5b86c4", "google": "#4285F4"}
+      },
+      "location": "inside source cards",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "variant_key": "primary-blue-with-icon",
+      "attributes": {
+        "fill": "solid",
+        "color": "#2f6fdb",
+        "text_color": "#ffffff",
+        "shape_radius": "4px",
+        "size": "md",
+        "has_icon": true,
+        "casing": "Title Case",
+        "role": "primary"
+      },
+      "location": "top bar right (3 buttons)",
+      "verbatim_label": "Add IMAP / Add M365 / Add Google Workspace"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "variant_key": "connected-source-metric-card",
+      "attributes": {
+        "bg": "#ffffff",
+        "border": "1px #e6e9ed",
+        "radius": "6px",
+        "header": "brand glyph + name + green status badge + refresh icon + kebab",
+        "body": "key/value meta rows + two inline metrics + sparkline area chart",
+        "footer_axis": "Jun 11-17"
+      },
+      "location": "body, 2-up",
+      "verbatim_label": "alex-xxx / arrbi INLINE"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "variant_key": "connected-green-text-badge",
+      "attributes": {
+        "shape": "text + small dot/check, no pill fill",
+        "color_map": {"connected": "#2fa15a"}
+      },
+      "location": "source card header",
+      "verbatim_label": "CONNECTED"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "variant_key": "mini-area-sparkline",
+      "attributes": {
+        "chart_type": "area/sparkline",
+        "palette": ["#9bbce0"],
+        "style": "light filled area, faint axis, Jun date labels"
+      },
+      "location": "lower portion of source card",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "variant_key": "inline-metric-with-trend-arrow",
+      "attributes": {
+        "number_size": "large",
+        "number_color": "#1c2b3a",
+        "trend_indicator": "tiny red down-arrow",
+        "trend_color": "#d9534f",
+        "label_position": "below"
+      },
+      "location": "inside source card",
+      "verbatim_label": "Emails in the last week / Emails in the last 24 hours"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+      "variant_key": "card-refresh-and-kebab",
+      "attributes": {
+        "style": "line refresh-circle + vertical 3-dot kebab",
+        "color": "#7a8694"
+      },
+      "location": "source card header right",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_02_47.png",
+      "variant_key": "illustration-cta-getstarted",
+      "attributes": {
+        "style": "large card with dotted graph-paper bg, line-art envelope+gears illustration, heading + body copy + primary button",
+        "bg": "#ffffff with faint dotted grid",
+        "illustration_color": "#5b86c4"
+      },
+      "location": "full body card",
+      "verbatim_label": "Start your account configuration"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_02_47.png",
+      "variant_key": "primary-muted-blue-getstarted",
+      "attributes": {
+        "fill": "solid",
+        "color": "#5b86c4",
+        "text_color": "#ffffff",
+        "shape_radius": "4px",
+        "size": "md",
+        "has_icon": false,
+        "casing": "Sentence case",
+        "role": "primary"
+      },
+      "location": "center under copy",
+      "verbatim_label": "Get started!"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "variant_key": "topbar-stat-strip-dividers",
+      "attributes": {
+        "style": "horizontal strip of number+label stats separated by vertical dividers, small colored leading icon per stat",
+        "number_color": "#1c2b3a",
+        "icon_colors": ["#2f6fdb", "#5b86c4", "#d9534f", "#2fa15a"],
+        "border": "outlined card containing all stats"
+      },
+      "location": "top of dashboard",
+      "verbatim_label": "Emails 27 / Internal-External 3 / Attachments 3 / Users 163 / Data 17 / Clean 11"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "variant_key": "combo-bar-area-emails-vs-threats",
+      "attributes": {
+        "chart_type": "combo bar + area/line",
+        "palette": ["#2f6fdb", "#f0ad4e", "#d9534f", "#9bbce0"],
+        "style": "stacked colored bars with overlaid area curves, legend top-right"
+      },
+      "location": "upper main column",
+      "verbatim_label": "Emails vs Threats"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "variant_key": "treemap-threat-types",
+      "attributes": {
+        "chart_type": "treemap",
+        "palette": ["#cfe0f0", "#9bbce0", "#bcd2ea"],
+        "style": "rectangular tiles labeled Malware/Spam/Unrated"
+      },
+      "location": "mid-left",
+      "verbatim_label": "Top Threat Types"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "variant_key": "horizontal-bar-meter-severity-vectors",
+      "attributes": {
+        "chart_type": "horizontal bar / meter",
+        "palette": ["#d9534f", "#f0ad4e", "#5b86c4"],
+        "style": "thin colored progress-style bars for severity levels and vectors"
+      },
+      "location": "mid-center",
+      "verbatim_label": "Threat Severity / Threat Vectors"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "variant_key": "donut-bubble-engines",
+      "attributes": {
+        "chart_type": "donut/bubble",
+        "palette": ["#9bbce0", "#cfe0f0"],
+        "style": "large circle with center label, refresh control"
+      },
+      "location": "mid-right",
+      "verbatim_label": "Top Engines by Detections"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "variant_key": "geo-map-attack-origins",
+      "attributes": {
+        "chart_type": "geographic map with plotted points",
+        "palette": ["#dfe6ee", "#d9534f"],
+        "style": "light-gray world map, red point markers, + zoom control"
+      },
+      "location": "full-width bottom",
+      "verbatim_label": "Attack Origins"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+      "variant_key": "mini-list-table-card",
+      "attributes": {
+        "bg": "#ffffff",
+        "border": "1px #e6e9ed",
+        "radius": "6px",
+        "header": "bold small title + sort/info icons",
+        "body": "compact 2-col mini table"
+      },
+      "location": "row under main chart",
+      "verbatim_label": "Top Attackers / Top Threat Tactics / Top Targets / Top Targeted Groups"
+    },
+    {
+      "component_type": "tab",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+      "variant_key": "underline-horizontal-tabs",
+      "attributes": {
+        "style": "horizontal text tabs with active underline",
+        "active_color": "#2f6fdb",
+        "inactive_color": "#6b7785",
+        "casing": "Title Case"
+      },
+      "location": "top of settings card",
+      "verbatim_label": "URL Filter Configuration / Allowed IPs/Domains / Denied IPs/Domains / Templates"
+    },
+    {
+      "component_type": "checkbox-radio-toggle",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+      "variant_key": "radio-group-block-clickthrough",
+      "attributes": {
+        "type": "radio",
+        "shape": "circle",
+        "selected_color": "#2f6fdb",
+        "label_position": "right",
+        "group": "Block / Click Through"
+      },
+      "location": "Click-time Protection section",
+      "verbatim_label": "Block / Click Through"
+    },
+    {
+      "component_type": "input",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+      "variant_key": "numeric-input-uppercase-label",
+      "attributes": {
+        "border": "1px #d7dde4",
+        "radius": "4px",
+        "height": "36px",
+        "label_position": "top, uppercase small gray label"
+      },
+      "location": "Click-time Protection section",
+      "verbatim_label": "EMAIL TIMEOUT (SECONDS)"
+    },
+    {
+      "component_type": "checkbox-radio-toggle",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+      "variant_key": "ios-pill-toggle-settings",
+      "attributes": {
+        "type": "toggle",
+        "shape": "pill",
+        "track_color_off": "#c2cad3",
+        "label_position": "right"
+      },
+      "location": "multiple form rows",
+      "verbatim_label": "Enable Link Isolation / Enable DeepLink / Rewrite URLs in 'text mode' email"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+      "variant_key": "primary-save-changes",
+      "attributes": {
+        "fill": "solid",
+        "color": "#2f6fdb",
+        "text_color": "#ffffff",
+        "shape_radius": "4px",
+        "size": "md",
+        "has_icon": false,
+        "casing": "Title Case",
+        "role": "primary"
+      },
+      "location": "bottom-right of form",
+      "verbatim_label": "Save Changes"
+    }
+  ],
+  "tokens": {
+    "colors": [
+      "#0a1929",
+      "#0f2238",
+      "#1c2b3a",
+      "#2f6fdb",
+      "#5b86c4",
+      "#2b7fb8",
+      "#9bbce0",
+      "#cfe0f0",
+      "#bcd2ea",
+      "#dfe6ee",
+      "#2fa15a",
+      "#d9534f",
+      "#f0ad4e",
+      "#c8d2de",
+      "#aebccd",
+      "#5b6b7d",
+      "#6b7785",
+      "#7a8694",
+      "#9aa3ad",
+      "#3a4a5a",
+      "#f4f6f8",
+      "#fbfcfd",
+      "#ffffff",
+      "#e6e9ed",
+      "#d7dde4",
+      "#c2cad3",
+      "#4285f4"
+    ],
+    "accent_primary": ["#2f6fdb", "#5b86c4"],
+    "font_family_guess": "Humanist/neo-grotesque sans-serif (looks like a system or Open Sans / Source Sans style stack); not the Rubik used in the Vipre DS POC",
+    "heading_sizes_px_guess": [30, 22, 18, 15, 13, 11],
+    "radii_px_guess": [4, 6, 8],
+    "spacing_notes": "Dense enterprise admin spacing: ~16-24px card padding, tight table rows (~8-10px), generous whitespace on onboarding/empty screens. Cards use soft 1px borders + light shadows on a #f4f6f8 body. Two distinct primary blues in use (#2f6fdb vivid vs #5b86c4 muted) signalling button inconsistency. Page-title typography is disproportionately large relative to body/table text."
+  }
+}

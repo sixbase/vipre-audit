@@ -1,0 +1,680 @@
+{
+  "product": "SafeSend",
+  "screens": [
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "screen_label": "Dashboard",
+      "module": "Overview",
+      "layout_notes": "Dark navy left sidebar + dark navy topbar, but white/light content canvas. Content area uses light cards on near-white background. KPI row of bordered outline tiles, a combined bar+axis chart, three 'Top ___' list cards, two treemap-style distribution panels. This is the 'light content' design era of the app."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-assignments-2026-06-17-08_11_28.png",
+      "screen_label": "Assignments",
+      "module": "Manage",
+      "layout_notes": "Light content canvas. Single white card containing a draggable priority list with drag-handle dots, avatar+name rows, small count pills, right-aligned policy link, and an X remove icon per row. Solid filled 'Add Assignment' button in topbar (different button style than the outline KPI era)."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-events-explorer-2026-06-17-08_10_39.png",
+      "screen_label": "Events Explorer",
+      "module": "Analytics",
+      "layout_notes": "FULLY DARK theme content area (dark navy table on dark background) — distinctly different design era/skin from the light Dashboard/Policies pages. Left faceted filter rail, dense data-heavy log table with colored status text, many inline icons, badge counts, bottom pagination with rows-per-page select. Looks like a separate, denser 'explorer' library."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05 (1).png",
+      "screen_label": "Policies (duplicate capture)",
+      "module": "Manage",
+      "layout_notes": "Near-identical duplicate of the other Policies capture. Light content canvas, borderless table with link-styled policy names, info icons, a 'Default' badge, Clone text-link action + X icon, numbered pill pagination."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05.png",
+      "screen_label": "Policies",
+      "module": "Manage",
+      "layout_notes": "Light content canvas. Borderless/ruled table, blue link policy names with leading info (i) icon, light-blue 'Default' badge, rounded search input top-right, 'Clone' text link + X icon row actions, numbered pill pagination with chevron arrows. Solid 'Add Policy' button in topbar."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-reports-2026-06-17-08_10_22.png",
+      "screen_label": "Reports",
+      "module": "Overview",
+      "layout_notes": "FULLY DARK theme content area like Events Explorer — different era from light pages. Top filter date/select row, three chart cards (two donut/pie, one line trend), then a dense dark table with pill status badges and attachment icons, numbered pagination. Multi-color pie palette stands out vs. rest of app."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-rulesets-2026-06-17-08_12_40.png",
+      "screen_label": "Rulesets",
+      "module": "Manage",
+      "layout_notes": "Light content canvas, matches Policies styling. Sortable table (caret on Name column), blue link names, numeric columns, date column, 'Clone' link + X row actions, numbered pill pagination. Solid 'Add Ruleset' button in topbar."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-sensitive-data-explorer-2026-06-17-08_11_13.png",
+      "screen_label": "Sensitive Data Explorer",
+      "module": "Analytics",
+      "layout_notes": "Light content canvas but with an 'explorer' flavor: Rules/Keywords tab toggle, search with solid dark search-button, a row of bordered KPI tiles with circular icon chips, then a table with sortable column headers + caret affordances, inline warning triangle icons, a gear/column-config icon, and a 'Rows 25' select + arrow pagination. Mix of the light-card era and the explorer-table era."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-settings-2026-06-17-08_13_09.png",
+      "screen_label": "Settings",
+      "module": "Set Up",
+      "layout_notes": "Light content canvas, form/marketing-document style. Green success banner, status key-value block, a logo card with 'Edit logo' outline button, and two 'manifest configuration' option blocks each with a blue solid 'Download' button. Long-form copy, different rhythm than data tables."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-strings-2026-06-17-08_12_56.png",
+      "screen_label": "Strings",
+      "module": "Manage",
+      "layout_notes": "FULLY DARK theme content area — another dark/explorer-skinned page. Very dense three-column editable string table (key / default text / English text) with per-row edit pencil icons, alternating subtle row shading, green 'Publish/Save' style button in topbar. High-density admin grid."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-users-explorer-2026-06-17-08_11_01.png",
+      "screen_label": "User Explorer",
+      "module": "Analytics",
+      "layout_notes": "DARK theme content area like Events Explorer. Row of KPI tiles up top (incl. a 'Default Policy' info tile), then dense user table with colored circular avatar initials, numeric counts, 'Default Policy' link cells, relative + absolute timestamp 'Last Activity', gear column-config icon, rows-per-page select pagination."
+    }
+  ],
+  "observations": [
+    {
+      "component_type": "nav-sidebar",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "dark-vertical-grouped",
+      "attributes": { "position": "left", "width_px_guess": 110, "bg_color": "#0d1b2e", "item_style": "icon+label, grouped under uppercase section headers (OVERVIEW/ANALYTICS/MANAGE/SET UP), active item bright-blue fill #1e7df0", "icon_set": "Material/line icons", "active_color": "#1e7df0", "section_label_color": "#5b6b80" },
+      "location": "full-height left rail",
+      "verbatim_label": "Dashboard / Reports / Events Explorer / Users / Sensitive Data / Assignments / Policies / Rulesets / Strings / Settings"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "dark-topbar-with-page-title",
+      "attributes": { "bg_color": "#0d1b2e", "title_color": "#ffffff", "title_has_icon": true, "height_px_guess": 56, "above_is_breadcrumb_strip": true },
+      "location": "top of content, full width",
+      "verbatim_label": "Dashboard"
+    },
+    {
+      "component_type": "breadcrumb",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "dark-tab-strip-breadcrumb",
+      "attributes": { "bg_color": "#1a1a1a", "style": "tenant/context chips with chevron separators", "text_color": "#cccccc" },
+      "location": "very top strip above topbar",
+      "verbatim_label": "DEV - Monthly Reseller - DO NOT DELETE  >  Zack IES Safesend Combo"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "outline-tile-icon-number",
+      "attributes": { "fill": "#ffffff", "border": "1px solid #d9dee5", "radius_px": 8, "label_position": "top small-caps gray", "number_color": "#1f2a37", "icon_color_varies": true, "warn_icon_color": "#f0a020" },
+      "location": "KPI row near top of content",
+      "verbatim_label": "Users 26 / Emails 30 / Warned 11 / No Action 0 / Actioned 29 / Modified 30"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "date-range-outline-link",
+      "attributes": { "fill": "outline/ghost", "shape_radius": 8, "color": "#1e7df0", "text_color": "#1e7df0", "size": "md", "has_icon": false, "casing": "as-is", "role": "date range selector" },
+      "location": "right end of KPI row",
+      "verbatim_label": "Jun 10, 2026 00:00 to NOW"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "stacked-bar-dual-axis",
+      "attributes": { "chart_type": "stacked vertical bar with secondary right axis + marker", "palette": ["#1f4 db?","#c2283a","#f0820a"], "style": "single tall stacked bar, dual y-axes, legend chips top-right" },
+      "location": "Emails vs Actions card",
+      "verbatim_label": "EMAILS VS ACTIONS"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "legend-dot-chips",
+      "attributes": { "shape": "dot + text", "color_map": { "Emails Sent": "#1f4fd6", "Confirmed & Sent": "#c2283a", "Modified & Confirmed": "#f0820a" } },
+      "location": "chart legend top-right",
+      "verbatim_label": "Emails Sent / Confirmed & Sent / Modified & Confirmed"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "list-card-with-trailing-number",
+      "attributes": { "fill": "#ffffff", "border": "1px solid #e2e6eb", "radius_px": 8, "title_smallcaps": true, "right_value_bold": true, "header_action_icon": true },
+      "location": "Top Modifications / Top Warned Users / Top No Action Users row",
+      "verbatim_label": "Top Modifications / Top Warned Users / Top No Action Users"
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "centered-gray-text",
+      "attributes": { "style": "plain gray centered text, no illustration", "text_color": "#9aa3ad" },
+      "location": "Top No Action Users card body",
+      "verbatim_label": "No Data to Display"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "treemap-distribution",
+      "attributes": { "chart_type": "treemap / proportional tiles", "palette": ["#d6e4f5","#e8f0fa","#c3d8ef"], "style": "pale blue rectangles with centered dark labels" },
+      "location": "Policy Distribution / Ruleset Distribution panels",
+      "verbatim_label": "Policy Distribution / Ruleset Distribution"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "email-plain-link",
+      "attributes": { "color": "#1f2a37", "underline": false, "style": "list item text" },
+      "location": "Top Warned Users list rows",
+      "verbatim_label": "frank@zackdevsandbox.onmicrosoft.com"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+      "variant_key": "get-help-vertical-tab",
+      "attributes": { "fill": "solid", "color": "#7b2ff0", "text_color": "#ffffff", "orientation": "vertical, screen-edge docked", "shape_radius": 6, "has_icon": true, "role": "support launcher" },
+      "location": "fixed right edge mid-screen",
+      "verbatim_label": "Get Help"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-assignments-2026-06-17-08_11_28.png",
+      "variant_key": "primary-solid-blue-add",
+      "attributes": { "fill": "solid", "shape_radius": 6, "color": "#2f5b8f", "text_color": "#ffffff", "size": "md", "has_icon": true, "casing": "Title Case", "role": "primary create" },
+      "location": "topbar right",
+      "verbatim_label": "+ Add Assignment"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-assignments-2026-06-17-08_11_28.png",
+      "variant_key": "draggable-priority-row-card",
+      "attributes": { "fill": "#ffffff", "border": "1px solid #e2e6eb", "radius_px": 8, "rows_have_drag_handle": true, "row_divider": "thin gray" },
+      "location": "main content card",
+      "verbatim_label": "Default Policy Assignment"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-assignments-2026-06-17-08_11_28.png",
+      "variant_key": "drag-handle-dots",
+      "attributes": { "shape": "6-dot grid handle", "color": "#9aa3ad" },
+      "location": "left of each priority row",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-assignments-2026-06-17-08_11_28.png",
+      "variant_key": "count-pill-gray",
+      "attributes": { "shape": "rounded pill", "color_map": { "count": "#eef1f4 bg / #5b6b80 text" } },
+      "location": "next to each assignment name",
+      "verbatim_label": "1 users / 2 groups / 1 groups"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-assignments-2026-06-17-08_11_28.png",
+      "variant_key": "blue-name-link",
+      "attributes": { "color": "#1e7df0", "weight": "bold", "underline": false },
+      "location": "assignment name + right-aligned policy name",
+      "verbatim_label": "Joni / Mac / roopa / Alvin Assignment / SYM-POLICY-SYM-P004-1779305855605"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-assignments-2026-06-17-08_11_28.png",
+      "variant_key": "remove-x",
+      "attributes": { "shape": "thin X", "color": "#1f2a37" },
+      "location": "right end of each row",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-assignments-2026-06-17-08_11_28.png",
+      "variant_key": "edit-pencil-box",
+      "attributes": { "shape": "pencil in square", "color": "#1f2a37" },
+      "location": "default-assignment header card right",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "avatar",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-assignments-2026-06-17-08_11_28.png",
+      "variant_key": "user-icon-glyph",
+      "attributes": { "shape": "line-icon person (not photo/initials)", "color": "#1e7df0" },
+      "location": "left of each name",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-events-explorer-2026-06-17-08_10_39.png",
+      "variant_key": "dark-topbar",
+      "attributes": { "bg_color": "#0d1b2e", "title_color": "#ffffff", "title_has_icon": true },
+      "location": "top of content",
+      "verbatim_label": "Events Explorer"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-events-explorer-2026-06-17-08_10_39.png",
+      "variant_key": "dark-dense-log-table",
+      "attributes": { "header_fill": "#0d1b2e", "row_striping": "none/very subtle on dark", "border_style": "thin gray dividers on dark", "density": "very dense", "sort_affordance": "column add menu", "pagination_style": "numbered pills + rows-per-page select", "row_action_style": "inline colored status text + icons" },
+      "location": "main content (dark)",
+      "verbatim_label": "TIME / STATUS / FROM / SUBJECT / POLICY / RECIPIENTS / ATTACHM... / DETAILS / ENCRYPTION / TYPE"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-events-explorer-2026-06-17-08_10_39.png",
+      "variant_key": "colored-status-text-with-icon",
+      "attributes": { "shape": "icon + colored text (no pill fill)", "color_map": { "Confirmed & Sent": "#2ec27e", "Modified & Sent": "#f0820a", "Not Allowed": "#e23b3b", "Cancelled": "#e23b3b", "Timed Out": "#9aa3ad", "Sent": "#2ec27e", "Review Required": "#f0a020" } },
+      "location": "STATUS column",
+      "verbatim_label": "CONFIRMED & S... / MODIFIED & SENT / NOT ALLOWED / CANCELLED / TIMED OUT / SENT / REVIEW REQUIRED"
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-events-explorer-2026-06-17-08_10_39.png",
+      "variant_key": "dark-search-with-button",
+      "attributes": { "border": "1px solid #2a3a50", "radius_px": 6, "height_px_guess": 32, "trailing_button": "solid blue search icon button", "label_position": "placeholder" },
+      "location": "top of filter area",
+      "verbatim_label": "Search"
+    },
+    {
+      "component_type": "filter-chip",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-events-explorer-2026-06-17-08_10_39.png",
+      "variant_key": "faceted-filter-rail",
+      "attributes": { "style": "grouped checkbox/count filter list (Send Status, Encryption, Mail Item Type, Non Permitted Recipients)", "count_suffix": true, "color": "light text on dark" },
+      "location": "left filter rail",
+      "verbatim_label": "FILTER / Send Status / Encryption / Mail Item Type / Non Permitted Recipients"
+    },
+    {
+      "component_type": "select",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-events-explorer-2026-06-17-08_10_39.png",
+      "variant_key": "dark-add-column-dropdown",
+      "attributes": { "border": "1px dashed/solid gray", "radius_px": 6, "label_position": "inline", "role": "add column" },
+      "location": "table top-right",
+      "verbatim_label": "Add column +"
+    },
+    {
+      "component_type": "pagination",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-events-explorer-2026-06-17-08_10_39.png",
+      "variant_key": "rows-select-plus-numbered",
+      "attributes": { "style": "Rows-per-page select + numbered page pills + chevrons", "showing_text": "Showing 1 to ... of ...", "active_pill_color": "#1e7df0" },
+      "location": "bottom of table",
+      "verbatim_label": "Showing 1 to ... / Rows 50"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-reports-2026-06-17-08_10_22.png",
+      "variant_key": "dark-filter-select-buttons",
+      "attributes": { "fill": "outline on dark", "shape_radius": 6, "color": "#1e7df0", "text_color": "#cfd6df", "size": "sm", "has_icon": true, "role": "filter selector" },
+      "location": "top filter row",
+      "verbatim_label": "From / To / Recipients / Policy / Email Type / Status"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-reports-2026-06-17-08_10_22.png",
+      "variant_key": "donut-two-tone",
+      "attributes": { "chart_type": "donut", "palette": ["#1f4fd6","#7fb0e8"], "style": "two-segment donut with legend below" },
+      "location": "Recipients Distribution / Email Type cards",
+      "verbatim_label": "Recipients Distribution / Email Type"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-reports-2026-06-17-08_10_22.png",
+      "variant_key": "pie-multicolor",
+      "attributes": { "chart_type": "pie", "palette": ["#2ec27e","#1f4fd6","#7b2ff0","#f0820a","#e23b3b","#f0c020"], "style": "many-segment full pie, much richer palette than rest of app" },
+      "location": "Status card",
+      "verbatim_label": "Status"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-reports-2026-06-17-08_10_22.png",
+      "variant_key": "multi-line-trend",
+      "attributes": { "chart_type": "line", "palette": ["#2ec27e","#1f4fd6","#f0820a","#e23b3b","#7b2ff0"], "style": "multi-series decaying lines with legend below" },
+      "location": "Email Status Trends card",
+      "verbatim_label": "Email Status Trends"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-reports-2026-06-17-08_10_22.png",
+      "variant_key": "dark-report-table-pill-status",
+      "attributes": { "header_fill": "#0d1b2e", "row_striping": "subtle", "border_style": "thin dividers", "density": "dense", "sort_affordance": "none visible", "pagination_style": "numbered pills bottom", "row_action_style": "pill status badge + icons" },
+      "location": "lower content (dark)",
+      "verbatim_label": "Date / Sender / Subject / Policy / Recipients / Status / Attachments / Details"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-reports-2026-06-17-08_10_22.png",
+      "variant_key": "filled-pill-status",
+      "attributes": { "shape": "rounded filled pill with icon", "color_map": { "Confirmed & Sent": "#d8f3e3 bg / #1e8a55 text", "Modified & Sent": "#dbe7fb bg / #1f4fd6 text", "Not Allowed": "#fde2e2 bg / #c2283a text", "Timed Out": "#fff2d6 bg / #9a7b1f text", "Cancelled": "#fde2e2 bg / #c2283a text", "Review Required": "#fff2d6 bg / #b07a16 text" } },
+      "location": "Status column",
+      "verbatim_label": "Confirmed & Sent / Modified & Sent / Not Allowed / Timed Out / Cancelled / Review Required"
+    },
+    {
+      "component_type": "pagination",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-reports-2026-06-17-08_10_22.png",
+      "variant_key": "numbered-pills-1-2-3",
+      "attributes": { "style": "numbered page pills 1 2 3 with chevrons", "active_pill_color": "#1e7df0" },
+      "location": "bottom of report table",
+      "verbatim_label": "1 2 3"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05.png",
+      "variant_key": "light-borderless-list-table",
+      "attributes": { "header_fill": "#ffffff", "row_striping": "none", "border_style": "bottom hairline per row #e6e9ed", "density": "comfortable", "sort_affordance": "none", "pagination_style": "numbered pill + chevrons", "row_action_style": "Clone text-link + X icon" },
+      "location": "main content (light)",
+      "verbatim_label": "Policy / Rulesets / Actions"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05.png",
+      "variant_key": "policy-name-link-with-info-icon",
+      "attributes": { "color": "#1e7df0", "weight": "bold", "leading_icon": "info (i) circle", "underline": false },
+      "location": "Policy column",
+      "verbatim_label": "Default Policy / Alvin Test / estherPol / Jonis / Lior / Mac / mc-main-policy / Policy for Jill"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05.png",
+      "variant_key": "default-pill-light-blue",
+      "attributes": { "shape": "rounded pill", "color_map": { "Default": "#e3edfb bg / #2f6bd1 text" } },
+      "location": "next to Default Policy name",
+      "verbatim_label": "Default"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05.png",
+      "variant_key": "clone-action-link",
+      "attributes": { "color": "#1e7df0", "weight": "bold", "underline": false, "role": "row action" },
+      "location": "Actions column",
+      "verbatim_label": "Clone"
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05.png",
+      "variant_key": "light-rounded-search-leading-icon",
+      "attributes": { "border": "1px solid #d0d5dc", "radius_px": 20, "height_px_guess": 36, "leading_icon": "magnifier", "label_position": "placeholder" },
+      "location": "above table right",
+      "verbatim_label": "Search policy..."
+    },
+    {
+      "component_type": "pagination",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05.png",
+      "variant_key": "round-numbered-pills-light",
+      "attributes": { "style": "circular numbered pills 1 2 with chevron buttons", "active_pill_color": "#d9dee5 gray fill / dark text", "disabled_prev_greyed": true },
+      "location": "below table center",
+      "verbatim_label": "1 2"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05.png",
+      "variant_key": "primary-solid-blue-add-policy",
+      "attributes": { "fill": "solid", "shape_radius": 6, "color": "#2f5b8f", "text_color": "#ffffff", "size": "md", "has_icon": true, "casing": "Title Case", "role": "primary create" },
+      "location": "topbar right",
+      "verbatim_label": "+ Add Policy"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05.png",
+      "variant_key": "info-circle-title",
+      "attributes": { "shape": "filled circle with i", "color": "#1f2a37 on dark / white glyph" },
+      "location": "next to page title 'Policies'",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05 (1).png",
+      "variant_key": "light-borderless-list-table",
+      "attributes": { "header_fill": "#ffffff", "row_striping": "none", "border_style": "bottom hairline per row", "density": "comfortable", "sort_affordance": "none", "pagination_style": "numbered pill", "row_action_style": "Clone link + X icon", "note": "duplicate capture of Policies" },
+      "location": "main content (light)",
+      "verbatim_label": "Policy / Rulesets / Actions"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-rulesets-2026-06-17-08_12_40.png",
+      "variant_key": "light-sortable-list-table",
+      "attributes": { "header_fill": "#ffffff", "row_striping": "none", "border_style": "bottom hairline per row", "density": "comfortable", "sort_affordance": "caret on Name column (active sort)", "pagination_style": "numbered pill + chevrons", "row_action_style": "Clone link + X icon" },
+      "location": "main content (light)",
+      "verbatim_label": "Name / Content Rules / Keyword Rules / Updated / Actions"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-rulesets-2026-06-17-08_12_40.png",
+      "variant_key": "ruleset-name-link",
+      "attributes": { "color": "#1e7df0", "weight": "bold", "underline": false },
+      "location": "Name column",
+      "verbatim_label": "Alvins Ruleset / estherRule / Financial / Intellectual Property / Personally Identifiable Information"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-rulesets-2026-06-17-08_12_40.png",
+      "variant_key": "primary-solid-blue-add-ruleset",
+      "attributes": { "fill": "solid", "shape_radius": 6, "color": "#2f5b8f", "text_color": "#ffffff", "size": "md", "has_icon": true, "casing": "Title Case", "role": "primary create" },
+      "location": "topbar right",
+      "verbatim_label": "+ Add Ruleset"
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-rulesets-2026-06-17-08_12_40.png",
+      "variant_key": "light-rounded-search-leading-icon",
+      "attributes": { "border": "1px solid #d0d5dc", "radius_px": 20, "height_px_guess": 34, "leading_icon": "magnifier", "label_position": "placeholder" },
+      "location": "above table right",
+      "verbatim_label": "Search rulesets..."
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-sensitive-data-explorer-2026-06-17-08_11_13.png",
+      "variant_key": "dark-topbar",
+      "attributes": { "bg_color": "#0d1b2e", "title_color": "#ffffff", "title_has_icon": true },
+      "location": "top of content",
+      "verbatim_label": "Sensitive Data Explorer"
+    },
+    {
+      "component_type": "tab",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-sensitive-data-explorer-2026-06-17-08_11_13.png",
+      "variant_key": "segmented-toggle-rules-keywords",
+      "attributes": { "shape": "pill-segmented inside bordered box", "active_color": "#eef3fb bg / #1f2a37 text", "inactive_color": "#5b6b80", "has_icon": true },
+      "location": "above search",
+      "verbatim_label": "Rules / Keywords"
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-sensitive-data-explorer-2026-06-17-08_11_13.png",
+      "variant_key": "light-search-with-dark-button",
+      "attributes": { "border": "1px solid #d0d5dc", "radius_px": 6, "height_px_guess": 36, "leading_icon": "magnifier", "trailing_button": "solid dark-navy search button", "label_position": "placeholder" },
+      "location": "top of content",
+      "verbatim_label": "Search rules..."
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-sensitive-data-explorer-2026-06-17-08_11_13.png",
+      "variant_key": "outline-tile-icon-chip-number",
+      "attributes": { "fill": "#ffffff", "border": "1px solid #d9dee5", "radius_px": 8, "icon_chip": "circular colored icon left", "number_color": "#1f2a37", "subline_breakdown": true },
+      "location": "KPI row",
+      "verbatim_label": "Total matches 45 / Files affected 3 / Source type 7 / Predominant action 7"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-sensitive-data-explorer-2026-06-17-08_11_13.png",
+      "variant_key": "light-sortable-explorer-table",
+      "attributes": { "header_fill": "#ffffff", "row_striping": "none", "border_style": "hairline rows", "density": "comfortable", "sort_affordance": "caret on every column header", "pagination_style": "Rows select + arrow chevrons", "row_action_style": "none (read-only), gear column-config icon" },
+      "location": "Rules table",
+      "verbatim_label": "RULE NAME / TOTAL MATCHES / FILES AFFECTED / PREDOMINANT ACTION / SOURCE TYPE"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-sensitive-data-explorer-2026-06-17-08_11_13.png",
+      "variant_key": "warning-triangle-amber",
+      "attributes": { "shape": "triangle exclamation", "color": "#f0a020" },
+      "location": "left of each rule name",
+      "verbatim_label": "GDPR / SSN / HIPAA"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-sensitive-data-explorer-2026-06-17-08_11_13.png",
+      "variant_key": "gear-column-config",
+      "attributes": { "shape": "gear/cog", "color": "#5b6b80" },
+      "location": "table header right",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "pagination",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-sensitive-data-explorer-2026-06-17-08_11_13.png",
+      "variant_key": "rows-select-arrows-light",
+      "attributes": { "style": "'Showing 1-3 of 3' + Rows select + first/prev/page/next/last chevrons", "active_pill_color": "#eef1f4" },
+      "location": "below table",
+      "verbatim_label": "Showing 1-3 of 3 / Rows 25 / 1"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-users-explorer-2026-06-17-08_11_01.png",
+      "variant_key": "dark-topbar",
+      "attributes": { "bg_color": "#0d1b2e", "title_color": "#ffffff", "title_has_icon": true },
+      "location": "top of content",
+      "verbatim_label": "User Explorer"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-users-explorer-2026-06-17-08_11_01.png",
+      "variant_key": "outline-tile-with-policy-info-tile",
+      "attributes": { "fill": "#ffffff", "border": "1px solid #d9dee5", "radius_px": 8, "icon_chip": "circular icon left", "last_tile_shows_value_not_count": true },
+      "location": "KPI row",
+      "verbatim_label": "Total emails 12 / Files attachments 28 / Attachments removed 11 / Top policy Default Policy"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-users-explorer-2026-06-17-08_11_01.png",
+      "variant_key": "dark-user-table",
+      "attributes": { "header_fill": "#0d1b2e", "row_striping": "subtle", "border_style": "thin dividers", "density": "dense", "sort_affordance": "carets on headers", "pagination_style": "Rows select + chevrons", "row_action_style": "gear column-config icon, no row buttons" },
+      "location": "main content (dark)",
+      "verbatim_label": "USER / EMAILS / ATTACHMENTS / ATTACHMENTS RE... / TOP POLICY / LAST ACTIVITY"
+    },
+    {
+      "component_type": "avatar",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-users-explorer-2026-06-17-08_11_01.png",
+      "variant_key": "circular-initials-colored",
+      "attributes": { "shape": "circle", "content": "initial letter", "color_map": "rotating pastel/saturated fills (blue/green/orange/purple/red)" },
+      "location": "USER column",
+      "verbatim_label": "frank / bob / alice / ..."
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-users-explorer-2026-06-17-08_11_01.png",
+      "variant_key": "policy-cell-link",
+      "attributes": { "color": "#1e7df0", "underline": false },
+      "location": "TOP POLICY column",
+      "verbatim_label": "Default Policy"
+    },
+    {
+      "component_type": "banner",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-settings-2026-06-17-08_13_09.png",
+      "variant_key": "success-green-banner",
+      "attributes": { "fill": "#e6f6ec", "border": "1px solid #b7e2c6", "radius_px": 6, "icon": "green check", "text_color": "#1e7a3f" },
+      "location": "top of Settings content",
+      "verbatim_label": "Entra ID is successfully connected to your Safesend tenant"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-settings-2026-06-17-08_13_09.png",
+      "variant_key": "connected-status-text",
+      "attributes": { "shape": "icon + text (no pill)", "color_map": { "Connected": "#1e8a55" } },
+      "location": "Connection Status block",
+      "verbatim_label": "Connected"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-settings-2026-06-17-08_13_09.png",
+      "variant_key": "logo-card-with-edit-button",
+      "attributes": { "fill": "#ffffff", "border": "1px solid #e2e6eb", "radius_px": 8, "contains_logo": true, "trailing_button": "outline Edit logo" },
+      "location": "Logo section",
+      "verbatim_label": "Logo Information"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-settings-2026-06-17-08_13_09.png",
+      "variant_key": "outline-edit-logo",
+      "attributes": { "fill": "outline", "shape_radius": 6, "color": "#2f5b8f", "text_color": "#2f5b8f", "size": "md", "has_icon": false, "role": "secondary" },
+      "location": "Logo card right",
+      "verbatim_label": "Edit logo"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-settings-2026-06-17-08_13_09.png",
+      "variant_key": "solid-blue-download",
+      "attributes": { "fill": "solid", "shape_radius": 6, "color": "#1f4fd6", "text_color": "#ffffff", "size": "md", "has_icon": true, "casing": "Title Case", "role": "primary action" },
+      "location": "each manifest option block right",
+      "verbatim_label": "Download"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-strings-2026-06-17-08_12_56.png",
+      "variant_key": "dark-topbar-with-action",
+      "attributes": { "bg_color": "#0d1b2e", "title_color": "#ffffff", "title_has_icon": true, "trailing_button": "green publish/save" },
+      "location": "top of content (dark)",
+      "verbatim_label": "Strings"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-strings-2026-06-17-08_12_56.png",
+      "variant_key": "green-publish-action",
+      "attributes": { "fill": "solid", "shape_radius": 6, "color": "#2ec27e", "text_color": "#0d1b2e", "size": "md", "has_icon": true, "role": "publish/save" },
+      "location": "topbar right",
+      "verbatim_label": "Publish/Save"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-strings-2026-06-17-08_12_56.png",
+      "variant_key": "dark-dense-editable-string-grid",
+      "attributes": { "header_fill": "#0d1b2e", "row_striping": "subtle alternating", "border_style": "thin column+row dividers", "density": "very dense", "sort_affordance": "none", "pagination_style": "none visible", "row_action_style": "per-row edit pencil icon" },
+      "location": "main content (dark)",
+      "verbatim_label": "Key / Default text / English (United States) text"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-strings-2026-06-17-08_12_56.png",
+      "variant_key": "edit-pencil-row",
+      "attributes": { "shape": "pencil", "color": "#7fb0e8" },
+      "location": "right of each string row",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-safesend-admin-strings-2026-06-17-08_12_56.png",
+      "variant_key": "dark-search-inline",
+      "attributes": { "border": "1px solid #2a3a50", "radius_px": 6, "height_px_guess": 30, "leading_icon": "magnifier", "label_position": "placeholder" },
+      "location": "top-right of strings content",
+      "verbatim_label": "Search"
+    }
+  ],
+  "tokens": {
+    "colors": [
+      "#0d1b2e",
+      "#0a1422",
+      "#12233a",
+      "#1a1a1a",
+      "#2a3a50",
+      "#1e7df0",
+      "#1f4fd6",
+      "#2f5b8f",
+      "#2f6bd1",
+      "#7fb0e8",
+      "#7fb0e8",
+      "#d6e4f5",
+      "#e3edfb",
+      "#dbe7fb",
+      "#eef3fb",
+      "#2ec27e",
+      "#1e8a55",
+      "#d8f3e3",
+      "#e6f6ec",
+      "#b7e2c6",
+      "#f0820a",
+      "#f0a020",
+      "#fff2d6",
+      "#b07a16",
+      "#e23b3b",
+      "#c2283a",
+      "#fde2e2",
+      "#7b2ff0",
+      "#f0c020",
+      "#ffffff",
+      "#f7f9fb",
+      "#e2e6eb",
+      "#e6e9ed",
+      "#d9dee5",
+      "#d0d5dc",
+      "#1f2a37",
+      "#5b6b80",
+      "#9aa3ad"
+    ],
+    "accent_primary": ["#1e7df0", "#1f4fd6", "#2f5b8f"],
+    "font_family_guess": "Humanist/geometric sans-serif (looks like Lato or Open Sans / system UI). Page titles appear in a slightly different weighted sans than body. Not Rubik (the Vipre DS POC font).",
+    "heading_sizes_px_guess": [24, 20, 18, 13],
+    "radii_px_guess": [6, 8, 20],
+    "spacing_notes": "8px-based card padding (~16-20px internal). KPI tiles ~12-16px padding. Dense explorer tables use ~6-8px row padding; light list tables use ~14-16px row height. Inconsistent corner radii: list-table search inputs are pill (~20px) while explorer/dark search inputs are 6px rectangles."
+  }
+}

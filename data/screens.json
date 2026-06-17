@@ -1,0 +1,466 @@
+[
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png",
+    "slug": "account",
+    "product": "Portal/Admin",
+    "module": "account",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03 (1).png",
+    "slug": "admins-1",
+    "product": "Portal/Admin",
+    "module": "admins-1",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png",
+    "slug": "admins",
+    "product": "Portal/Admin",
+    "module": "admins",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+    "slug": "edr-esm-billing-sitesLicenseSummary-PRODUCTION",
+    "product": "EDR/ESM",
+    "module": "edr-esm-billing-sitesLicenseSummary-PRODUCTION",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-blocklists-windows-2026-06-17-08_24_27.png",
+    "slug": "edr-esm-blocklists-windows",
+    "product": "EDR/ESM",
+    "module": "edr-esm-blocklists-windows",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png",
+    "slug": "edr-esm-dashboard",
+    "product": "EDR/ESM",
+    "module": "edr-esm-dashboard",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png",
+    "slug": "edr-esm-deploy-windows",
+    "product": "EDR/ESM",
+    "module": "edr-esm-deploy-windows",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png",
+    "slug": "edr-esm-devices-list",
+    "product": "EDR/ESM",
+    "module": "edr-esm-devices-list",
+    "w": 1554,
+    "h": 1504
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-edrDashboard-2026-06-17-08_18_40.png",
+    "slug": "edr-esm-edrDashboard",
+    "product": "EDR/ESM",
+    "module": "edr-esm-edrDashboard",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-events-eventsList-2026-06-17-08_26_24.png",
+    "slug": "edr-esm-events-eventsList",
+    "product": "EDR/ESM",
+    "module": "edr-esm-events-eventsList",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-exclusions-windows-2026-06-17-08_23_58.png",
+    "slug": "edr-esm-exclusions-windows",
+    "product": "EDR/ESM",
+    "module": "edr-esm-exclusions-windows",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png",
+    "slug": "edr-esm-fileAnalysis-analysisList",
+    "product": "EDR/ESM",
+    "module": "edr-esm-fileAnalysis-analysisList",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-help-documentation-2026-06-17-08_27_46.png",
+    "slug": "edr-esm-help-documentation",
+    "product": "EDR/ESM",
+    "module": "edr-esm-help-documentation",
+    "w": 1554,
+    "h": 1669
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-applications-2026-06-17-08_24_42.png",
+    "slug": "edr-esm-patches-applications",
+    "product": "EDR/ESM",
+    "module": "edr-esm-patches-applications",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-patches-vulnerabilities-ungrouped-2026-06-17-08_24_54.png",
+    "slug": "edr-esm-patches-vulnerabilities-ungrouped",
+    "product": "EDR/ESM",
+    "module": "edr-esm-patches-vulnerabilities-ungrouped",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-policy-list-windows-2026-06-17-08_23_37.png",
+    "slug": "edr-esm-policy-list-windows",
+    "product": "EDR/ESM",
+    "module": "edr-esm-policy-list-windows",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-quarantine-2026-06-17-08_19_32.png",
+    "slug": "edr-esm-quarantine",
+    "product": "EDR/ESM",
+    "module": "edr-esm-quarantine",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-rbi-2026-06-17-08_26_10.png",
+    "slug": "edr-esm-rbi",
+    "product": "EDR/ESM",
+    "module": "edr-esm-rbi",
+    "w": 1554,
+    "h": 1614
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-reports-2026-06-17-08_20_01.png",
+    "slug": "edr-esm-reports",
+    "product": "EDR/ESM",
+    "module": "edr-esm-reports",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_20_15.png",
+    "slug": "edr-esm-sites-sitelist",
+    "product": "EDR/ESM",
+    "module": "edr-esm-sites-sitelist",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_21_05.png",
+    "slug": "edr-esm-sites-sitelist-2",
+    "product": "EDR/ESM",
+    "module": "edr-esm-sites-sitelist-2",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_22_51.png",
+    "slug": "edr-esm-sites-sitelist-3",
+    "product": "EDR/ESM",
+    "module": "edr-esm-sites-sitelist-3",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-sites-sitelist-2026-06-17-08_23_01.png",
+    "slug": "edr-esm-sites-sitelist-4",
+    "product": "EDR/ESM",
+    "module": "edr-esm-sites-sitelist-4",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-system-notifications-2026-06-17-08_26_57.png",
+    "slug": "edr-esm-system-notifications",
+    "product": "EDR/ESM",
+    "module": "edr-esm-system-notifications",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-edr-esm-threats-2026-06-17-08_19_10.png",
+    "slug": "edr-esm-threats",
+    "product": "EDR/ESM",
+    "module": "edr-esm-threats",
+    "w": 1563,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-allow-list-2026-06-17-08_06_06.png",
+    "slug": "ies-allow-list",
+    "product": "IES",
+    "module": "ies-allow-list",
+    "w": 1709,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-audit-logs-2026-06-17-08_08_11.png",
+    "slug": "ies-audit-logs",
+    "product": "IES",
+    "module": "ies-audit-logs",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-detection-settings-2026-06-17-08_06_18.png",
+    "slug": "ies-detection-settings",
+    "product": "IES",
+    "module": "ies-detection-settings",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_04_49.png",
+    "slug": "ies-email-configuration",
+    "product": "IES",
+    "module": "ies-email-configuration",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-email-configuration-2026-06-17-08_17_25.png",
+    "slug": "ies-email-configuration-2",
+    "product": "IES",
+    "module": "ies-email-configuration-2",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_02_47.png",
+    "slug": "ies-home",
+    "product": "IES",
+    "module": "ies-home",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-home-2026-06-17-08_16_38.png",
+    "slug": "ies-home-2",
+    "product": "IES",
+    "module": "ies-home-2",
+    "w": 1554,
+    "h": 2025
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-link-isolation-2026-06-17-08_06_30.png",
+    "slug": "ies-link-isolation",
+    "product": "IES",
+    "module": "ies-link-isolation",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+    "slug": "ies-messages",
+    "product": "IES",
+    "module": "ies-messages",
+    "w": 1893,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+    "slug": "ies-messages-2",
+    "product": "IES",
+    "module": "ies-messages-2",
+    "w": 1554,
+    "h": 1985
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_04_02.png",
+    "slug": "ies-reports",
+    "product": "IES",
+    "module": "ies-reports",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_17_05.png",
+    "slug": "ies-reports-2",
+    "product": "IES",
+    "module": "ies-reports-2",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_03_52.png",
+    "slug": "ies-threat-explorer",
+    "product": "IES",
+    "module": "ies-threat-explorer",
+    "w": 2565,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_16_58.png",
+    "slug": "ies-threat-explorer-2",
+    "product": "IES",
+    "module": "ies-threat-explorer-2",
+    "w": 1554,
+    "h": 1796
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+    "slug": "ies-users",
+    "product": "IES",
+    "module": "ies-users",
+    "w": 1573,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_17_13.png",
+    "slug": "ies-users-2",
+    "product": "IES",
+    "module": "ies-users-2",
+    "w": 1573,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-info-edr-2026-06-17-08_13_29.png",
+    "slug": "info-edr",
+    "product": "Portal/Admin",
+    "module": "info-edr",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png",
+    "slug": "overview",
+    "product": "Portal/Admin",
+    "module": "overview",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png",
+    "slug": "overview-2",
+    "product": "Portal/Admin",
+    "module": "overview-2",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-profile-2026-06-17-08_14_50.png",
+    "slug": "profile",
+    "product": "Portal/Admin",
+    "module": "profile",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-roles-2026-06-17-08_14_25.png",
+    "slug": "roles",
+    "product": "Portal/Admin",
+    "module": "roles",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-assignments-2026-06-17-08_11_28.png",
+    "slug": "safesend-admin-assignments",
+    "product": "SafeSend",
+    "module": "safesend-admin-assignments",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-dashboard-2026-06-17-08_10_00.png",
+    "slug": "safesend-admin-dashboard",
+    "product": "SafeSend",
+    "module": "safesend-admin-dashboard",
+    "w": 1554,
+    "h": 1540
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-events-explorer-2026-06-17-08_10_39.png",
+    "slug": "safesend-admin-events-explorer",
+    "product": "SafeSend",
+    "module": "safesend-admin-events-explorer",
+    "w": 2349,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05 (1).png",
+    "slug": "safesend-admin-policies-1",
+    "product": "SafeSend",
+    "module": "safesend-admin-policies-1",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-policies-2026-06-17-08_12_05.png",
+    "slug": "safesend-admin-policies",
+    "product": "SafeSend",
+    "module": "safesend-admin-policies",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-reports-2026-06-17-08_10_22.png",
+    "slug": "safesend-admin-reports",
+    "product": "SafeSend",
+    "module": "safesend-admin-reports",
+    "w": 1554,
+    "h": 1946
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-rulesets-2026-06-17-08_12_40.png",
+    "slug": "safesend-admin-rulesets",
+    "product": "SafeSend",
+    "module": "safesend-admin-rulesets",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-sensitive-data-explorer-2026-06-17-08_11_13.png",
+    "slug": "safesend-admin-sensitive-data-explorer",
+    "product": "SafeSend",
+    "module": "safesend-admin-sensitive-data-explorer",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-settings-2026-06-17-08_13_09.png",
+    "slug": "safesend-admin-settings",
+    "product": "SafeSend",
+    "module": "safesend-admin-settings",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-strings-2026-06-17-08_12_56.png",
+    "slug": "safesend-admin-strings",
+    "product": "SafeSend",
+    "module": "safesend-admin-strings",
+    "w": 1554,
+    "h": 4102
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-safesend-admin-users-explorer-2026-06-17-08_11_01.png",
+    "slug": "safesend-admin-users-explorer",
+    "product": "SafeSend",
+    "module": "safesend-admin-users-explorer",
+    "w": 1554,
+    "h": 1454
+  },
+  {
+    "orig": "screencapture-ices-dev-portal-electric-net-saml-2026-06-17-08_13_44.png",
+    "slug": "saml",
+    "product": "Portal/Admin",
+    "module": "saml",
+    "w": 1554,
+    "h": 1454
+  }
+]

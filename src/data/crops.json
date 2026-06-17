@@ -1,0 +1,1658 @@
+[
+  {
+    "id": "edr-esm-dashboard__kpi-tile__0",
+    "type": "kpi-tile",
+    "label": "site summary stat tile",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-dashboard",
+    "aspect": 2.769
+  },
+  {
+    "id": "edr-esm-dashboard__breadcrumb__1",
+    "type": "breadcrumb",
+    "label": "top org breadcrumb tabs",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-dashboard",
+    "aspect": 23.861
+  },
+  {
+    "id": "edr-esm-dashboard__data-card__2",
+    "type": "data-card",
+    "label": "donut chart card",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-dashboard",
+    "aspect": 1.487
+  },
+  {
+    "id": "edr-esm-dashboard__empty-state__3",
+    "type": "empty-state",
+    "label": "no threats placeholder",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-dashboard",
+    "aspect": 4.274
+  },
+  {
+    "id": "edr-esm-edrDashboard__kpi-tile__4",
+    "type": "kpi-tile",
+    "label": "active incidents tile",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-edrDashboard",
+    "aspect": 5.574
+  },
+  {
+    "id": "edr-esm-edrDashboard__data-card__5",
+    "type": "data-card",
+    "label": "top 10 detections list card",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-edrDashboard",
+    "aspect": 0.52
+  },
+  {
+    "id": "edr-esm-edrDashboard__avatar__6",
+    "type": "avatar",
+    "label": "VIPRE site manager logo mark",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-edrDashboard",
+    "aspect": 2.192
+  },
+  {
+    "id": "edr-esm-edrDashboard__breadcrumb__7",
+    "type": "breadcrumb",
+    "label": "org context breadcrumb",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-edrDashboard",
+    "aspect": 31.034
+  },
+  {
+    "id": "edr-esm-devices-list__button__8",
+    "type": "button",
+    "label": "primary export CSV blue",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-devices-list",
+    "aspect": 2.54
+  },
+  {
+    "id": "edr-esm-devices-list__badge-status__9",
+    "type": "badge-status",
+    "label": "Protected green status",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-devices-list",
+    "aspect": 2.5
+  },
+  {
+    "id": "edr-esm-devices-list__search__10",
+    "type": "search",
+    "label": "table search input icon",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-devices-list",
+    "aspect": 1.569
+  },
+  {
+    "id": "edr-esm-devices-list__checkbox-radio-toggle__11",
+    "type": "checkbox-radio-toggle",
+    "label": "filter accordion checkbox",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-devices-list",
+    "aspect": 6.526
+  },
+  {
+    "id": "edr-esm-devices-list__tab__12",
+    "type": "tab",
+    "label": "All Devices left tabs",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-devices-list",
+    "aspect": 2.933
+  },
+  {
+    "id": "edr-esm-exclusions-windows__button__13",
+    "type": "button",
+    "label": "primary Add Exclusion List blue",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-exclusions-windows",
+    "aspect": 3.216
+  },
+  {
+    "id": "edr-esm-exclusions-windows__badge-status__14",
+    "type": "badge-status",
+    "label": "Global scope chip",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-exclusions-windows",
+    "aspect": 3.81
+  },
+  {
+    "id": "edr-esm-exclusions-windows__tab__15",
+    "type": "tab",
+    "label": "OS platform vertical tabs",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-exclusions-windows",
+    "aspect": 0.488
+  },
+  {
+    "id": "edr-esm-exclusions-windows__empty-state__16",
+    "type": "empty-state",
+    "label": "No exclusions found",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-exclusions-windows",
+    "aspect": 5.397
+  },
+  {
+    "id": "edr-esm-blocklists-windows__button__17",
+    "type": "button",
+    "label": "primary Add Blocklist blue",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-blocklists-windows",
+    "aspect": 2.54
+  },
+  {
+    "id": "edr-esm-blocklists-windows__tab__18",
+    "type": "tab",
+    "label": "Windows platform tab chevron",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-blocklists-windows",
+    "aspect": 2.278
+  },
+  {
+    "id": "edr-esm-blocklists-windows__empty-state__19",
+    "type": "empty-state",
+    "label": "No blocklist found",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-blocklists-windows",
+    "aspect": 5.51
+  },
+  {
+    "id": "edr-esm-fileAnalysis-analysisList__button__20",
+    "type": "button",
+    "label": "primary Upload File blue icon",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-fileAnalysis-analysisList",
+    "aspect": 2.909
+  },
+  {
+    "id": "edr-esm-fileAnalysis-analysisList__dropdown-menu__21",
+    "type": "dropdown-menu",
+    "label": "Submission Status filter dropdown",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-fileAnalysis-analysisList",
+    "aspect": 4.444
+  },
+  {
+    "id": "edr-esm-fileAnalysis-analysisList__filter-chip__22",
+    "type": "filter-chip",
+    "label": "Risk filter chip",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-fileAnalysis-analysisList",
+    "aspect": 1.951
+  },
+  {
+    "id": "edr-esm-fileAnalysis-analysisList__empty-state__23",
+    "type": "empty-state",
+    "label": "No analyzed files found",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-fileAnalysis-analysisList",
+    "aspect": 6.535
+  },
+  {
+    "id": "edr-esm-events-eventsList__badge-status__24",
+    "type": "badge-status",
+    "label": "MEDIUM severity orange badge",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-events-eventsList",
+    "aspect": 2.712
+  },
+  {
+    "id": "edr-esm-events-eventsList__search__25",
+    "type": "search",
+    "label": "Search Events input + icon",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-events-eventsList",
+    "aspect": 6.349
+  },
+  {
+    "id": "edr-esm-events-eventsList__checkbox-radio-toggle__26",
+    "type": "checkbox-radio-toggle",
+    "label": "event type filter checkbox",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-events-eventsList",
+    "aspect": 6.757
+  },
+  {
+    "id": "edr-esm-billing-sitesLicenseSummary-PRODUCTION__kpi-tile__27",
+    "type": "kpi-tile",
+    "label": "EDR+MDR license summary tile",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-billing-sitesLicenseSummary-PRODUCTION",
+    "aspect": 3.788
+  },
+  {
+    "id": "edr-esm-billing-sitesLicenseSummary-PRODUCTION__tab__28",
+    "type": "tab",
+    "label": "Billed Sites / Trial Sites vertical tabs",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-billing-sitesLicenseSummary-PRODUCTION",
+    "aspect": 1.081
+  },
+  {
+    "id": "edr-esm-billing-sitesLicenseSummary-PRODUCTION__badge-status__29",
+    "type": "badge-status",
+    "label": "EDR site type pill",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-billing-sitesLicenseSummary-PRODUCTION",
+    "aspect": 2.162
+  },
+  {
+    "id": "edr-esm-billing-sitesLicenseSummary-PRODUCTION__data-card__30",
+    "type": "data-card",
+    "label": "daily active devices chart card",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-billing-sitesLicenseSummary-PRODUCTION",
+    "aspect": 3.169
+  },
+  {
+    "id": "edr-esm-deploy-windows__button__31",
+    "type": "button",
+    "label": "secondary Approve Latest Version outline",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-deploy-windows",
+    "aspect": 3.529
+  },
+  {
+    "id": "edr-esm-deploy-windows__search__32",
+    "type": "search",
+    "label": "Search Sites input",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-deploy-windows",
+    "aspect": 5.5
+  },
+  {
+    "id": "edr-esm-deploy-windows__filter-chip__33",
+    "type": "filter-chip",
+    "label": "All Sites count radio filters",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-deploy-windows",
+    "aspect": 13.028
+  },
+  {
+    "id": "edr-esm-deploy-windows__badge-status__34",
+    "type": "badge-status",
+    "label": "Up-to-date green check status",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-deploy-windows",
+    "aspect": 3.478
+  },
+  {
+    "id": "edr-esm-deploy-windows__tab__35",
+    "type": "tab",
+    "label": "Windows/Mac/Linux OS vertical tabs",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-deploy-windows",
+    "aspect": 0.675
+  },
+  {
+    "id": "edr-esm-help-documentation__tab__36",
+    "type": "tab",
+    "label": "Online Docs / Diagnostics top tabs",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-help-documentation",
+    "aspect": 1.072
+  },
+  {
+    "id": "edr-esm-help-documentation__data-card__37",
+    "type": "data-card",
+    "label": "First Steps icon card",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-help-documentation",
+    "aspect": 0.931
+  },
+  {
+    "id": "edr-esm-patches-applications__button__0",
+    "type": "button",
+    "label": "header primary CTA",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-applications",
+    "aspect": 5.861
+  },
+  {
+    "id": "edr-esm-patches-applications__button__1",
+    "type": "button",
+    "label": "row Update link",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-applications",
+    "aspect": 3.556
+  },
+  {
+    "id": "edr-esm-patches-applications__search__2",
+    "type": "search",
+    "label": "header search field",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-applications",
+    "aspect": 7.8
+  },
+  {
+    "id": "edr-esm-patches-applications__dropdown-menu__3",
+    "type": "dropdown-menu",
+    "label": "filter dropdown All Vendors",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-applications",
+    "aspect": 4.103
+  },
+  {
+    "id": "edr-esm-patches-applications__badge-status__4",
+    "type": "badge-status",
+    "label": "vulnerability count badge",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-applications",
+    "aspect": 1.343
+  },
+  {
+    "id": "edr-esm-patches-applications__checkbox-radio-toggle__5",
+    "type": "checkbox-radio-toggle",
+    "label": "row checkbox",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-applications",
+    "aspect": 1.069
+  },
+  {
+    "id": "edr-esm-patches-applications__avatar__6",
+    "type": "avatar",
+    "label": "app icon Chrome",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-applications",
+    "aspect": 1.108
+  },
+  {
+    "id": "edr-esm-patches-applications__breadcrumb__7",
+    "type": "breadcrumb",
+    "label": "tenant breadcrumb tabs",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-applications",
+    "aspect": 11.615
+  },
+  {
+    "id": "edr-esm-patches-vulnerabilities-ungrouped__tab__8",
+    "type": "tab",
+    "label": "view toggle Ungrouped/Grouped",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-vulnerabilities-ungrouped",
+    "aspect": 9.293
+  },
+  {
+    "id": "edr-esm-patches-vulnerabilities-ungrouped__button__9",
+    "type": "button",
+    "label": "Export CSV button",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-vulnerabilities-ungrouped",
+    "aspect": 2.857
+  },
+  {
+    "id": "edr-esm-patches-vulnerabilities-ungrouped__kpi-tile__10",
+    "type": "kpi-tile",
+    "label": "open vulnerabilities counters",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-vulnerabilities-ungrouped",
+    "aspect": 3.587
+  },
+  {
+    "id": "edr-esm-patches-vulnerabilities-ungrouped__dropdown-menu__11",
+    "type": "dropdown-menu",
+    "label": "severity filter dropdown",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-vulnerabilities-ungrouped",
+    "aspect": 3.721
+  },
+  {
+    "id": "edr-esm-patches-vulnerabilities-ungrouped__badge-status__12",
+    "type": "badge-status",
+    "label": "severity badge Moderate",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-patches-vulnerabilities-ungrouped",
+    "aspect": 5.517
+  },
+  {
+    "id": "edr-esm-policy-list-windows__button__13",
+    "type": "button",
+    "label": "Add Policy primary CTA",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-policy-list-windows",
+    "aspect": 3.265
+  },
+  {
+    "id": "edr-esm-policy-list-windows__data-card__14",
+    "type": "data-card",
+    "label": "policy assignment card",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-policy-list-windows",
+    "aspect": 1.693
+  },
+  {
+    "id": "edr-esm-policy-list-windows__tab__15",
+    "type": "tab",
+    "label": "platform vertical tabs",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-policy-list-windows",
+    "aspect": 0.535
+  },
+  {
+    "id": "edr-esm-policy-list-windows__checkbox-radio-toggle__16",
+    "type": "checkbox-radio-toggle",
+    "label": "type radio + checkbox row",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-policy-list-windows",
+    "aspect": 11.969
+  },
+  {
+    "id": "edr-esm-policy-list-windows__search__17",
+    "type": "search",
+    "label": "Search Policies field",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-policy-list-windows",
+    "aspect": 8.029
+  },
+  {
+    "id": "edr-esm-policy-list-windows__empty-state__18",
+    "type": "empty-state",
+    "label": "No policies found",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-policy-list-windows",
+    "aspect": 10.659
+  },
+  {
+    "id": "edr-esm-policy-list-windows__button__19",
+    "type": "button",
+    "label": "View Policy text link",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-policy-list-windows",
+    "aspect": 3.721
+  },
+  {
+    "id": "edr-esm-quarantine__badge-status__20",
+    "type": "badge-status",
+    "label": "severity label Severe",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-quarantine",
+    "aspect": 3.556
+  },
+  {
+    "id": "edr-esm-quarantine__filter-chip__21",
+    "type": "filter-chip",
+    "label": "ALL QUARANTINE filter header",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-quarantine",
+    "aspect": 6.344
+  },
+  {
+    "id": "edr-esm-quarantine__checkbox-radio-toggle__22",
+    "type": "checkbox-radio-toggle",
+    "label": "filter facet checkboxes",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-quarantine",
+    "aspect": 0.518
+  },
+  {
+    "id": "edr-esm-quarantine__pagination__23",
+    "type": "pagination",
+    "label": "page nav arrows",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-quarantine",
+    "aspect": 3.636
+  },
+  {
+    "id": "edr-esm-rbi__input__24",
+    "type": "input",
+    "label": "URL entry field",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-rbi",
+    "aspect": 20.93
+  },
+  {
+    "id": "edr-esm-rbi__button__25",
+    "type": "button",
+    "label": "URL submit icon button",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-rbi",
+    "aspect": 1.356
+  },
+  {
+    "id": "edr-esm-rbi__data-card__26",
+    "type": "data-card",
+    "label": "integration feature card",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-rbi",
+    "aspect": 3.329
+  },
+  {
+    "id": "edr-esm-reports__data-card__27",
+    "type": "data-card",
+    "label": "report tile with icon",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-reports",
+    "aspect": 1.132
+  },
+  {
+    "id": "edr-esm-reports__avatar__28",
+    "type": "avatar",
+    "label": "report card icon",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-reports",
+    "aspect": 1.088
+  },
+  {
+    "id": "edr-esm-sites-sitelist__tab__29",
+    "type": "tab",
+    "label": "Sites / Site Managers tabs",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-sites-sitelist",
+    "aspect": 4.338
+  },
+  {
+    "id": "edr-esm-sites-sitelist__filter-chip__30",
+    "type": "filter-chip",
+    "label": "status filter chips row",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-sites-sitelist",
+    "aspect": 8.163
+  },
+  {
+    "id": "edr-esm-sites-sitelist__search__31",
+    "type": "search",
+    "label": "Search Sites field",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-sites-sitelist",
+    "aspect": 5.919
+  },
+  {
+    "id": "edr-esm-sites-sitelist__badge-status__32",
+    "type": "badge-status",
+    "label": "EDR entitlement pill",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-sites-sitelist",
+    "aspect": 3.019
+  },
+  {
+    "id": "edr-esm-sites-sitelist__input__33",
+    "type": "input",
+    "label": "seats progress bar",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-sites-sitelist",
+    "aspect": 5.828
+  },
+  {
+    "id": "edr-esm-sites-sitelist-2__data-card__34",
+    "type": "data-card",
+    "label": "expanded site detail panel",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-sites-sitelist-2",
+    "aspect": 1.138
+  },
+  {
+    "id": "edr-esm-sites-sitelist-2__button__35",
+    "type": "button",
+    "label": "Go to Site link",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-sites-sitelist-2",
+    "aspect": 3.81
+  },
+  {
+    "id": "edr-esm-sites-sitelist-2__kpi-tile__36",
+    "type": "kpi-tile",
+    "label": "security 7-day metric block",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-sites-sitelist-2",
+    "aspect": 4.851
+  },
+  {
+    "id": "edr-esm-system-notifications__button__37",
+    "type": "button",
+    "label": "Add Notification CTA",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-system-notifications",
+    "aspect": 3.902
+  },
+  {
+    "id": "edr-esm-system-notifications__tab__38",
+    "type": "tab",
+    "label": "settings vertical tabs",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-system-notifications",
+    "aspect": 0.421
+  },
+  {
+    "id": "edr-esm-system-notifications__empty-state__39",
+    "type": "empty-state",
+    "label": "No notifications found",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-system-notifications",
+    "aspect": 10.907
+  },
+  {
+    "id": "edr-esm-threats__kpi-tile__40",
+    "type": "kpi-tile",
+    "label": "detection sources counters",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-threats",
+    "aspect": 5.523
+  },
+  {
+    "id": "edr-esm-threats__data-card__41",
+    "type": "data-card",
+    "label": "threats affecting hosts panel",
+    "product": "EDR/ESM",
+    "screen_slug": "edr-esm-threats",
+    "aspect": 1.263
+  },
+  {
+    "id": "ies-home__button__0",
+    "type": "button",
+    "label": "primary CTA Get started",
+    "product": "IES",
+    "screen_slug": "ies-home",
+    "aspect": 3.019
+  },
+  {
+    "id": "ies-home__empty-state__1",
+    "type": "empty-state",
+    "label": "account config empty state",
+    "product": "IES",
+    "screen_slug": "ies-home",
+    "aspect": 2.169
+  },
+  {
+    "id": "ies-home__breadcrumb__2",
+    "type": "breadcrumb",
+    "label": "reseller > tenant breadcrumb",
+    "product": "IES",
+    "screen_slug": "ies-home",
+    "aspect": 10.837
+  },
+  {
+    "id": "ies-allow-list__search__3",
+    "type": "search",
+    "label": "search input full width",
+    "product": "IES",
+    "screen_slug": "ies-allow-list",
+    "aspect": 22.5
+  },
+  {
+    "id": "ies-allow-list__button__4",
+    "type": "button",
+    "label": "primary New Rule",
+    "product": "IES",
+    "screen_slug": "ies-allow-list",
+    "aspect": 2.388
+  },
+  {
+    "id": "ies-allow-list__button__5",
+    "type": "button",
+    "label": "disabled Delete",
+    "product": "IES",
+    "screen_slug": "ies-allow-list",
+    "aspect": 2.353
+  },
+  {
+    "id": "ies-allow-list__checkbox-radio-toggle__6",
+    "type": "checkbox-radio-toggle",
+    "label": "table header checkbox",
+    "product": "IES",
+    "screen_slug": "ies-allow-list",
+    "aspect": 1.344
+  },
+  {
+    "id": "ies-allow-list__data-card__7",
+    "type": "data-card",
+    "label": "no-data table card",
+    "product": "IES",
+    "screen_slug": "ies-allow-list",
+    "aspect": 6.977
+  },
+  {
+    "id": "ies-audit-logs__button__8",
+    "type": "button",
+    "label": "Add column",
+    "product": "IES",
+    "screen_slug": "ies-audit-logs",
+    "aspect": 3.81
+  },
+  {
+    "id": "ies-audit-logs__badge-status__9",
+    "type": "badge-status",
+    "label": "TIME range pill",
+    "product": "IES",
+    "screen_slug": "ies-audit-logs",
+    "aspect": 5.897
+  },
+  {
+    "id": "ies-audit-logs__pagination__10",
+    "type": "pagination",
+    "label": "numbered pager",
+    "product": "IES",
+    "screen_slug": "ies-audit-logs",
+    "aspect": 7.759
+  },
+  {
+    "id": "ies-audit-logs__data-card__11",
+    "type": "data-card",
+    "label": "audit events table",
+    "product": "IES",
+    "screen_slug": "ies-audit-logs",
+    "aspect": 1.029
+  },
+  {
+    "id": "ies-detection-settings__checkbox-radio-toggle__12",
+    "type": "checkbox-radio-toggle",
+    "label": "enabled toggle (Sandbox)",
+    "product": "IES",
+    "screen_slug": "ies-detection-settings",
+    "aspect": 1.469
+  },
+  {
+    "id": "ies-detection-settings__checkbox-radio-toggle__13",
+    "type": "checkbox-radio-toggle",
+    "label": "toggle M365 Allow List",
+    "product": "IES",
+    "screen_slug": "ies-detection-settings",
+    "aspect": 1.469
+  },
+  {
+    "id": "ies-detection-settings__data-card__14",
+    "type": "data-card",
+    "label": "settings section card",
+    "product": "IES",
+    "screen_slug": "ies-detection-settings",
+    "aspect": 3.797
+  },
+  {
+    "id": "ies-email-configuration__data-card__15",
+    "type": "data-card",
+    "label": "Microsoft 365 source card",
+    "product": "IES",
+    "screen_slug": "ies-email-configuration",
+    "aspect": 1.011
+  },
+  {
+    "id": "ies-email-configuration__data-card__16",
+    "type": "data-card",
+    "label": "Google Workspace source card",
+    "product": "IES",
+    "screen_slug": "ies-email-configuration",
+    "aspect": 1.011
+  },
+  {
+    "id": "ies-email-configuration__empty-state__17",
+    "type": "empty-state",
+    "label": "select a source prompt",
+    "product": "IES",
+    "screen_slug": "ies-email-configuration",
+    "aspect": 3.125
+  },
+  {
+    "id": "ies-email-configuration-2__button__18",
+    "type": "button",
+    "label": "primary Add M365",
+    "product": "IES",
+    "screen_slug": "ies-email-configuration-2",
+    "aspect": 3.019
+  },
+  {
+    "id": "ies-email-configuration-2__button__19",
+    "type": "button",
+    "label": "primary Add Google Workspace",
+    "product": "IES",
+    "screen_slug": "ies-email-configuration-2",
+    "aspect": 4.75
+  },
+  {
+    "id": "ies-email-configuration-2__badge-status__20",
+    "type": "badge-status",
+    "label": "CONNECTED status badge",
+    "product": "IES",
+    "screen_slug": "ies-email-configuration-2",
+    "aspect": 3.721
+  },
+  {
+    "id": "ies-email-configuration-2__data-card__21",
+    "type": "data-card",
+    "label": "connected source w/ sparkline",
+    "product": "IES",
+    "screen_slug": "ies-email-configuration-2",
+    "aspect": 1.927
+  },
+  {
+    "id": "ies-home-2__kpi-tile__22",
+    "type": "kpi-tile",
+    "label": "top metrics strip tile",
+    "product": "IES",
+    "screen_slug": "ies-home-2",
+    "aspect": 2.963
+  },
+  {
+    "id": "ies-home-2__data-card__23",
+    "type": "data-card",
+    "label": "Top Threat Types chart card",
+    "product": "IES",
+    "screen_slug": "ies-home-2",
+    "aspect": 1.665
+  },
+  {
+    "id": "ies-home-2__tab__24",
+    "type": "tab",
+    "label": "Emails/Spam legend tabs",
+    "product": "IES",
+    "screen_slug": "ies-home-2",
+    "aspect": 6.694
+  },
+  {
+    "id": "ies-link-isolation__tab__25",
+    "type": "tab",
+    "label": "config sub-tabs row",
+    "product": "IES",
+    "screen_slug": "ies-link-isolation",
+    "aspect": 25.0
+  },
+  {
+    "id": "ies-link-isolation__checkbox-radio-toggle__26",
+    "type": "checkbox-radio-toggle",
+    "label": "radio Block selected",
+    "product": "IES",
+    "screen_slug": "ies-link-isolation",
+    "aspect": 4.0
+  },
+  {
+    "id": "ies-link-isolation__input__27",
+    "type": "input",
+    "label": "Email timeout numeric input",
+    "product": "IES",
+    "screen_slug": "ies-link-isolation",
+    "aspect": 4.927
+  },
+  {
+    "id": "ies-link-isolation__button__28",
+    "type": "button",
+    "label": "Save changes",
+    "product": "IES",
+    "screen_slug": "ies-link-isolation",
+    "aspect": 3.478
+  },
+  {
+    "id": "ies-messages__search__0",
+    "type": "search",
+    "label": "search bar",
+    "product": "IES",
+    "screen_slug": "ies-messages",
+    "aspect": 20.93
+  },
+  {
+    "id": "ies-messages__button__1",
+    "type": "button",
+    "label": "Add column ghost",
+    "product": "IES",
+    "screen_slug": "ies-messages",
+    "aspect": 3.137
+  },
+  {
+    "id": "ies-messages__button__2",
+    "type": "button",
+    "label": "search submit icon",
+    "product": "IES",
+    "screen_slug": "ies-messages",
+    "aspect": 1.159
+  },
+  {
+    "id": "ies-messages__empty-state__3",
+    "type": "empty-state",
+    "label": "no data table",
+    "product": "IES",
+    "screen_slug": "ies-messages",
+    "aspect": 9.138
+  },
+  {
+    "id": "ies-messages__tab__4",
+    "type": "tab",
+    "label": "ALL count tab",
+    "product": "IES",
+    "screen_slug": "ies-messages",
+    "aspect": 5.583
+  },
+  {
+    "id": "ies-messages__dropdown-menu__5",
+    "type": "dropdown-menu",
+    "label": "Remediate split",
+    "product": "IES",
+    "screen_slug": "ies-messages",
+    "aspect": 3.077
+  },
+  {
+    "id": "ies-messages-2__checkbox-radio-toggle__6",
+    "type": "checkbox-radio-toggle",
+    "label": "filter checkbox row",
+    "product": "IES",
+    "screen_slug": "ies-messages-2",
+    "aspect": 4.75
+  },
+  {
+    "id": "ies-messages-2__pagination__7",
+    "type": "pagination",
+    "label": "table pager",
+    "product": "IES",
+    "screen_slug": "ies-messages-2",
+    "aspect": 10.26
+  },
+  {
+    "id": "ies-messages-2__badge-status__8",
+    "type": "badge-status",
+    "label": "verdict dot",
+    "product": "IES",
+    "screen_slug": "ies-messages-2",
+    "aspect": 2.222
+  },
+  {
+    "id": "ies-messages-2__data-card__9",
+    "type": "data-card",
+    "label": "Real Time Analyses chart",
+    "product": "IES",
+    "screen_slug": "ies-messages-2",
+    "aspect": 3.753
+  },
+  {
+    "id": "ies-reports__data-card__10",
+    "type": "data-card",
+    "label": "report tile",
+    "product": "IES",
+    "screen_slug": "ies-reports",
+    "aspect": 1.057
+  },
+  {
+    "id": "ies-reports__breadcrumb__11",
+    "type": "breadcrumb",
+    "label": "account context bar",
+    "product": "IES",
+    "screen_slug": "ies-reports",
+    "aspect": 14.657
+  },
+  {
+    "id": "ies-reports-2__data-card__12",
+    "type": "data-card",
+    "label": "report tile w icon",
+    "product": "IES",
+    "screen_slug": "ies-reports-2",
+    "aspect": 1.057
+  },
+  {
+    "id": "ies-threat-explorer__kpi-tile__13",
+    "type": "kpi-tile",
+    "label": "Attack Severity empty",
+    "product": "IES",
+    "screen_slug": "ies-threat-explorer",
+    "aspect": 1.571
+  },
+  {
+    "id": "ies-threat-explorer__search__14",
+    "type": "search",
+    "label": "compact search",
+    "product": "IES",
+    "screen_slug": "ies-threat-explorer",
+    "aspect": 13.674
+  },
+  {
+    "id": "ies-threat-explorer__button__15",
+    "type": "button",
+    "label": "header date pill",
+    "product": "IES",
+    "screen_slug": "ies-threat-explorer",
+    "aspect": 6.409
+  },
+  {
+    "id": "ies-threat-explorer-2__kpi-tile__16",
+    "type": "kpi-tile",
+    "label": "donut metric tile",
+    "product": "IES",
+    "screen_slug": "ies-threat-explorer-2",
+    "aspect": 0.982
+  },
+  {
+    "id": "ies-threat-explorer-2__badge-status__17",
+    "type": "badge-status",
+    "label": "severity dot row",
+    "product": "IES",
+    "screen_slug": "ies-threat-explorer-2",
+    "aspect": 2.19
+  },
+  {
+    "id": "ies-threat-explorer-2__checkbox-radio-toggle__18",
+    "type": "checkbox-radio-toggle",
+    "label": "verdict checkbox",
+    "product": "IES",
+    "screen_slug": "ies-threat-explorer-2",
+    "aspect": 5.774
+  },
+  {
+    "id": "ies-threat-explorer-2__pagination__19",
+    "type": "pagination",
+    "label": "explorer pager",
+    "product": "IES",
+    "screen_slug": "ies-threat-explorer-2",
+    "aspect": 11.4
+  },
+  {
+    "id": "ies-users__button__20",
+    "type": "button",
+    "label": "Export primary",
+    "product": "IES",
+    "screen_slug": "ies-users",
+    "aspect": 2.581
+  },
+  {
+    "id": "ies-users__avatar__21",
+    "type": "avatar",
+    "label": "user initials avatar",
+    "product": "IES",
+    "screen_slug": "ies-users",
+    "aspect": 0.969
+  },
+  {
+    "id": "ies-users__filter-chip__22",
+    "type": "filter-chip",
+    "label": "+1 Other group chip",
+    "product": "IES",
+    "screen_slug": "ies-users",
+    "aspect": 3.265
+  },
+  {
+    "id": "ies-users__badge-status__23",
+    "type": "badge-status",
+    "label": "Microsoft 365 source",
+    "product": "IES",
+    "screen_slug": "ies-users",
+    "aspect": 4.0
+  },
+  {
+    "id": "ies-users__pagination__24",
+    "type": "pagination",
+    "label": "users pager",
+    "product": "IES",
+    "screen_slug": "ies-users",
+    "aspect": 6.047
+  },
+  {
+    "id": "ies-users-2__filter-chip__25",
+    "type": "filter-chip",
+    "label": "+3 others chip",
+    "product": "IES",
+    "screen_slug": "ies-users-2",
+    "aspect": 3.265
+  },
+  {
+    "id": "ies-users-2__breadcrumb__26",
+    "type": "breadcrumb",
+    "label": "reseller path",
+    "product": "IES",
+    "screen_slug": "ies-users-2",
+    "aspect": 10.727
+  },
+  {
+    "id": "overview__kpi-tile__0",
+    "type": "kpi-tile",
+    "label": "total emails stat",
+    "product": "Portal/Admin",
+    "screen_slug": "overview",
+    "aspect": 2.284
+  },
+  {
+    "id": "overview__data-card__1",
+    "type": "data-card",
+    "label": "promo product card",
+    "product": "Portal/Admin",
+    "screen_slug": "overview",
+    "aspect": 1.721
+  },
+  {
+    "id": "overview__button__2",
+    "type": "button",
+    "label": "configure pill",
+    "product": "Portal/Admin",
+    "screen_slug": "overview",
+    "aspect": 2.667
+  },
+  {
+    "id": "overview__tab__3",
+    "type": "tab",
+    "label": "active nav item",
+    "product": "Portal/Admin",
+    "screen_slug": "overview",
+    "aspect": 5.483
+  },
+  {
+    "id": "overview__dropdown-menu__4",
+    "type": "dropdown-menu",
+    "label": "date range selector",
+    "product": "Portal/Admin",
+    "screen_slug": "overview",
+    "aspect": 7.531
+  },
+  {
+    "id": "overview-2__data-card__5",
+    "type": "data-card",
+    "label": "safesend promo light",
+    "product": "Portal/Admin",
+    "screen_slug": "overview-2",
+    "aspect": 1.759
+  },
+  {
+    "id": "overview-2__data-card__6",
+    "type": "data-card",
+    "label": "IES promo dark gradient",
+    "product": "Portal/Admin",
+    "screen_slug": "overview-2",
+    "aspect": 1.759
+  },
+  {
+    "id": "overview-2__button__7",
+    "type": "button",
+    "label": "configure pill purple",
+    "product": "Portal/Admin",
+    "screen_slug": "overview-2",
+    "aspect": 3.333
+  },
+  {
+    "id": "overview-2__button__8",
+    "type": "button",
+    "label": "start free trial blue",
+    "product": "Portal/Admin",
+    "screen_slug": "overview-2",
+    "aspect": 3.902
+  },
+  {
+    "id": "overview-2__breadcrumb__9",
+    "type": "breadcrumb",
+    "label": "endpoint breadcrumb",
+    "product": "Portal/Admin",
+    "screen_slug": "overview-2",
+    "aspect": 19.297
+  },
+  {
+    "id": "overview-2__avatar__10",
+    "type": "avatar",
+    "label": "safesend icon badge",
+    "product": "Portal/Admin",
+    "screen_slug": "overview-2",
+    "aspect": 1.185
+  },
+  {
+    "id": "account__data-card__11",
+    "type": "data-card",
+    "label": "product seats card",
+    "product": "Portal/Admin",
+    "screen_slug": "account",
+    "aspect": 8.333
+  },
+  {
+    "id": "account__kpi-tile__12",
+    "type": "kpi-tile",
+    "label": "licensed seats metric",
+    "product": "Portal/Admin",
+    "screen_slug": "account",
+    "aspect": 5.636
+  },
+  {
+    "id": "account__breadcrumb__13",
+    "type": "breadcrumb",
+    "label": "account breadcrumb dark",
+    "product": "Portal/Admin",
+    "screen_slug": "account",
+    "aspect": 12.279
+  },
+  {
+    "id": "account__tab__14",
+    "type": "tab",
+    "label": "active Account nav",
+    "product": "Portal/Admin",
+    "screen_slug": "account",
+    "aspect": 5.692
+  },
+  {
+    "id": "admins__button__15",
+    "type": "button",
+    "label": "Add Admin primary blue",
+    "product": "Portal/Admin",
+    "screen_slug": "admins",
+    "aspect": 2.5
+  },
+  {
+    "id": "admins__dropdown-menu__16",
+    "type": "dropdown-menu",
+    "label": "row kebab menu",
+    "product": "Portal/Admin",
+    "screen_slug": "admins",
+    "aspect": 0.919
+  },
+  {
+    "id": "admins__data-card__17",
+    "type": "data-card",
+    "label": "admins list panel",
+    "product": "Portal/Admin",
+    "screen_slug": "admins",
+    "aspect": 1.295
+  },
+  {
+    "id": "admins__tab__18",
+    "type": "tab",
+    "label": "column header row",
+    "product": "Portal/Admin",
+    "screen_slug": "admins",
+    "aspect": 30.0
+  },
+  {
+    "id": "roles__button__19",
+    "type": "button",
+    "label": "Add Role primary blue",
+    "product": "Portal/Admin",
+    "screen_slug": "roles",
+    "aspect": 1.882
+  },
+  {
+    "id": "roles__badge-status__20",
+    "type": "badge-status",
+    "label": "Default blue pill",
+    "product": "Portal/Admin",
+    "screen_slug": "roles",
+    "aspect": 2.192
+  },
+  {
+    "id": "roles__data-card__21",
+    "type": "data-card",
+    "label": "roles table card",
+    "product": "Portal/Admin",
+    "screen_slug": "roles",
+    "aspect": 2.632
+  },
+  {
+    "id": "roles__button__22",
+    "type": "button",
+    "label": "delete trash icon",
+    "product": "Portal/Admin",
+    "screen_slug": "roles",
+    "aspect": 1.062
+  },
+  {
+    "id": "profile__input__23",
+    "type": "input",
+    "label": "text field optional",
+    "product": "Portal/Admin",
+    "screen_slug": "profile",
+    "aspect": 18.0
+  },
+  {
+    "id": "profile__dropdown-menu__24",
+    "type": "dropdown-menu",
+    "label": "timezone select",
+    "product": "Portal/Admin",
+    "screen_slug": "profile",
+    "aspect": 16.667
+  },
+  {
+    "id": "profile__button__25",
+    "type": "button",
+    "label": "Save disabled",
+    "product": "Portal/Admin",
+    "screen_slug": "profile",
+    "aspect": 2.192
+  },
+  {
+    "id": "profile__button__26",
+    "type": "button",
+    "label": "secondary steel blue",
+    "product": "Portal/Admin",
+    "screen_slug": "profile",
+    "aspect": 5.565
+  },
+  {
+    "id": "saml__empty-state__27",
+    "type": "empty-state",
+    "label": "SAML config intro card",
+    "product": "Portal/Admin",
+    "screen_slug": "saml",
+    "aspect": 4.39
+  },
+  {
+    "id": "saml__button__28",
+    "type": "button",
+    "label": "Configure SAML w icon",
+    "product": "Portal/Admin",
+    "screen_slug": "saml",
+    "aspect": 2.623
+  },
+  {
+    "id": "saml__avatar__29",
+    "type": "avatar",
+    "label": "SAML key nav icon",
+    "product": "Portal/Admin",
+    "screen_slug": "saml",
+    "aspect": 1.074
+  },
+  {
+    "id": "info-edr__empty-state__30",
+    "type": "empty-state",
+    "label": "EDR coming soon promo",
+    "product": "Portal/Admin",
+    "screen_slug": "info-edr",
+    "aspect": 3.586
+  },
+  {
+    "id": "info-edr__button__31",
+    "type": "button",
+    "label": "Learn More steel blue",
+    "product": "Portal/Admin",
+    "screen_slug": "info-edr",
+    "aspect": 2.424
+  },
+  {
+    "id": "info-edr__badge-status__32",
+    "type": "badge-status",
+    "label": "locked EDR nav lock",
+    "product": "Portal/Admin",
+    "screen_slug": "info-edr",
+    "aspect": 3.793
+  },
+  {
+    "id": "safesend-admin-dashboard__kpi-tile__0",
+    "type": "kpi-tile",
+    "label": "warned count tile",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-dashboard",
+    "aspect": 1.928
+  },
+  {
+    "id": "safesend-admin-dashboard__data-card__1",
+    "type": "data-card",
+    "label": "top warned users",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-dashboard",
+    "aspect": 2.528
+  },
+  {
+    "id": "safesend-admin-dashboard__empty-state__2",
+    "type": "empty-state",
+    "label": "no data to display",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-dashboard",
+    "aspect": 2.63
+  },
+  {
+    "id": "safesend-admin-dashboard__breadcrumb__3",
+    "type": "breadcrumb",
+    "label": "reseller > tenant",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-dashboard",
+    "aspect": 15.059
+  },
+  {
+    "id": "safesend-admin-assignments__button__4",
+    "type": "button",
+    "label": "add assignment primary dark",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-assignments",
+    "aspect": 4.419
+  },
+  {
+    "id": "safesend-admin-assignments__badge-status__5",
+    "type": "badge-status",
+    "label": "1 users count chip",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-assignments",
+    "aspect": 2.388
+  },
+  {
+    "id": "safesend-admin-assignments__data-card__6",
+    "type": "data-card",
+    "label": "default policy assignment row",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-assignments",
+    "aspect": 12.78
+  },
+  {
+    "id": "safesend-admin-assignments__dropdown-menu__7",
+    "type": "dropdown-menu",
+    "label": "policy select pill",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-assignments",
+    "aspect": 3.196
+  },
+  {
+    "id": "safesend-admin-events-explorer__search__8",
+    "type": "search",
+    "label": "dark search bar",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-events-explorer",
+    "aspect": 13.341
+  },
+  {
+    "id": "safesend-admin-events-explorer__badge-status__9",
+    "type": "badge-status",
+    "label": "dark confirmed/blocked status",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-events-explorer",
+    "aspect": 6.069
+  },
+  {
+    "id": "safesend-admin-events-explorer__tab__10",
+    "type": "tab",
+    "label": "all filter tab",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-events-explorer",
+    "aspect": 4.0
+  },
+  {
+    "id": "safesend-admin-events-explorer__pagination__11",
+    "type": "pagination",
+    "label": "dark pager",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-events-explorer",
+    "aspect": 13.804
+  },
+  {
+    "id": "safesend-admin-events-explorer__dropdown-menu__12",
+    "type": "dropdown-menu",
+    "label": "add column dark",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-events-explorer",
+    "aspect": 4.293
+  },
+  {
+    "id": "safesend-admin-policies__button__13",
+    "type": "button",
+    "label": "add policy primary dark",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-policies",
+    "aspect": 2.667
+  },
+  {
+    "id": "safesend-admin-policies__search__14",
+    "type": "search",
+    "label": "light search policy",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-policies",
+    "aspect": 4.955
+  },
+  {
+    "id": "safesend-admin-policies__badge-status__15",
+    "type": "badge-status",
+    "label": "default light badge",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-policies",
+    "aspect": 1.778
+  },
+  {
+    "id": "safesend-admin-policies__pagination__16",
+    "type": "pagination",
+    "label": "light numbered pager",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-policies",
+    "aspect": 5.344
+  },
+  {
+    "id": "safesend-admin-reports__kpi-tile__17",
+    "type": "kpi-tile",
+    "label": "donut summary tile",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-reports",
+    "aspect": 1.668
+  },
+  {
+    "id": "safesend-admin-reports__badge-status__18",
+    "type": "badge-status",
+    "label": "confirmed/sent pill on dark",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-reports",
+    "aspect": 3.81
+  },
+  {
+    "id": "safesend-admin-reports__dropdown-menu__19",
+    "type": "dropdown-menu",
+    "label": "recipients filter select",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-reports",
+    "aspect": 3.265
+  },
+  {
+    "id": "safesend-admin-rulesets__button__20",
+    "type": "button",
+    "label": "add ruleset primary dark",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-rulesets",
+    "aspect": 3.636
+  },
+  {
+    "id": "safesend-admin-rulesets__search__21",
+    "type": "search",
+    "label": "light search rulesets",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-rulesets",
+    "aspect": 5.047
+  },
+  {
+    "id": "safesend-admin-rulesets__pagination__22",
+    "type": "pagination",
+    "label": "light numbered pager",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-rulesets",
+    "aspect": 3.961
+  },
+  {
+    "id": "safesend-admin-sensitive-data-explorer__kpi-tile__23",
+    "type": "kpi-tile",
+    "label": "total matches dark tile",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-sensitive-data-explorer",
+    "aspect": 3.064
+  },
+  {
+    "id": "safesend-admin-sensitive-data-explorer__search__24",
+    "type": "search",
+    "label": "dark search with button",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-sensitive-data-explorer",
+    "aspect": 16.959
+  },
+  {
+    "id": "safesend-admin-sensitive-data-explorer__tab__25",
+    "type": "tab",
+    "label": "rules/keywords segmented",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-sensitive-data-explorer",
+    "aspect": 3.8
+  },
+  {
+    "id": "safesend-admin-sensitive-data-explorer__pagination__26",
+    "type": "pagination",
+    "label": "rows + arrows pager",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-sensitive-data-explorer",
+    "aspect": 7.955
+  },
+  {
+    "id": "safesend-admin-sensitive-data-explorer__dropdown-menu__27",
+    "type": "dropdown-menu",
+    "label": "rows per page select",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-sensitive-data-explorer",
+    "aspect": 1.633
+  },
+  {
+    "id": "safesend-admin-settings__button__28",
+    "type": "button",
+    "label": "download primary purple",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-settings",
+    "aspect": 3.265
+  },
+  {
+    "id": "safesend-admin-settings__button__29",
+    "type": "button",
+    "label": "edit logo secondary",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-settings",
+    "aspect": 3.721
+  },
+  {
+    "id": "safesend-admin-settings__badge-status__30",
+    "type": "badge-status",
+    "label": "connected status green",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-settings",
+    "aspect": 4.0
+  },
+  {
+    "id": "safesend-admin-settings__data-card__31",
+    "type": "data-card",
+    "label": "entra success banner",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-settings",
+    "aspect": 16.667
+  },
+  {
+    "id": "safesend-admin-strings__search__32",
+    "type": "search",
+    "label": "dark search strings",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-strings",
+    "aspect": 3.275
+  },
+  {
+    "id": "safesend-admin-strings__button__33",
+    "type": "button",
+    "label": "header dark CTAs",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-strings",
+    "aspect": 5.11
+  },
+  {
+    "id": "safesend-admin-users-explorer__kpi-tile__34",
+    "type": "kpi-tile",
+    "label": "total emails dark tile",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-users-explorer",
+    "aspect": 3.352
+  },
+  {
+    "id": "safesend-admin-users-explorer__search__35",
+    "type": "search",
+    "label": "dark search name/email",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-users-explorer",
+    "aspect": 22.5
+  },
+  {
+    "id": "safesend-admin-users-explorer__avatar__36",
+    "type": "avatar",
+    "label": "user initial avatar",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-users-explorer",
+    "aspect": 1.308
+  },
+  {
+    "id": "safesend-admin-users-explorer__pagination__37",
+    "type": "pagination",
+    "label": "rows + arrows dark pager",
+    "product": "SafeSend",
+    "screen_slug": "safesend-admin-users-explorer",
+    "aspect": 7.932
+  }
+]

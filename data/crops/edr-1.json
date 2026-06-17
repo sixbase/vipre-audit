@@ -1,0 +1,51 @@
+{
+  "crops": [
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png", "component_type": "kpi-tile", "variant_label": "site summary stat tile", "box": [0.30, 0.075, 0.115, 0.045] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png", "component_type": "breadcrumb", "variant_label": "top org breadcrumb tabs", "box": [0.0, 0.0, 0.55, 0.025] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png", "component_type": "data-card", "variant_label": "donut chart card", "box": [0.40, 0.86, 0.18, 0.13] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png", "component_type": "empty-state", "variant_label": "no threats placeholder", "box": [0.78, 0.16, 0.20, 0.05] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-edrDashboard-2026-06-17-08_18_40.png", "component_type": "kpi-tile", "variant_label": "active incidents tile", "box": [0.145, 0.075, 0.36, 0.07] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-edrDashboard-2026-06-17-08_18_40.png", "component_type": "data-card", "variant_label": "top 10 detections list card", "box": [0.155, 0.155, 0.155, 0.32] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-edrDashboard-2026-06-17-08_18_40.png", "component_type": "avatar", "variant_label": "VIPRE site manager logo mark", "box": [0.01, 0.075, 0.10, 0.05] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-edrDashboard-2026-06-17-08_18_40.png", "component_type": "breadcrumb", "variant_label": "org context breadcrumb", "box": [0.0, 0.0, 0.62, 0.022] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png", "component_type": "button", "variant_label": "primary export CSV blue", "box": [0.84, 0.04, 0.085, 0.035] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png", "component_type": "badge-status", "variant_label": "Protected green status", "box": [0.345, 0.115, 0.055, 0.022] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png", "component_type": "search", "variant_label": "table search input icon", "box": [0.905, 0.05, 0.045, 0.03] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png", "component_type": "checkbox-radio-toggle", "variant_label": "filter accordion checkbox", "box": [0.30, 0.20, 0.16, 0.025] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png", "component_type": "tab", "variant_label": "All Devices left tabs", "box": [0.295, 0.10, 0.17, 0.06] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-exclusions-windows-2026-06-17-08_23_58.png", "component_type": "button", "variant_label": "primary Add Exclusion List blue", "box": [0.88, 0.03, 0.105, 0.035] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-exclusions-windows-2026-06-17-08_23_58.png", "component_type": "badge-status", "variant_label": "Global scope chip", "box": [0.86, 0.165, 0.07, 0.02] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-exclusions-windows-2026-06-17-08_23_58.png", "component_type": "tab", "variant_label": "OS platform vertical tabs", "box": [0.20, 0.085, 0.10, 0.22] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-exclusions-windows-2026-06-17-08_23_58.png", "component_type": "empty-state", "variant_label": "No exclusions found", "box": [0.74, 0.39, 0.20, 0.04] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-blocklists-windows-2026-06-17-08_24_27.png", "component_type": "button", "variant_label": "primary Add Blocklist blue", "box": [0.895, 0.035, 0.095, 0.04] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-blocklists-windows-2026-06-17-08_24_27.png", "component_type": "tab", "variant_label": "Windows platform tab chevron", "box": [0.155, 0.075, 0.105, 0.05] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-blocklists-windows-2026-06-17-08_24_27.png", "component_type": "empty-state", "variant_label": "No blocklist found", "box": [0.55, 0.155, 0.18, 0.035] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png", "component_type": "button", "variant_label": "primary Upload File blue icon", "box": [0.885, 0.04, 0.095, 0.035] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png", "component_type": "dropdown-menu", "variant_label": "Submission Status filter dropdown", "box": [0.755, 0.078, 0.10, 0.025] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png", "component_type": "filter-chip", "variant_label": "Risk filter chip", "box": [0.855, 0.078, 0.045, 0.025] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png", "component_type": "empty-state", "variant_label": "No analyzed files found", "box": [0.51, 0.135, 0.18, 0.03] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-events-eventsList-2026-06-17-08_26_24.png", "component_type": "badge-status", "variant_label": "MEDIUM severity orange badge", "box": [0.43, 0.245, 0.05, 0.02] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-events-eventsList-2026-06-17-08_26_24.png", "component_type": "search", "variant_label": "Search Events input + icon", "box": [0.295, 0.075, 0.175, 0.03] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-events-eventsList-2026-06-17-08_26_24.png", "component_type": "checkbox-radio-toggle", "variant_label": "event type filter checkbox", "box": [0.295, 0.235, 0.16, 0.025] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png", "component_type": "kpi-tile", "variant_label": "EDR+MDR license summary tile", "box": [0.30, 0.165, 0.16, 0.045] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png", "component_type": "tab", "variant_label": "Billed Sites / Trial Sites vertical tabs", "box": [0.155, 0.08, 0.10, 0.10] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png", "component_type": "badge-status", "variant_label": "EDR site type pill", "box": [0.555, 0.535, 0.04, 0.02] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png", "component_type": "data-card", "variant_label": "daily active devices chart card", "box": [0.30, 0.255, 0.62, 0.21] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png", "component_type": "button", "variant_label": "secondary Approve Latest Version outline", "box": [0.87, 0.035, 0.115, 0.035] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png", "component_type": "search", "variant_label": "Search Sites input", "box": [0.825, 0.16, 0.155, 0.03] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png", "component_type": "filter-chip", "variant_label": "All Sites count radio filters", "box": [0.265, 0.16, 0.30, 0.025] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png", "component_type": "badge-status", "variant_label": "Up-to-date green check status", "box": [0.91, 0.218, 0.07, 0.022] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png", "component_type": "tab", "variant_label": "Windows/Mac/Linux OS vertical tabs", "box": [0.155, 0.08, 0.10, 0.16] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-help-documentation-2026-06-17-08_27_46.png", "component_type": "tab", "variant_label": "Online Docs / Diagnostics top tabs", "box": [0.155, 0.08, 0.115, 0.10] },
+    { "file": "screencapture-ices-dev-portal-electric-net-edr-esm-help-documentation-2026-06-17-08_27_46.png", "component_type": "data-card", "variant_label": "First Steps icon card", "box": [0.32, 0.40, 0.13, 0.13] }
+  ]
+}

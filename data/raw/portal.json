@@ -1,0 +1,391 @@
+{
+  "product": "Portal/Admin",
+  "screens": [
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png",
+      "screen_label": "Account",
+      "module": "Account/Admin",
+      "layout_notes": "Full-page light gray (#e9eaeb) canvas with two stacked white rounded data-cards (Account Details, Products). Left nav is in EXPANDED state (~218px) with light separator lines under IES/SafeSend sub-groups. Header is the tall navy variant (~110px). Products section uses nested outlined sub-cards with all-caps gray metric labels. Consistent Symphony chrome era."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03 (1).png",
+      "screen_label": "Admins",
+      "module": "Account/Admin",
+      "layout_notes": "Rendered at a NARROWER/compact viewport (~778px wide) so left nav is collapsed-to-narrow (~110px, icon+label small), header is short (~58px). Single white card holds a dense table with per-row kebab menus. Identical content to the wider Admins capture but at different zoom/density — useful for detecting responsive divergence."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png",
+      "screen_label": "Admins",
+      "module": "Account/Admin",
+      "layout_notes": "Same Admins screen and same narrow viewport as the (1) duplicate — short header (~58px), narrow nav (~110px). Table of full name + email with kebab row actions, 'Found 23 matches' footer count. Blue 'Add Admin' button top-right in header."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-info-edr-2026-06-17-08_13_29.png",
+      "screen_label": "EDR (Coming Soon)",
+      "module": "EDR marketing/upsell",
+      "layout_notes": "Narrow viewport (~778px). Marketing splash on pale blue (#eaf1f9) background — large display heading, orange 'COMING SOON!' eyebrow, product screenshot collage on the right, solid blue 'Learn More' CTA. Different visual era from the data screens: promotional layout, no card chrome, oversized typography."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png",
+      "screen_label": "Overview (SafeSend dashboard)",
+      "module": "Dashboard",
+      "layout_notes": "Rendered very small/zoomed-out (~390px). Light-blue framed dashboard panel containing: a centered SafeSend avatar chip, a Sankey/flow chart ('Email Action Journey') with a big '333 Total Emails' KPI, a combo bar+line chart ('Emails vs Actions') with a legend, two list panels ('Top Modifications', 'Top Warned Users'), and a bottom 'Complete Your Security Suite' upsell card with a purple 'Configure' button. Visually the most chart-heavy / distinct design era — pastel gradient panel, multi-color charts, rounded inner cards."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png",
+      "screen_label": "Overview (empty / upsell)",
+      "module": "Dashboard",
+      "layout_notes": "Narrow viewport (~778px). Nav shows a DIFFERENT product set (SafeSend + EDR expanded, IES locked) and a DIFFERENT breadcrumb tenant (Gus Endpoint Distributor) — this account has no dashboard data, so Overview renders only the 'Complete Your Security Suite' empty/upsell state. Two side-by-side product promo cards: SafeSend (pale pink dotted, purple 'Configure') and Integrated Email Security (dark navy gradient, white 'Start a Free Trial'). The two cards are styled inconsistently with each other."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-profile-2026-06-17-08_14_50.png",
+      "screen_label": "Profile",
+      "module": "Account/Admin",
+      "layout_notes": "Wide viewport, expanded nav (~218px), tall navy header. Single white card form: read-only Email/Role text, two text inputs (First/Last Name, gray-filled), one native-style select (Time Zone), a disabled gray 'Save' button, and two muted slate secondary buttons (Change Two-Factor Authentication, Change Password) separated by hairline dividers. Standard Symphony form era."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-roles-2026-06-17-08_14_25.png",
+      "screen_label": "Roles",
+      "module": "Account/Admin",
+      "layout_notes": "Wide viewport, expanded nav, tall navy header with blue 'Add Role' CTA. Single white card with a 4-column access-matrix table (Role Name / Symphony / IES / SafeSend). Pill 'Default' badges next to system roles; trash-icon row action only on custom rows. 'Found 5 matches' footer. Tinted gray-blue header row, no row striping."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-saml-2026-06-17-08_13_44.png",
+      "screen_label": "SAML",
+      "module": "Account/Admin (SSO)",
+      "layout_notes": "Narrow viewport (~778px). Single white card with explanatory paragraph, a slate 'Configure SAML' button with gear icon, and a large decorative blue line-art security illustration on the right. Empty/intro state styling."
+    }
+  ],
+  "observations": [
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png",
+      "variant_key": "tall-navy-header-with-page-title",
+      "attributes": {"height_px_guess": 110, "bg_color": "#0c1f33", "logo": "VIPRE SYMPHONY wordmark (white V triangle mark)", "page_title": "icon + 'Account' large white text", "right_items": "none", "secondary_bar": "near-black breadcrumb strip above (#1c1c1c)"},
+      "location": "top, full width above content",
+      "verbatim_label": "Account"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-roles-2026-06-17-08_14_25.png",
+      "variant_key": "tall-navy-header-with-cta",
+      "attributes": {"height_px_guess": 110, "bg_color": "#0c1f33", "logo": "VIPRE SYMPHONY wordmark", "page_title": "tag icon + 'Roles'", "right_items": "blue 'Add Role' button (#2f6fb0)"},
+      "location": "top, full width",
+      "verbatim_label": "Roles"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png",
+      "variant_key": "short-navy-header-with-cta",
+      "attributes": {"height_px_guess": 58, "bg_color": "#0c1f33", "logo": "VIPRE SYMPHONY wordmark (small)", "page_title": "people icon + 'Admins'", "right_items": "blue 'Add Admin' button (#2f6fb0)", "note": "appears shorter than Account/Roles header due to narrower viewport render"},
+      "location": "top, full width",
+      "verbatim_label": "Admins"
+    },
+    {
+      "component_type": "nav-sidebar",
+      "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png",
+      "variant_key": "expanded-dark-nav-with-grouped-products",
+      "attributes": {"position": "left", "width_px_guess": 218, "bg_color": "#0a1626 to #0c1f33 (very dark navy)", "item_style": "white text, Material-Symbols icons, expandable product groups (IES, SafeSend) with chevron, indented 'full portal' italic sub-link, faint vertical connector line", "active_state": "solid blue (#2f6fb0) full-width highlight on bottom items (Account)", "locked_item": "EDR with padlock", "icon_set": "Material Symbols (outlined)", "footer_items": "SAML, Admins, Roles, Account, Profile + logout"},
+      "location": "left, full height",
+      "verbatim_label": "Overview / IES / SafeSend / EDR / SAML / Admins / Roles / Account / Profile"
+    },
+    {
+      "component_type": "nav-sidebar",
+      "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png",
+      "variant_key": "narrow-dark-nav",
+      "attributes": {"position": "left", "width_px_guess": 110, "bg_color": "#0a1626 (very dark navy)", "item_style": "small icon + small white label stacked compact, same grouped structure", "active_state": "solid blue full-width highlight (Admins)", "icon_set": "Material Symbols", "note": "narrower render of same nav; group separator boxes around IES/SafeSend"},
+      "location": "left, full height",
+      "verbatim_label": "Overview / IES / SafeSend / EDR / SAML / Admins / Roles / Account / Profile"
+    },
+    {
+      "component_type": "nav-sidebar",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png",
+      "variant_key": "narrow-dark-nav-alt-product-set",
+      "attributes": {"position": "left", "width_px_guess": 110, "bg_color": "#0a1626", "item_style": "SafeSend + EDR groups expanded (Incidents/Devices/Policies), IES collapsed+locked padlock — DIFFERENT product/entitlement set than other screens", "active_state": "solid blue highlight (Overview)", "icon_set": "Material Symbols"},
+      "location": "left, full height",
+      "verbatim_label": "Overview / SafeSend / EDR / IES / SAML / Admins / Roles / Account / Profile"
+    },
+    {
+      "component_type": "breadcrumb",
+      "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png",
+      "variant_key": "near-black-tenant-breadcrumb-strip",
+      "attributes": {"bg_color": "#1c1c1c", "text_color": "#cfcfcf", "separator": "chevron '>'", "leading_icon": "folder", "active_crumb": "dark pill chip with building icon ('Zack IES Safesend Combo')", "height_px_guess": 42},
+      "location": "very top, above header",
+      "verbatim_label": "DEV - Monthly Reseller - DO NOT DELETE > Zack IES Safesend Combo"
+    },
+    {
+      "component_type": "breadcrumb",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png",
+      "variant_key": "near-black-tenant-breadcrumb-3-level",
+      "attributes": {"bg_color": "#1c1c1c", "text_color": "#cfcfcf", "separator": "chevron '>'", "depth": "3 levels (distributor > reseller > endpoint)", "active_crumb": "dark pill chip"},
+      "location": "very top",
+      "verbatim_label": "Gus Endpoint Distributor 001 > Gus Dist Reseller - Endpoint 001 > Gus Dis Reseller Direct Endpoint 001"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png",
+      "variant_key": "white-rounded-section-card",
+      "attributes": {"bg_color": "#ffffff", "radius_px": 10, "border": "none / very light", "shadow": "subtle", "title_style": "bold dark heading ~18px", "padding": "generous"},
+      "location": "main content",
+      "verbatim_label": "Account Details / Products"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png",
+      "variant_key": "nested-outlined-product-card",
+      "attributes": {"bg_color": "#ffffff", "border": "1px light gray (#e4e7eb)", "radius_px": 8, "label_style": "all-caps bold blue-gray small labels (LICENSED SEATS / ACTIVE SEATS)", "value_style": "plain dark number"},
+      "location": "inside Products card",
+      "verbatim_label": "Integrated Email Security / SafeSend — LICENSED SEATS / ACTIVE SEATS"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png",
+      "variant_key": "promo-card-pink-dotted",
+      "attributes": {"bg": "pale pink/lavender (#f7f0f6) with dotted texture", "border": "light, rounded ~14px", "icon": "purple circular SafeSend paper-plane", "heading": "all-caps 'SAFESEND'", "cta": "purple pill 'Configure' (#7b3fb0)", "subtext_link": "'Ready to set up!'"},
+      "location": "main content, left",
+      "verbatim_label": "SAFESEND — Prevent data breaches at the source. — Configure"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png",
+      "variant_key": "promo-card-navy-gradient",
+      "attributes": {"bg": "dark navy blue gradient (#13355f to #0e2a4d)", "border": "rounded ~14px", "icon": "blue circular envelope", "heading": "white all-caps 'INTEGRATED EMAIL SECURITY'", "cta": "white pill 'Start a Free Trial' with blue text", "note": "styled completely differently from sibling pink card"},
+      "location": "main content, right",
+      "verbatim_label": "INTEGRATED EMAIL SECURITY — Inbox protection for evolving threats. — Start a Free Trial"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png",
+      "variant_key": "promo-card-single-ies-light",
+      "attributes": {"bg": "white/very light", "border": "rounded, light", "icon": "blue envelope circle", "heading": "INTEGRATED EMAIL SECURITY", "cta": "purple 'Configure' pill", "subtext": "'Ready to set up!'", "note": "third distinct promo-card styling vs the two on the other overview"},
+      "location": "bottom of dashboard, centered",
+      "verbatim_label": "INTEGRATED EMAIL SECURITY — Inbox protection for evolving threats. — Configure"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png",
+      "variant_key": "big-number-with-label",
+      "attributes": {"value_style": "very large dark number '333'", "label": "small gray 'Total Emails'", "secondary_value": "'283 Warned'", "color": "neutral dark text, no tile fill"},
+      "location": "left of Email Action Journey chart",
+      "verbatim_label": "333 Total Emails / 283 Warned"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png",
+      "variant_key": "sankey-flow-email-journey",
+      "attributes": {"chart_type": "sankey / flow", "palette": "blue source band, green + red/pink outcome ribbons", "style": "rounded flowing ribbons, light labels (Warned, Action Taken, Confirmed & Sent, Modified & Confirmed, etc.)"},
+      "location": "dashboard, top-center panel",
+      "verbatim_label": "Email Action Journey"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png",
+      "variant_key": "combo-bar-line-timeseries",
+      "attributes": {"chart_type": "combo (stacked bars + line)", "palette": "blue, red, orange/yellow series", "style": "thin bars over date x-axis (May–Jun), legend chips (Emails Sent, Confirmed & Sent, Modified & Confirmed)", "gridlines": "light"},
+      "location": "dashboard, mid panel",
+      "verbatim_label": "Emails vs Actions"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png",
+      "variant_key": "admins-list-kebab-rows",
+      "attributes": {"header_fill": "#ffffff (no fill, gray uppercase labels)", "row_striping": "none (plain white)", "border_style": "thin bottom hairline per row (#eef0f2)", "density": "compact", "sort_affordance": "none visible", "pagination_style": "none — 'Found 23 matches' count footer", "row_action_style": "vertical kebab (3-dot) icon per row, far right"},
+      "location": "main card",
+      "verbatim_label": "FULL NAME / EMAIL — Found 23 matches"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-roles-2026-06-17-08_14_25.png",
+      "variant_key": "roles-access-matrix",
+      "attributes": {"header_fill": "tinted light gray-blue (#f4f6f9)", "row_striping": "none", "border_style": "hairline row dividers", "density": "comfortable", "sort_affordance": "none", "pagination_style": "none — 'Found 5 matches' footer", "row_action_style": "trash/delete icon only on custom rows (not default rows)", "cell_content": "text values (Full access / No access / Read-only / Analyst)"},
+      "location": "main card",
+      "verbatim_label": "ROLE NAME / SYMPHONY / IES / SAFESEND — Found 5 matches"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-roles-2026-06-17-08_14_25.png",
+      "variant_key": "primary-solid-blue",
+      "attributes": {"fill": "solid blue #2f6fb0", "shape_radius": 6, "text_color": "#ffffff", "size": "medium", "has_icon": false, "casing": "Title Case", "role": "primary CTA in header"},
+      "location": "header top-right",
+      "verbatim_label": "Add Role"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png",
+      "variant_key": "primary-solid-blue",
+      "attributes": {"fill": "solid blue #2f6fb0", "shape_radius": 6, "text_color": "#ffffff", "size": "medium", "has_icon": false, "casing": "Title Case", "role": "primary CTA in header"},
+      "location": "header top-right",
+      "verbatim_label": "Add Admin"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-profile-2026-06-17-08_14_50.png",
+      "variant_key": "secondary-muted-slate",
+      "attributes": {"fill": "muted slate blue #5b7c9d", "shape_radius": 5, "text_color": "#ffffff", "size": "medium", "has_icon": false, "casing": "Title Case", "role": "secondary action"},
+      "location": "form body",
+      "verbatim_label": "Change Two-Factor Authentication / Change Password"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-profile-2026-06-17-08_14_50.png",
+      "variant_key": "disabled-gray-with-check",
+      "attributes": {"fill": "light gray #d6dbe0", "shape_radius": 5, "text_color": "muted gray", "size": "medium", "has_icon": true, "icon": "check", "casing": "Title Case", "role": "disabled save"},
+      "location": "below form fields",
+      "verbatim_label": "Save"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-saml-2026-06-17-08_13_44.png",
+      "variant_key": "secondary-slate-with-gear-icon",
+      "attributes": {"fill": "muted slate blue #5b7c9d", "shape_radius": 5, "text_color": "#ffffff", "size": "medium", "has_icon": true, "icon": "gear/settings", "casing": "Title Case", "role": "primary action on intro state"},
+      "location": "card body",
+      "verbatim_label": "Configure SAML"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-info-edr-2026-06-17-08_13_29.png",
+      "variant_key": "marketing-solid-blue",
+      "attributes": {"fill": "solid blue #2f6fb0", "shape_radius": 4, "text_color": "#ffffff", "size": "medium", "has_icon": false, "casing": "Title Case", "role": "marketing CTA"},
+      "location": "splash body, under copy",
+      "verbatim_label": "Learn More"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png",
+      "variant_key": "promo-purple-pill",
+      "attributes": {"fill": "solid purple #7b3fb0", "shape_radius": 14, "text_color": "#ffffff", "size": "small", "has_icon": false, "casing": "Title Case", "role": "promo CTA"},
+      "location": "inside pink promo card",
+      "verbatim_label": "Configure"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png",
+      "variant_key": "promo-white-pill-on-navy",
+      "attributes": {"fill": "white #ffffff", "shape_radius": 14, "text_color": "blue #2f6fb0", "size": "small", "has_icon": false, "casing": "Title Case", "role": "promo CTA on dark card"},
+      "location": "inside navy promo card",
+      "verbatim_label": "Start a Free Trial"
+    },
+    {
+      "component_type": "input",
+      "file": "screencapture-ices-dev-portal-electric-net-profile-2026-06-17-08_14_50.png",
+      "variant_key": "gray-filled-text-input",
+      "attributes": {"border": "none / very subtle, gray fill #f1f3f5", "radius": 4, "height": "~44px", "label_position": "above (all-caps gray label)", "placeholder": "italic '(Optional)'"},
+      "location": "form body",
+      "verbatim_label": "FIRST NAME / LAST NAME — (Optional)"
+    },
+    {
+      "component_type": "select",
+      "file": "screencapture-ices-dev-portal-electric-net-profile-2026-06-17-08_14_50.png",
+      "variant_key": "gray-filled-native-select",
+      "attributes": {"border": "none / gray fill #f1f3f5", "radius": 4, "height": "~44px", "label_position": "above (all-caps)", "affordance": "chevron-down on right", "value": "America/Vancouver"},
+      "location": "form body",
+      "verbatim_label": "TIME ZONE — America/Vancouver"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-roles-2026-06-17-08_14_25.png",
+      "variant_key": "default-pill-badge",
+      "attributes": {"shape": "rounded pill", "color_map": {"Default": "muted slate blue #5b7c9d bg, white text"}, "size": "small inline next to role name"},
+      "location": "Role Name cells",
+      "verbatim_label": "Default"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-info-edr-2026-06-17-08_13_29.png",
+      "variant_key": "coming-soon-eyebrow",
+      "attributes": {"shape": "plain all-caps text (no fill)", "color_map": {"COMING SOON": "orange #d77a2a text"}, "style": "marketing eyebrow label"},
+      "location": "above splash heading",
+      "verbatim_label": "COMING SOON!"
+    },
+    {
+      "component_type": "avatar",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png",
+      "variant_key": "product-icon-chip",
+      "attributes": {"shape": "circle", "bg": "light blue", "content": "SafeSend paper-plane glyph", "size": "small centered"},
+      "location": "top of dashboard panel",
+      "verbatim_label": "SAFESEND"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-saml-2026-06-17-08_13_44.png",
+      "variant_key": "decorative-blue-line-art-collage",
+      "attributes": {"style": "monochrome blue (#2f6fb0) outline icon cluster forming a circle", "role": "decorative illustration", "theme": "security/identity glyphs"},
+      "location": "right side of SAML intro card",
+      "verbatim_label": "(SAML security illustration)"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png",
+      "variant_key": "nav-locked-padlock",
+      "attributes": {"style": "small white padlock appended to locked nav item", "role": "entitlement/lock indicator", "color": "white on navy"},
+      "location": "EDR nav item",
+      "verbatim_label": "EDR (lock)"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png",
+      "variant_key": "full-portal-italic-sublink",
+      "attributes": {"style": "italic gray-white text with arrow-in-circle icon, indented under product group", "color": "muted white #aeb8c4"},
+      "location": "under IES and SafeSend nav groups",
+      "verbatim_label": "full portal"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png",
+      "variant_key": "promo-subtext-link",
+      "attributes": {"style": "small purple text link under product heading", "color": "purple #7b3fb0"},
+      "location": "inside pink promo card",
+      "verbatim_label": "Ready to set up!"
+    },
+    {
+      "component_type": "dropdown-menu",
+      "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png",
+      "variant_key": "row-kebab-trigger",
+      "attributes": {"trigger": "vertical 3-dot kebab icon", "color": "gray #6b7280", "menu": "not shown open", "placement": "right edge of each table row"},
+      "location": "Admins table rows",
+      "verbatim_label": "(kebab menu per admin)"
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png",
+      "variant_key": "overview-no-data-upsell",
+      "attributes": {"layout": "centered heading + subtitle + two product promo cards", "tone": "marketing/upsell in place of dashboard data", "heading": "Complete Your Security Suite"},
+      "location": "full content area",
+      "verbatim_label": "Complete Your Security Suite — Symphony solutions are made to work together — connecting dots for deeper insights"
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-saml-2026-06-17-08_13_44.png",
+      "variant_key": "saml-intro-explainer",
+      "attributes": {"layout": "explainer paragraph + single CTA + decorative illustration", "tone": "informational intro / not-yet-configured"},
+      "location": "main card",
+      "verbatim_label": "SAML is a standardized way to tell external applications..."
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-info-edr-2026-06-17-08_13_29.png",
+      "variant_key": "edr-coming-soon-marketing",
+      "attributes": {"layout": "large display heading + paragraph + CTA + product collage image", "tone": "pre-launch marketing splash", "bg": "pale blue #eaf1f9"},
+      "location": "full content area",
+      "verbatim_label": "VIPRE Endpoint Detection & Response"
+    }
+  ],
+  "tokens": {
+    "colors": [
+      "#0a1626", "#0c1f33", "#13294a", "#1c1c1c", "#cfcfcf",
+      "#ffffff", "#e9eaeb", "#eaf1f9", "#f1f3f5", "#f4f6f9", "#eef0f2", "#e4e7eb",
+      "#2f6fb0", "#5b7c9d", "#3a6ea5",
+      "#7b3fb0", "#f7f0f6",
+      "#13355f", "#0e2a4d",
+      "#d77a2a",
+      "#2e9e6b", "#d24b4b", "#e6a13a",
+      "#aeb8c4", "#6b7280", "#9aa3ad",
+      "#1f2937"
+    ],
+    "accent_primary": ["#2f6fb0", "#7b3fb0", "#5b7c9d"],
+    "font_family_guess": "Rubik (or similar geometric sans); nav/headings use a heavier condensed weight, body is regular sans-serif",
+    "heading_sizes_px_guess": [40, 28, 18, 14, 12],
+    "radii_px_guess": [4, 5, 6, 8, 10, 14],
+    "spacing_notes": "Cards use ~24-32px internal padding on wide screens. Nav item rows ~40-44px tall. All-caps micro-labels (12px) with ~8px gap above values are a recurring form/data pattern. Two header heights observed (~110px tall on wide renders, ~58px on narrow renders) and two nav widths (~218px expanded, ~110px narrow), indicating the shared chrome scales/responds inconsistently across captures. Promo/marketing surfaces (overview upsell, EDR, SAML) use larger type and rounded pill buttons that diverge from the squared 6px primary buttons in the admin tables."
+  }
+}

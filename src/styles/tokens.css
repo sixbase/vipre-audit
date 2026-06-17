@@ -1,0 +1,43 @@
+/* ──────────────────────────────────────────────────────────────
+   Design tokens for the audit app itself.
+   The app practices the discipline it documents the absence of:
+   one type family, one accent, a single spacing + radius scale.
+   ────────────────────────────────────────────────────────────── */
+:root {
+  /* ink + surface — warm near-black on warm off-white */
+  --ink:        #16181d;
+  --ink-2:      #3d424d;
+  --ink-3:      #6b7280;
+  --ink-4:      #9aa1ab;
+  --line:       #e7e4dd;
+  --line-2:     #d8d4ca;
+  --surface:    #faf9f6;
+  --surface-2:  #ffffff;
+  --surface-3:  #f2f0ea;
+
+  /* one accent + semantic signal colors (used sparingly) */
+  --accent:     #2b59ff;
+  --accent-ink: #1c3bb0;
+  --warn:       #c2410c;
+  --bad:        #b42318;
+  --good:       #15803d;
+
+  /* type scale */
+  --t-display: 4.4rem;
+  --t-h1:      2.4rem;
+  --t-h2:      1.5rem;
+  --t-h3:      1.125rem;
+  --t-body:    0.95rem;
+  --t-sm:      0.82rem;
+  --t-xs:      0.72rem;
+  --t-label:   0.68rem;
+
+  /* spacing scale (8pt-ish) */
+  --s-1: 4px;  --s-2: 8px;  --s-3: 12px; --s-4: 16px;
+  --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 72px; --s-9: 112px;
+
+  --radius:   10px;
+  --radius-sm: 6px;
+  --maxw: 1140px;
+  --font: 'Inter Variable', Inter, system-ui, -apple-system, sans-serif;
+}

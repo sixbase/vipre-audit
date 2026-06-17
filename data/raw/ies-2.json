@@ -1,0 +1,508 @@
+{
+  "product": "IES",
+  "screens": [
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "screen_label": "Message Logs (empty / no-data state)",
+      "module": "Message Logs",
+      "layout_notes": "Left dark navy nav rail + light content area. This capture is in a 'No data' empty state: line chart shows flat axes with 'No data' centered, filter rail items all read 'No data', table reads 'Found 0 matches'. Screenshot is partially rendered/clipped on the right (white gap, a stray pill-shaped element peeking) suggesting a mid-load capture. Consistent single design era with the other captures."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "screen_label": "Message Logs (populated)",
+      "module": "Message Logs",
+      "layout_notes": "Same shell as the empty capture but fully populated: stacked/colored area chart with red+orange peaks, dense data table of email messages with verdict/severity badges, left FILTER rail now shows checkbox facet groups (Status, Verdict, Severity, Engines, Threat Type, etc.) with counts, bottom pagination. Captured at a smaller zoom so type is tiny. Same design library as reports/users pages."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_04_02.png",
+      "screen_label": "Reports (landing / report picker)",
+      "module": "Reports",
+      "layout_notes": "Simplest page: three large white report-launcher cards (Link Click Analysis, Top Targeted Users, Top Threat Senders) each with a centered black glyph icon and bold label, on a light grey canvas. Top breadcrumb chip bar 'DEV - Monthly Reseller - DO NOT DELETE > Zack IES Safesend Combo'. No filter rail, no table. Card icon style (heavy black filled glyphs) differs from the thin nav-rail icons."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_17_05.png",
+      "screen_label": "Reports (landing / report picker) - alt user",
+      "module": "Reports",
+      "layout_notes": "Visually identical to the other Reports capture; only the top breadcrumb tenant chip differs ('qa_admin13' vs 'Zack IES Safesend Combo'). Same three white launcher cards, same grey canvas. Useful as a consistency baseline - this page renders identically across the two captures."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_03_52.png",
+      "screen_label": "Threat Explorer (empty / no-data state)",
+      "module": "Threat Explorer",
+      "layout_notes": "Same shell as Message Logs but adds a row of four KPI/summary tiles (Attack Severity, Attack Vector, Detection Engines, Engine Verdict Dist...) above the table. This capture is empty: line chart 'No data', tiles 'No data', table 'Found 0 matches'. Captured at small zoom and clipped on the right (white gap). Same design era."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_16_58.png",
+      "screen_label": "Threat Explorer (populated)",
+      "module": "Threat Explorer",
+      "layout_notes": "Fully populated Threat Explorer: stacked area chart up top, then four summary tiles where Attack Severity/Attack Vector/Detection Engines/Engine Verdict render as donut/pie charts, then a dense email table with many columns (Verdict, Severity, Sender IP, Detection Engine, Threat Types, Attack Vectors, Tactics, Status) and badges. Left checkbox filter rail populated. Same library as Message Logs."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "screen_label": "Users (list)",
+      "module": "Users",
+      "layout_notes": "Users directory table: columns Name, Email, Groups, Department, Source, Location. No left filter rail (just the standard nav rail) and no chart row - simpler than Message Logs/Threat Explorer. Avatars are colored circular initials. Blue 'Export' button top-right. Bottom pagination 'Found 22 matches'. 'Groups' cells use blue '+1 other' expander links. Same shell/design era."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_17_13.png",
+      "screen_label": "Users (list) - alt tenant",
+      "module": "Users",
+      "layout_notes": "Same Users table layout, different tenant data ('Found 163 matches', groups like MSFT / Journaling Test). Source column mixes 'Microsoft 365' and 'IMAP'. Same Export button and pagination. Consistent with the other Users capture."
+    }
+  ],
+  "observations": [
+    {
+      "component_type": "nav-sidebar",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_04_02.png",
+      "variant_key": "dark-navy-rail-grouped",
+      "attributes": {
+        "position": "left",
+        "width_px_guess": 222,
+        "bg_color": "#0d1b2e",
+        "item_style": "icon + label rows, grouped under grey uppercase section headers (OVERVIEW, ANALYTICS, SETTINGS, ADMINS, TOOLS); active item is a solid blue (#2f7ef0) full-width highlight bar",
+        "active_color": "#2f7ef0",
+        "label_color": "#e6ebf2",
+        "section_header_color": "#6b7a90",
+        "icon_set": "thin/line mono icons, white"
+      },
+      "location": "full-height left rail",
+      "verbatim_label": "Dashboard / Message Logs / Threat Explorer / Reports / Users / Email Configuration / Action Rules / Banner Management / Allow List / Detection Settings / Link Isolation / Audit Logs / RBI"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_04_02.png",
+      "variant_key": "page-header-icon-title",
+      "attributes": {
+        "bg_color": "#0d1b2e",
+        "title_color": "#ffffff",
+        "title_size_px_guess": 30,
+        "has_leading_icon": true,
+        "icon_color": "#9fb2c9"
+      },
+      "location": "top of content area, dark band",
+      "verbatim_label": "Reports"
+    },
+    {
+      "component_type": "breadcrumb",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_04_02.png",
+      "variant_key": "tenant-chip-breadcrumb",
+      "attributes": {
+        "bg_color": "#262a2e",
+        "text_color": "#c8ccd0",
+        "separator": "chevron >",
+        "active_chip_fill": "#3a3f45",
+        "shape": "rounded chip on the active segment"
+      },
+      "location": "very top, above the navy header band",
+      "verbatim_label": "DEV - Monthly Reseller - DO NOT DELETE  >  Zack IES Safesend Combo"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_04_02.png",
+      "variant_key": "white-report-launcher-card",
+      "attributes": {
+        "fill": "#ffffff",
+        "border": "1px #e0e3e7",
+        "radius_px_guess": 6,
+        "icon_style": "large heavy black filled glyph, centered",
+        "icon_color": "#1a1a1a",
+        "label_weight": "bold",
+        "label_color": "#1a1a1a",
+        "size": "approx 170x140 square"
+      },
+      "location": "content grid, 3 across",
+      "verbatim_label": "Link Click Analysis / Top Targeted Users / Top Threat Senders"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_04_02.png",
+      "variant_key": "card-glyph-heavy-black",
+      "attributes": {
+        "style": "filled solid black glyph (mouse, person+shield, devices)",
+        "color": "#1a1a1a",
+        "weight": "heavy",
+        "note": "different weight/library from the thin white nav-rail icons"
+      },
+      "location": "inside report launcher cards",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "variant_key": "wide-search-with-blue-icon-button",
+      "attributes": {
+        "border": "1px #d5d9de",
+        "radius_px_guess": 4,
+        "height_px_guess": 30,
+        "bg": "#ffffff",
+        "placeholder": "Search",
+        "trailing_button_fill": "#3a4a5e",
+        "trailing_button_icon": "magnifier white"
+      },
+      "location": "top of content, full-width above table",
+      "verbatim_label": "Search"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "variant_key": "realtime-stacked-area-line",
+      "attributes": {
+        "chart_type": "stacked area / line over time",
+        "palette": ["#2f7ef0 emails", "#d63b3b malicious", "#f0902a suspicious", "#3aa05a spam"],
+        "style": "thin gridlines, dual y-axes, colored legend chips top-right",
+        "background": "#ffffff"
+      },
+      "location": "Real Time Analyses panel above table",
+      "verbatim_label": "Real Time Analyses"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "variant_key": "realtime-line-empty",
+      "attributes": {
+        "chart_type": "line over time (no series)",
+        "palette": ["#2f7ef0", "#d63b3b", "#f0902a", "#3aa05a"],
+        "style": "empty axes with centered 'No data' text, dotted baseline of empty markers",
+        "background": "#ffffff"
+      },
+      "location": "Real Time Analyses panel",
+      "verbatim_label": "Real Time Analyses / No data"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_16_58.png",
+      "variant_key": "donut-summary-tile",
+      "attributes": {
+        "fill": "#ffffff",
+        "title_color": "#1a2230",
+        "viz": "donut/pie chart with multicolor segments + legend",
+        "palette": ["#2f7ef0", "#d63b3b", "#f0902a", "#3aa05a", "#8e9bb0"],
+        "layout": "4 tiles in a row"
+      },
+      "location": "row between chart and table",
+      "verbatim_label": "Attack Severity / Attack Vector / Detection Engines / Engine Verdict Distribution"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_03_52.png",
+      "variant_key": "summary-tile-empty",
+      "attributes": {
+        "fill": "#ffffff",
+        "title_color": "#1a2230",
+        "state": "empty - 'No data' centered, small numeric count badge top-right",
+        "layout": "4 tiles in a row"
+      },
+      "location": "row between chart and table",
+      "verbatim_label": "Attack Severity / Attack Vector / Detection Engines / Engine Verdict Dist..."
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "variant_key": "email-log-table-dense",
+      "attributes": {
+        "header_fill": "#ffffff",
+        "header_text_color": "#6b7280",
+        "header_casing": "UPPERCASE small",
+        "row_striping": "none (white rows, thin grey bottom borders)",
+        "border_style": "horizontal rules only",
+        "density": "compact",
+        "sort_affordance": "sort arrow on RECEIVED column",
+        "pagination_style": "numbered pager with prev/next chevrons bottom-center",
+        "row_action_style": "trailing icon controls per row"
+      },
+      "location": "Emails panel, main content",
+      "verbatim_label": "RECEIVED / SUBJECT / SENDER / RECIPIENT / STATUS / VERDICT / SEVERITY"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "variant_key": "email-log-table-empty",
+      "attributes": {
+        "header_fill": "#ffffff",
+        "header_text_color": "#6b7280",
+        "header_casing": "UPPERCASE small",
+        "row_striping": "none",
+        "border_style": "horizontal rules only",
+        "density": "compact",
+        "state": "empty - 'No data' / 'Found 0 matches'"
+      },
+      "location": "Emails panel",
+      "verbatim_label": "RECEIVED / SUBJECT / SENDER / RECIPIENT / STATUS / VERDICT / SEVERITY / No data / Found 0 matches"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-threat-explorer-2026-06-17-08_16_58.png",
+      "variant_key": "threat-explorer-table-wide",
+      "attributes": {
+        "header_fill": "#ffffff",
+        "header_text_color": "#6b7280",
+        "header_casing": "UPPERCASE small",
+        "row_striping": "none",
+        "border_style": "horizontal rules only",
+        "density": "compact, many columns (horizontally wide)",
+        "row_action_style": "trailing status/icon controls",
+        "pagination_style": "numbered pager bottom"
+      },
+      "location": "Emails panel, main content",
+      "verbatim_label": "RECEIVED / SUBJECT / SENDER / RECIPIENT / VERDICT / SEVERITY / SENDER IP / DETECTION ENGINE / THREAT TYPES / ATTACK VECTORS / TACTICS / STATUS"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "variant_key": "users-directory-table",
+      "attributes": {
+        "header_fill": "#ffffff",
+        "header_text_color": "#6b7280",
+        "header_casing": "UPPERCASE small",
+        "row_striping": "none (white rows, thin grey rules)",
+        "border_style": "horizontal rules only",
+        "density": "comfortable (taller rows with avatars)",
+        "sort_affordance": "none visible",
+        "pagination_style": "numbered pager bottom-center",
+        "row_action_style": "none / inline group expander links"
+      },
+      "location": "main content",
+      "verbatim_label": "NAME / EMAIL / GROUPS / DEPARTMENT / SOURCE / LOCATION"
+    },
+    {
+      "component_type": "avatar",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "variant_key": "circular-initials-colored",
+      "attributes": {
+        "shape": "circle",
+        "content": "two-letter initials",
+        "bg_palette": ["#3aa05a", "#2f7ef0", "#d63b3b", "#f0902a", "#8e44ad", "#16a0a0"],
+        "text_color": "#ffffff",
+        "size_px_guess": 28
+      },
+      "location": "leading cell of NAME column",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "variant_key": "primary-blue-export",
+      "attributes": {
+        "fill": "#2f7ef0",
+        "shape_radius": 4,
+        "color": "#2f7ef0",
+        "text_color": "#ffffff",
+        "size": "small",
+        "has_icon": true,
+        "casing": "Title",
+        "role": "primary"
+      },
+      "location": "top-right of content header",
+      "verbatim_label": "Export"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "variant_key": "secondary-add-column",
+      "attributes": {
+        "fill": "#eef1f4",
+        "shape_radius": 4,
+        "color": "#eef1f4",
+        "text_color": "#3a4658",
+        "size": "small",
+        "has_icon": true,
+        "casing": "Sentence",
+        "role": "secondary"
+      },
+      "location": "above table, right side of Emails panel",
+      "verbatim_label": "Add column"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "variant_key": "split-remediate-dropdown",
+      "attributes": {
+        "fill": "#eef1f4",
+        "shape_radius": 4,
+        "text_color": "#3a4658",
+        "size": "small",
+        "has_icon": true,
+        "casing": "Title",
+        "role": "secondary split-button with caret"
+      },
+      "location": "above table, right of Add column",
+      "verbatim_label": "Remediate"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "variant_key": "verdict-severity-pills",
+      "attributes": {
+        "shape": "pill / rounded",
+        "color_map": {
+          "malicious": "#d63b3b red",
+          "suspicious": "#f0902a orange",
+          "spam": "#3aa05a green",
+          "clean": "#2f7ef0 blue / grey",
+          "high": "#d63b3b",
+          "medium": "#f0902a",
+          "low": "#3aa05a"
+        }
+      },
+      "location": "STATUS / VERDICT / SEVERITY cells",
+      "verbatim_label": "malicious / suspicious / spam / clean / high / medium / low"
+    },
+    {
+      "component_type": "checkbox-radio-toggle",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "variant_key": "filter-facet-checkboxes",
+      "attributes": {
+        "type": "square checkbox",
+        "border": "1px #c2c8d0",
+        "checked_fill": "#2f7ef0",
+        "label_color": "#3a4658",
+        "shows_count": true
+      },
+      "location": "left FILTER rail facet groups",
+      "verbatim_label": "Status / Verdict / Severity / Engines / Threat Type / Attachment Type"
+    },
+    {
+      "component_type": "filter-chip",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "variant_key": "all-counter-chip",
+      "attributes": {
+        "shape": "rounded row",
+        "fill": "#eef1f4",
+        "icon": "inbox/archive",
+        "trailing_count": "0",
+        "text_color": "#3a4658"
+      },
+      "location": "top of left filter rail",
+      "verbatim_label": "ALL  0"
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_03_14.png",
+      "variant_key": "no-data-text-only",
+      "attributes": {
+        "style": "plain centered grey text, no illustration, no icon",
+        "text_color": "#9aa3af",
+        "appears_in": "chart, KPI tiles, filter rail rows, table body"
+      },
+      "location": "throughout empty captures",
+      "verbatim_label": "No data / Found 0 matches"
+    },
+    {
+      "component_type": "pagination",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "variant_key": "numbered-pager-chevrons",
+      "attributes": {
+        "style": "numbered pages 1 2 3 ... with prev/next chevrons",
+        "active_page_fill": "#2f7ef0",
+        "active_page_text": "#ffffff",
+        "inactive_text": "#3a4658",
+        "alignment": "bottom-center"
+      },
+      "location": "below table",
+      "verbatim_label": "1 2 3 ... / Found 22 matches"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_04_31.png",
+      "variant_key": "group-expander-link",
+      "attributes": {
+        "color": "#2f7ef0",
+        "weight": "regular",
+        "underline": false,
+        "pattern": "'+N other' / '+N others' inline expander"
+      },
+      "location": "GROUPS column cells",
+      "verbatim_label": "+1 other / +2 others"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-users-2026-06-17-08_17_13.png",
+      "variant_key": "source-text-label",
+      "attributes": {
+        "shape": "plain text (no pill)",
+        "color_map": {
+          "Microsoft 365": "#3a4658 grey text",
+          "IMAP": "#3a4658 grey text"
+        }
+      },
+      "location": "SOURCE column",
+      "verbatim_label": "Microsoft 365 / IMAP / MSP"
+    },
+    {
+      "component_type": "banner",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "variant_key": "datetime-range-strip",
+      "attributes": {
+        "bg": "#3a4a5e dark slate strip",
+        "text_color": "#cdd6e0",
+        "highlight_color": "#7fb0ff",
+        "content": "TIME: Jun 10, 2026 8:01 to Jun 17, 2026 8:01"
+      },
+      "location": "right side of the search/header row",
+      "verbatim_label": "TIME: Jun 10, 2026 8:01 to Jun 17, 2026 8:01"
+    },
+    {
+      "component_type": "tooltip",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-reports-2026-06-17-08_04_02.png",
+      "variant_key": "feedback-tab-pull",
+      "attributes": {
+        "style": "vertical rounded tab pinned to right edge",
+        "fill": "#2f7ef0",
+        "text_color": "#ffffff",
+        "icon": "feedback/diagram glyph"
+      },
+      "location": "fixed to far right edge of viewport",
+      "verbatim_label": "Feedback"
+    },
+    {
+      "component_type": "select",
+      "file": "screencapture-ices-dev-portal-electric-net-ies-messages-2026-06-17-08_16_47.png",
+      "variant_key": "column-picker-dropdown-trigger",
+      "attributes": {
+        "border": "none (filled grey)",
+        "radius": 4,
+        "height_px_guess": 28,
+        "label_position": "inline",
+        "fill": "#eef1f4",
+        "caret": true
+      },
+      "location": "Emails panel toolbar",
+      "verbatim_label": "Add column"
+    }
+  ],
+  "tokens": {
+    "colors": [
+      "#0d1b2e",
+      "#13243a",
+      "#1a2230",
+      "#262a2e",
+      "#3a3f45",
+      "#3a4a5e",
+      "#3a4658",
+      "#6b7a90",
+      "#6b7280",
+      "#8e9bb0",
+      "#9aa3af",
+      "#c2c8d0",
+      "#d5d9de",
+      "#e0e3e7",
+      "#eef1f4",
+      "#e6ebf2",
+      "#e9ebee",
+      "#ffffff",
+      "#2f7ef0",
+      "#7fb0ff",
+      "#d63b3b",
+      "#f0902a",
+      "#3aa05a",
+      "#16a0a0",
+      "#8e44ad",
+      "#1a1a1a"
+    ],
+    "accent_primary": ["#2f7ef0"],
+    "font_family_guess": "system/Helvetica-like sans-serif (no obvious custom brand font; bold geometric for nav 'VIPRE SYMPHONY' and 'EMAIL SECURITY' lockup)",
+    "heading_sizes_px_guess": [30, 18, 13, 11],
+    "radii_px_guess": [4, 6],
+    "spacing_notes": "Consistent left nav rail ~222px. Content uses generous panel padding with white cards on a light grey (#e9ebee) canvas. Tables are flat with horizontal rules only (no vertical borders, no zebra striping). Two distinct icon weights coexist: thin white line icons in the nav rail vs heavy black filled glyphs on the Reports launcher cards. Three header strips stack at top: dark grey tenant breadcrumb bar, navy page-title band, then content. Empty/no-data states are text-only (no illustrations). Some captures rendered at very small zoom (Message Logs/Threat Explorer populated) and two empty captures are clipped on the right, indicating mid-load snapshots."
+  }
+}

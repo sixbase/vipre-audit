@@ -1,0 +1,521 @@
+{
+  "product": "EDR/ESM",
+  "screens": [
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+      "screen_label": "Usage / Billed Sites License Summary",
+      "module": "edr-esm/billing/sitesLicenseSummary",
+      "layout_notes": "Left nav-sidebar dark navy (~210px). Secondary vertical scope-tab rail (light blue) between sidebar and content with 'Billed Sites'/'Trial Sites' chevron tabs. Dark navy page-header band with white 'Usage' title. Content is white, low-density. Custom Bootstrap-ish enterprise look; product-tile chips (EDR+MDR / EDR / ESC) with gradient/solid fills sit above a line+bar chart."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-blocklists-windows-2026-06-17-08_24_27.png",
+      "screen_label": "Blocklists (Windows)",
+      "module": "edr-esm/blocklists/windows",
+      "layout_notes": "Left dark navy nav-sidebar. Vertical scope-tab rail with single 'Windows' tab. Page-header band is WHITE here (not navy) with large black 'Blocklists' title and a blue solid 'Add Blocklist' button top-right. Two empty tables with blue uppercase column headers and 'No blocklist found.' empty states. Lower density."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png",
+      "screen_label": "Dashboard",
+      "module": "edr-esm/dashboard",
+      "layout_notes": "Dark navy nav-sidebar + dark navy page-header band ('Dashboard'). High-density KPI row of bordered tiles across top, then a wide multi-series line/area trend chart, and a bottom row of donut charts + a teal/green 'RESEARCH' promo card. Material-ish/custom hybrid; rounded-card panels."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png",
+      "screen_label": "Deploy (Windows)",
+      "module": "edr-esm/deploy/windows",
+      "layout_notes": "Dark navy nav-sidebar + navy page-header band with white 'Deploy' title and a SEMI-TRANSPARENT outline 'Approve Latest Version' button (different from the solid blue Add buttons elsewhere). Vertical OS scope-tab rail (Windows/Mac/Linux) with platform icons. Light-blue 'LATEST VERSION' banner card. Filter pill row (ALL SITES/Outdated/Current Version) + search input. Single table, low density."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png",
+      "screen_label": "Devices List",
+      "module": "edr-esm/devices/list",
+      "layout_notes": "Dark navy nav-sidebar + navy page-header band ('Devices') with white 'Export CSV' link/button and an 'Actions' button top-right plus a search icon. SECOND faceted-filter sidebar (white, checkbox tree: Platform/Type/Status/Policy/Agent) sits between main nav and the data table — distinct from other screens. Very high-density table. Bootstrap-ish enterprise grid."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-edrDashboard-2026-06-17-08_18_40.png",
+      "screen_label": "EDR Dashboard",
+      "module": "edr-esm/edrDashboard",
+      "layout_notes": "Dark navy nav-sidebar + navy page-header band ('EDR Dashboard'). Body is a grid of bordered white card panels: two top KPI summary cards (Active/Resolved Incidents), then 6-card grid mixing 'Top 10' ranked lists with line charts. Light, airy density vs the main Dashboard. Card style is flat with thin gray borders, gray uppercase card titles."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-events-eventsList-2026-06-17-08_26_24.png",
+      "screen_label": "Events List",
+      "module": "edr-esm/events/eventsList",
+      "layout_notes": "Dark navy nav-sidebar + navy page-header band ('Events') with search icon and a 'TIME:' range control top-right. Left faceted-filter sidebar (Site/Platform/Device/Event Type/Severity/MITRE ATT&CK checkboxes). Dense data table with a MEDIUM severity badge and blue link cells. Bootstrap-ish enterprise grid."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-exclusions-windows-2026-06-17-08_23_58.png",
+      "screen_label": "Exclusions (Windows)",
+      "module": "edr-esm/exclusions/windows",
+      "layout_notes": "Dark navy nav-sidebar + navy page-header band ('Exclusions') with blue solid 'Add Exclusion List' button top-right. Vertical OS scope-tab rail (Windows/Mac/Linux/Android/Chromebook) with platform icons. Sectioned tables; rows show blue link names plus small scope badges ('Global'/'Policy') with a shield/check icon. Medium density."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png",
+      "screen_label": "File Analysis List",
+      "module": "edr-esm/fileAnalysis/analysisList",
+      "layout_notes": "Dark navy nav-sidebar + navy page-header band ('File Analysis') with blue solid 'Upload File' button (cloud icon) top-right. No scope rail. Inline DATE range control ('From ... to now') with blue link-style values, and a FILTER row of dropdown-menu triggers (Submission Status / Risk / User / Site) plus a gear settings icon. Empty table 'No analyzed files found.' Rendered at larger scale; clean Bootstrap-ish."
+    },
+    {
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-help-documentation-2026-06-17-08_27_46.png",
+      "screen_label": "Help / Documentation",
+      "module": "edr-esm/help/documentation",
+      "layout_notes": "Dark navy nav-sidebar + navy page-header band ('Documentation'). Vertical scope-tab rail (Documentation/Diagnostics/Support). Content is a centered marketing-style documentation landing page: sectioned headings ('Online Documentation','First Steps','Get Visibility','More Customization and Power') with icon+title+paragraph link cards in 2-4 column grids. Very different visual register (content/marketing page vs app screens). Footer with blue legal trademark links."
+    }
+  ],
+  "observations": [
+    {
+      "component_type": "nav-sidebar",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png",
+      "variant_key": "primary-dark-navy-grouped-icon-rail",
+      "attributes": { "position": "left", "width_px_guess": 210, "bg_color": "#0e1f33", "item_style": "icon + label, gray uppercase section headers (MONITOR/MANAGE/INVESTIGATE/SETUP), active item lighter-blue highlight", "active_color": "#1f3a5f", "text_color": "#cdd6e0", "icon_set": "outline line icons" },
+      "location": "full-height left edge, all screens",
+      "verbatim_label": "Dashboard / EDR Dashboard / Threats / Quarantine / Reports / Sites / Devices / Policies / Exclusions / Blocklists / Applications / Vulnerabilities / File Analysis / Link Analysis / Incidents / RBI / Events / Usage / System / Deploy / Help"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png",
+      "variant_key": "navy-pageheader-white-title",
+      "attributes": { "bg_color": "#0d3a63", "text_color": "#ffffff", "title_size_px_guess": 26, "casing": "Title", "style": "solid dark-blue band spanning content width" },
+      "location": "top of content area",
+      "verbatim_label": "Dashboard"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-blocklists-windows-2026-06-17-08_24_27.png",
+      "variant_key": "white-pageheader-black-title",
+      "attributes": { "bg_color": "#ffffff", "text_color": "#1b2733", "title_size_px_guess": 28, "casing": "Title", "style": "WHITE header band (inconsistent with navy bands on other screens)" },
+      "location": "top of content area",
+      "verbatim_label": "Blocklists"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+      "variant_key": "global-topstrip-breadcrumb-tenant",
+      "attributes": { "bg_color": "#2b3038", "text_color": "#d6d9dd", "style": "dark gray global strip with tenant breadcrumb chips above the navy page header" },
+      "location": "very top, full width above sidebar+content",
+      "verbatim_label": "Gus Endpont Distributor 001 > Gus Dist Reseller - Endpoint 001"
+    },
+    {
+      "component_type": "breadcrumb",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+      "variant_key": "tenant-chip-breadcrumb-dark",
+      "attributes": { "separator": "chevron", "color": "#c9ced4", "bg": "#2b3038", "chip_style": "folder/file icons with pill highlight on active tenant", "casing": "Title" },
+      "location": "global top strip",
+      "verbatim_label": "Gus Endpont Distributor 001 > Gus Dist Reseller - Endpoint 001"
+    },
+    {
+      "component_type": "tab",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+      "variant_key": "vertical-scope-rail-chevron-lightblue",
+      "attributes": { "orientation": "vertical", "bg_color": "#dce7f0", "active_color": "#eef4fa", "shape": "chevron/arrow rail pointing into content", "icon": "above label", "text_color": "#3a4856", "casing": "Title" },
+      "location": "secondary rail between sidebar and content",
+      "verbatim_label": "Billed Sites / Trial Sites"
+    },
+    {
+      "component_type": "tab",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-exclusions-windows-2026-06-17-08_23_58.png",
+      "variant_key": "vertical-os-scope-rail-icons",
+      "attributes": { "orientation": "vertical", "bg_color": "#dce7f0", "active_color": "#ffffff", "shape": "chevron rail", "icon": "OS glyphs (windows/apple/linux/android/chrome)", "text_color": "#3a4856", "casing": "Title" },
+      "location": "secondary rail between sidebar and content",
+      "verbatim_label": "Windows / Mac / Linux / Android / Chromebook"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-blocklists-windows-2026-06-17-08_24_27.png",
+      "variant_key": "primary-solid-blue-rounded4",
+      "attributes": { "fill": "solid", "shape_radius": "rounded-4", "color": "#1b6fc4", "text_color": "#ffffff", "size": "md", "has_icon": false, "casing": "Title", "role": "primary" },
+      "location": "page header top-right",
+      "verbatim_label": "Add Blocklist"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-exclusions-windows-2026-06-17-08_23_58.png",
+      "variant_key": "primary-solid-blue-rounded4",
+      "attributes": { "fill": "solid", "shape_radius": "rounded-4", "color": "#1b6fc4", "text_color": "#ffffff", "size": "md", "has_icon": false, "casing": "Title", "role": "primary" },
+      "location": "page header top-right",
+      "verbatim_label": "Add Exclusion List"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png",
+      "variant_key": "primary-solid-blue-icon-cloud",
+      "attributes": { "fill": "solid", "shape_radius": "rounded-4", "color": "#1f7fd0", "text_color": "#ffffff", "size": "md", "has_icon": true, "casing": "Title", "role": "primary" },
+      "location": "page header top-right",
+      "verbatim_label": "Upload File"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png",
+      "variant_key": "primary-ghost-outline-on-navy",
+      "attributes": { "fill": "outline", "shape_radius": "rounded-4", "color": "transparent", "border_color": "#5b7fa6", "text_color": "#dfe7ef", "size": "md", "has_icon": false, "casing": "Title", "role": "primary" },
+      "location": "navy page header top-right",
+      "verbatim_label": "Approve Latest Version"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png",
+      "variant_key": "secondary-ghost-link-on-navy",
+      "attributes": { "fill": "text", "shape_radius": "square", "color": "transparent", "text_color": "#dfe7ef", "size": "sm", "has_icon": false, "casing": "Title", "role": "secondary" },
+      "location": "navy page header top-right",
+      "verbatim_label": "Export CSV"
+    },
+    {
+      "component_type": "button",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png",
+      "variant_key": "secondary-outline-actions-on-navy",
+      "attributes": { "fill": "outline", "shape_radius": "rounded-4", "color": "transparent", "border_color": "#5b7fa6", "text_color": "#dfe7ef", "size": "sm", "has_icon": true, "casing": "Title", "role": "secondary" },
+      "location": "navy page header top-right",
+      "verbatim_label": "Actions"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png",
+      "variant_key": "bordered-white-bignumber-row",
+      "attributes": { "fill": "white", "border_style": "thin gray 1px", "shape_radius": "rounded-4", "number_color": "#1b2733", "label_color": "#6b7682", "accent": "#1b6fc4", "layout": "horizontal row of equal tiles with big number + sublabels" },
+      "location": "top row of dashboard",
+      "verbatim_label": "SITE SUMMARY / ACTIVE DEVICES / THREAT DETECTION / MISTRE SCORES / DEVICES UNDER ATTENTION"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-edrDashboard-2026-06-17-08_18_40.png",
+      "variant_key": "incident-summary-card-multi-metric",
+      "attributes": { "fill": "white", "border_style": "thin gray 1px", "shape_radius": "rounded-4", "number_color": "#1b2733", "label_color": "#8a939d", "title_casing": "UPPER", "layout": "centered title + inline metric columns (Info/High/Medium)" },
+      "location": "top two cards of EDR Dashboard",
+      "verbatim_label": "ACTIVE INCIDENTS / RESOLVED INCIDENTS"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-edrDashboard-2026-06-17-08_18_40.png",
+      "variant_key": "top10-ranked-list-card",
+      "attributes": { "fill": "white", "border_style": "thin gray 1px", "shape_radius": "rounded-4", "title_color": "#8a939d", "title_casing": "UPPER", "rank_number_color": "#1b6fc4", "style": "leading count number + label rows" },
+      "location": "left/right columns of EDR Dashboard grid",
+      "verbatim_label": "TOP 10 DETECTIONS / TOP 10 DEVICES / TOP 10 ATTACK TYPES / TOP 10 SITES"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png",
+      "variant_key": "research-promo-teal-gradient-card",
+      "attributes": { "fill": "solid", "bg_color": "#1f8a7a", "shape_radius": "rounded-4", "title_color": "#ffffff", "style": "teal/green promo callout with icon, distinct color family from rest of UI" },
+      "location": "bottom-right of dashboard",
+      "verbatim_label": "RESEARCH — What Lies Beneath the URL?"
+    },
+    {
+      "component_type": "data-card",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png",
+      "variant_key": "latest-version-lightblue-banner-card",
+      "attributes": { "fill": "solid", "bg_color": "#e8f1fb", "shape_radius": "rounded-4", "title_color": "#1b2733", "label_color": "#6b7682", "style": "light-blue info card with product logo + version metadata" },
+      "location": "below page header",
+      "verbatim_label": "LATEST VERSION — Version 13.4.8857 — Apr 16, 2026 — Win 7 SP1 or SVR 2008 R2 SP1 and above"
+    },
+    {
+      "component_type": "kpi-tile",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+      "variant_key": "product-chip-plus-counts-row",
+      "attributes": { "fill": "solid/gradient chip + white counts", "chip_colors": "#1f3a5f (EDR+MDR dark), #3f6da8 (EDR mid), #2c2f3a (ESC)", "shape_radius": "rounded-4", "number_color": "#1b2733", "label_color": "#6b7682", "style": "gradient product chip then big total/active device counts" },
+      "location": "top of billed-sites content",
+      "verbatim_label": "EDR+MDR 0 total sites 0 active devices / EDR 1 total sites 5 active devices / ESC 0 total sites 0 active devices"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png",
+      "variant_key": "dense-grid-blue-uppercase-header-sortable",
+      "attributes": { "header_fill": "#f2f5f8", "header_text_color": "#5b6b7b", "header_casing": "UPPER", "row_striping": "none (white)", "border_style": "bottom row dividers only", "density": "high", "sort_affordance": "caret icons on sortable cols", "pagination_style": "none visible", "row_action_style": "blue link hostnames" },
+      "location": "main content data grid",
+      "verbatim_label": "HOSTNAME / STATUS / POLICY / SITE / TYPE / OS / LAST SEEN / LAST INFECTED"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-events-eventsList-2026-06-17-08_26_24.png",
+      "variant_key": "dense-grid-blue-uppercase-header-with-badges",
+      "attributes": { "header_fill": "#f2f5f8", "header_text_color": "#5b6b7b", "header_casing": "UPPER", "row_striping": "none", "border_style": "row dividers", "density": "high", "sort_affordance": "none obvious", "pagination_style": "none visible", "row_action_style": "blue link cells + severity badge cell" },
+      "location": "main content data grid",
+      "verbatim_label": "TIME / EVENT NAME / SEVERITY / PID / MALWARE / ACTION / MITRE ATTACK TACTIC / OBJECT / DEVICE / SITE"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png",
+      "variant_key": "low-density-grid-with-progress-and-checkstatus",
+      "attributes": { "header_fill": "#ffffff", "header_text_color": "#5b6b7b", "header_casing": "UPPER", "row_striping": "none", "border_style": "single bottom border under header", "density": "low", "sort_affordance": "up/down caret on Current Version", "pagination_style": "none", "row_action_style": "blue link site name + progress bar + green check 'Up-to-date'" },
+      "location": "main content",
+      "verbatim_label": "SITE / CURRENT VERSION / UPDATED DEVICES / ACTION"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-blocklists-windows-2026-06-17-08_24_27.png",
+      "variant_key": "sectioned-empty-table-blue-header",
+      "attributes": { "header_fill": "#ffffff", "header_text_color": "#2f6fb0", "header_casing": "UPPER", "row_striping": "none", "border_style": "underline divider under header", "density": "low", "sort_affordance": "none", "pagination_style": "none", "row_action_style": "n/a (empty)" },
+      "location": "two stacked sections",
+      "verbatim_label": "NAME / ITEMS / SCOPE / LAST MODIFIED — 'No blocklist found.'"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-exclusions-windows-2026-06-17-08_23_58.png",
+      "variant_key": "sectioned-table-blue-header-with-scope-badge",
+      "attributes": { "header_fill": "#ffffff", "header_text_color": "#2f6fb0", "header_casing": "UPPER", "row_striping": "none", "border_style": "row dividers", "density": "medium", "sort_affordance": "none", "pagination_style": "none", "row_action_style": "blue link names + Global/Policy scope badge with icon" },
+      "location": "three stacked sections",
+      "verbatim_label": "NAME / EXCLUSIONS / SCOPE / LAST MODIFIED"
+    },
+    {
+      "component_type": "table",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png",
+      "variant_key": "empty-grid-gray-header",
+      "attributes": { "header_fill": "#f4f6f8", "header_text_color": "#5b6b7b", "header_casing": "UPPER", "row_striping": "none", "border_style": "header band only", "density": "low", "sort_affordance": "none", "pagination_style": "none", "row_action_style": "n/a (empty)" },
+      "location": "main content",
+      "verbatim_label": "FILE / RISK / ACTIVITY / SITE / USER / CREATED — 'No analyzed files found.'"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-events-eventsList-2026-06-17-08_26_24.png",
+      "variant_key": "severity-medium-amber-pill",
+      "attributes": { "shape": "pill", "color_map": "medium=#e8a13a (amber), high=red implied, info=blue/gray implied", "text_color": "#ffffff", "casing": "UPPER" },
+      "location": "Severity column cell",
+      "verbatim_label": "MEDIUM"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-exclusions-windows-2026-06-17-08_23_58.png",
+      "variant_key": "scope-badge-gray-with-icon",
+      "attributes": { "shape": "rounded-4", "color_map": "global=#6b7682 gray w/ globe icon, policy=#6b7682 gray w/ shield icon", "text_color": "#ffffff", "casing": "Title" },
+      "location": "Scope column cell",
+      "verbatim_label": "Global / Policy"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png",
+      "variant_key": "uptodate-green-check-text",
+      "attributes": { "shape": "text+icon (no pill)", "color_map": "up-to-date=#2e8b57 green check", "text_color": "#2e8b57", "casing": "Title" },
+      "location": "Action column cell",
+      "verbatim_label": "Up-to-date"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+      "variant_key": "site-type-edr-blue-chip",
+      "attributes": { "shape": "rounded-4", "color_map": "EDR=#3f6da8 blue chip", "text_color": "#ffffff", "casing": "UPPER" },
+      "location": "Site Type column cell",
+      "verbatim_label": "EDR"
+    },
+    {
+      "component_type": "badge-status",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png",
+      "variant_key": "status-protected-green-text",
+      "attributes": { "shape": "text (no pill)", "color_map": "protected=#2e8b57 green", "text_color": "#2e8b57", "casing": "Title" },
+      "location": "Status column cells",
+      "verbatim_label": "Protected"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png",
+      "variant_key": "multiseries-line-area-threat-trend",
+      "attributes": { "chart_type": "line/area multi-series", "palette": ["#1f8ad0", "#2ec45f", "#9b59b6"], "style": "thin lines with light area fill, gridlines, axis labels" },
+      "location": "center of dashboard",
+      "verbatim_label": "THREAT TREND"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png",
+      "variant_key": "donut-pie-pair",
+      "attributes": { "chart_type": "donut", "palette": ["#1f8ad0", "#2ec45f", "#e8a13a", "#9b59b6", "#d2563a"], "style": "two donut charts with side legends" },
+      "location": "bottom-center of dashboard (Guest Working Spread / OS Spread)",
+      "verbatim_label": "GUEST WORKING SPREAD / OS SPREAD"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-dashboard-2026-06-17-08_18_14.png",
+      "variant_key": "horizontal-bar-devices-protected",
+      "attributes": { "chart_type": "horizontal-bar", "palette": ["#1f8ad0"], "style": "small stacked/segmented bar with category labels" },
+      "location": "bottom-left of dashboard",
+      "verbatim_label": "Devices Protected"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-edrDashboard-2026-06-17-08_18_40.png",
+      "variant_key": "sparse-line-incidents-over-time",
+      "attributes": { "chart_type": "line/scatter", "palette": ["#1f8ad0", "#2ec45f"], "style": "single-point sparse line with High/Medium legend, light gridlines" },
+      "location": "center cards of EDR Dashboard",
+      "verbatim_label": "INCIDENTS DETECTED OVER TIME / INCIDENTS SPLIT BY REMEDIATION STATUS"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+      "variant_key": "bar-with-threshold-line-active-devices",
+      "attributes": { "chart_type": "bar + dashed threshold line", "palette": ["#1f8ad0", "#d2563a (Active dashed line)"], "style": "tall thin teal/blue bars under a red dashed 'Active' max line" },
+      "location": "center of billed-sites content",
+      "verbatim_label": "DAILY ACTIVE DEVICES"
+    },
+    {
+      "component_type": "chart",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+      "variant_key": "trend-sparkline-in-table",
+      "attributes": { "chart_type": "sparkline area", "palette": ["#1f8ad0"], "style": "tiny inline trend area inside table TREND column" },
+      "location": "TREND column of billed sites table",
+      "verbatim_label": "TREND"
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png",
+      "variant_key": "inline-search-input-rounded-with-icon",
+      "attributes": { "border": "1px #cdd5dd", "radius": "rounded-4", "height": "~30px", "bg": "#ffffff", "icon": "magnifier right-aligned", "label_position": "placeholder" },
+      "location": "filter row right side",
+      "verbatim_label": "Search Sites"
+    },
+    {
+      "component_type": "search",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png",
+      "variant_key": "header-search-icon-only",
+      "attributes": { "border": "none", "radius": "n/a", "icon": "magnifier glyph in navy header (collapsed search)", "bg": "transparent", "label_position": "none" },
+      "location": "navy page header right",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "checkbox-radio-toggle",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-devices-list-2026-06-17-08_23_24.png",
+      "variant_key": "faceted-filter-checkbox-tree",
+      "attributes": { "control": "square checkbox", "checked_color": "#1b6fc4", "size": "sm", "label_position": "right", "grouping": "collapsible sections (Platform/Type/Status/Policy/Agent)" },
+      "location": "left faceted filter panel",
+      "verbatim_label": "Windows / Android / Mac / Mobile / Server / Workstation"
+    },
+    {
+      "component_type": "checkbox-radio-toggle",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-events-eventsList-2026-06-17-08_26_24.png",
+      "variant_key": "faceted-filter-checkbox-tree",
+      "attributes": { "control": "square checkbox", "checked_color": "#1b6fc4", "size": "sm", "label_position": "right", "grouping": "collapsible sections (Site/Platform/Device/Event Type/Severity/MITRE ATT&CK)" },
+      "location": "left faceted filter panel",
+      "verbatim_label": "ProcessCreate / TerminateProcess / Medium / Defense Evasion"
+    },
+    {
+      "component_type": "filter-chip",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png",
+      "variant_key": "count-pill-filter-tabs",
+      "attributes": { "shape": "pill", "active_color": "#1b6fc4 (Current Version active blue text + caret)", "inactive_color": "#6b7682", "count_badge": "small gray number after label", "casing": "UPPER" },
+      "location": "filter row above table",
+      "verbatim_label": "ALL SITES 1 / Outdated 0 / Current Version"
+    },
+    {
+      "component_type": "dropdown-menu",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png",
+      "variant_key": "blue-link-caret-filter-triggers",
+      "attributes": { "trigger_style": "blue text + down caret (no border)", "color": "#1f7fd0", "casing": "Title", "has_icon": true },
+      "location": "FILTER row top-right",
+      "verbatim_label": "Submission Status / Risk / User / Site"
+    },
+    {
+      "component_type": "dropdown-menu",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-deploy-windows-2026-06-17-08_27_25.png",
+      "variant_key": "blue-link-caret-current-version",
+      "attributes": { "trigger_style": "blue text + caret", "color": "#1f7fd0", "casing": "Title", "has_icon": true },
+      "location": "filter row",
+      "verbatim_label": "Current Version"
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png",
+      "variant_key": "gear-settings-glyph-gray",
+      "attributes": { "style": "outline gear", "color": "#6b7682", "size": "sm" },
+      "location": "end of FILTER row",
+      "verbatim_label": ""
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png",
+      "variant_key": "inline-blue-date-range-link",
+      "attributes": { "color": "#1f7fd0", "underline": "none", "casing": "Title", "style": "editable date values shown as blue links" },
+      "location": "DATE control left of filters",
+      "verbatim_label": "Jun 10, 2026 8:25 AM / now"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+      "variant_key": "blue-underline-statement-period-link",
+      "attributes": { "color": "#1f7fd0", "underline": "underline", "casing": "Title" },
+      "location": "top-right of content",
+      "verbatim_label": "Jun 1, 2026 to Jun 17, 2026"
+    },
+    {
+      "component_type": "link",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-help-documentation-2026-06-17-08_27_46.png",
+      "variant_key": "inline-blue-body-link-marketing",
+      "attributes": { "color": "#1f7fd0", "underline": "on-hover/none", "casing": "Title", "style": "many inline blue links inside paragraph documentation cards" },
+      "location": "documentation card bodies + footer trademark links",
+      "verbatim_label": "VIPRE Success Center / API Documentation"
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-blocklists-windows-2026-06-17-08_24_27.png",
+      "variant_key": "plain-centered-text-no-illustration",
+      "attributes": { "style": "centered bold gray text only, no icon/illustration", "text_color": "#3a4856" },
+      "location": "table body",
+      "verbatim_label": "No blocklist found."
+    },
+    {
+      "component_type": "empty-state",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-fileAnalysis-analysisList-2026-06-17-08_25_09.png",
+      "variant_key": "plain-centered-text-no-illustration",
+      "attributes": { "style": "centered text only, no icon", "text_color": "#3a4856" },
+      "location": "table body",
+      "verbatim_label": "No analyzed files found."
+    },
+    {
+      "component_type": "banner",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-blocklists-windows-2026-06-17-08_24_27.png",
+      "variant_key": "section-description-helptext",
+      "attributes": { "style": "small gray descriptive paragraph under section title (no colored fill/border)", "title_color": "#5b6b7b", "title_casing": "UPPER", "text_color": "#6b7682" },
+      "location": "above each table section",
+      "verbatim_label": "INHERITED BLOCKLIST — The blocklist inherited from VIPRE Site Manager are a set of domains..."
+    },
+    {
+      "component_type": "icon",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-help-documentation-2026-06-17-08_27_46.png",
+      "variant_key": "marketing-section-illustration-icons",
+      "attributes": { "style": "larger outline/filled feature glyphs (building, shield, users, gauge, laptop)", "color": "#3a4856", "size": "lg" },
+      "location": "documentation feature cards",
+      "verbatim_label": "Sites / Policies / Users / Dashboard / Devices / Quarantine / Threats"
+    },
+    {
+      "component_type": "header-topbar",
+      "file": "screencapture-ices-dev-portal-electric-net-edr-esm-billing-sitesLicenseSummary-PRODUCTION-2026-06-17-08_26_37.png",
+      "variant_key": "sidebar-brand-collapse-control",
+      "attributes": { "bg_color": "#ffffff", "logo": "VIPRE SITE MANAGER wordmark", "control": "collapse chevrons '<<'", "back_link": "VIPRE SYMPHONY with arrow" },
+      "location": "top of left sidebar",
+      "verbatim_label": "VIPRE SITE MANAGER / VIPRE SYMPHONY"
+    }
+  ],
+  "tokens": {
+    "colors": [
+      "#0e1f33",
+      "#0d3a63",
+      "#1f3a5f",
+      "#2b3038",
+      "#2c2f3a",
+      "#3f6da8",
+      "#1b6fc4",
+      "#1f7fd0",
+      "#1f8ad0",
+      "#5b7fa6",
+      "#e8f1fb",
+      "#dce7f0",
+      "#eef4fa",
+      "#f2f5f8",
+      "#f4f6f8",
+      "#ffffff",
+      "#1b2733",
+      "#3a4856",
+      "#5b6b7b",
+      "#6b7682",
+      "#cdd6e0",
+      "#2e8b57",
+      "#19a36b",
+      "#2ec45f",
+      "#e8a13a",
+      "#d2563a",
+      "#9b59b6",
+      "#1f8a7a",
+      "#cdd5dd"
+    ],
+    "accent_primary": ["#1b6fc4", "#1f7fd0", "#0d3a63"],
+    "font_family_guess": "Roboto/Open-Sans-like humanist sans (enterprise Bootstrap-ish)",
+    "heading_sizes_px_guess": [28, 22, 16, 12],
+    "radii_px_guess": [4, 8],
+    "spacing_notes": "Two competing accent blues in active use (#1b6fc4 solid buttons vs #1f7fd0 link/dropdown text). Page-header band color is inconsistent: navy (#0d3a63) on most screens but WHITE on Blocklists. Primary action buttons are mostly solid blue rounded-4, but Deploy uses a ghost/outline button on navy and Devices uses text-only 'Export CSV' — divergent button roles. Table headers split between gray uppercase (#5b6b7b on Devices/Events/File Analysis) and BLUE uppercase (#2f6fb0 on Blocklists/Exclusions). Status indicators inconsistent: amber severity PILL on Events vs plain green TEXT 'Protected'/'Up-to-date' elsewhere vs gray scope chips on Exclusions. Help/Documentation is a centered marketing page in a different visual register from the dense app grids. Card corners ~4px, generous card gutters (~16-24px); KPI tiles use thin 1px gray borders, no shadows."
+  }
+}

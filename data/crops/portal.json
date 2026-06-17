@@ -1,0 +1,44 @@
+{
+  "crops": [
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png", "component_type": "kpi-tile", "variant_label": "total emails stat", "box": [0.055, 0.205, 0.16, 0.075] },
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png", "component_type": "data-card", "variant_label": "promo product card", "box": [0.355, 0.715, 0.29, 0.18] },
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png", "component_type": "button", "variant_label": "configure pill", "box": [0.385, 0.81, 0.075, 0.03] },
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png", "component_type": "tab", "variant_label": "active nav item", "box": [0.0, 0.135, 0.205, 0.04] },
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_08_39.png", "component_type": "dropdown-menu", "variant_label": "date range selector", "box": [0.84, 0.018, 0.155, 0.022] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png", "component_type": "data-card", "variant_label": "safesend promo light", "box": [0.142, 0.196, 0.155, 0.094] },
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png", "component_type": "data-card", "variant_label": "IES promo dark gradient", "box": [0.575, 0.196, 0.155, 0.094] },
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png", "component_type": "button", "variant_label": "configure pill purple", "box": [0.397, 0.297, 0.057, 0.018] },
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png", "component_type": "button", "variant_label": "start free trial blue", "box": [0.667, 0.297, 0.066, 0.018] },
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png", "component_type": "breadcrumb", "variant_label": "endpoint breadcrumb", "box": [0.0, 0.0, 0.46, 0.026] },
+    { "file": "screencapture-ices-dev-portal-electric-net-overview-2026-06-17-08_21_15.png", "component_type": "avatar", "variant_label": "safesend icon badge", "box": [0.405, 0.182, 0.038, 0.034] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png", "component_type": "data-card", "variant_label": "product seats card", "box": [0.167, 0.297, 0.665, 0.085] },
+    { "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png", "component_type": "kpi-tile", "variant_label": "licensed seats metric", "box": [0.17, 0.323, 0.2, 0.038] },
+    { "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png", "component_type": "breadcrumb", "variant_label": "account breadcrumb dark", "box": [0.0, 0.0, 0.34, 0.03] },
+    { "file": "screencapture-ices-dev-portal-electric-net-account-2026-06-17-08_14_38.png", "component_type": "tab", "variant_label": "active Account nav", "box": [0.0, 0.928, 0.143, 0.027] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png", "component_type": "button", "variant_label": "Add Admin primary blue", "box": [0.892, 0.034, 0.092, 0.04] },
+    { "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png", "component_type": "dropdown-menu", "variant_label": "row kebab menu", "box": [0.94, 0.158, 0.022, 0.025] },
+    { "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png", "component_type": "data-card", "variant_label": "admins list panel", "box": [0.152, 0.083, 0.85, 0.7] },
+    { "file": "screencapture-ices-dev-portal-electric-net-admins-2026-06-17-08_14_03.png", "component_type": "tab", "variant_label": "column header row", "box": [0.155, 0.135, 0.83, 0.03] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-roles-2026-06-17-08_14_25.png", "component_type": "button", "variant_label": "Add Role primary blue", "box": [0.928, 0.045, 0.062, 0.035] },
+    { "file": "screencapture-ices-dev-portal-electric-net-roles-2026-06-17-08_14_25.png", "component_type": "badge-status", "variant_label": "Default blue pill", "box": [0.213, 0.166, 0.038, 0.019] },
+    { "file": "screencapture-ices-dev-portal-electric-net-roles-2026-06-17-08_14_25.png", "component_type": "data-card", "variant_label": "roles table card", "box": [0.16, 0.092, 0.665, 0.27] },
+    { "file": "screencapture-ices-dev-portal-electric-net-roles-2026-06-17-08_14_25.png", "component_type": "button", "variant_label": "delete trash icon", "box": [0.952, 0.232, 0.022, 0.022] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-profile-2026-06-17-08_14_50.png", "component_type": "input", "variant_label": "text field optional", "box": [0.165, 0.237, 0.67, 0.04] },
+    { "file": "screencapture-ices-dev-portal-electric-net-profile-2026-06-17-08_14_50.png", "component_type": "dropdown-menu", "variant_label": "timezone select", "box": [0.165, 0.348, 0.67, 0.042] },
+    { "file": "screencapture-ices-dev-portal-electric-net-profile-2026-06-17-08_14_50.png", "component_type": "button", "variant_label": "Save disabled", "box": [0.927, 0.39, 0.06, 0.03] },
+    { "file": "screencapture-ices-dev-portal-electric-net-profile-2026-06-17-08_14_50.png", "component_type": "button", "variant_label": "secondary steel blue", "box": [0.172, 0.476, 0.165, 0.032] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-saml-2026-06-17-08_13_44.png", "component_type": "empty-state", "variant_label": "SAML config intro card", "box": [0.155, 0.082, 0.84, 0.205] },
+    { "file": "screencapture-ices-dev-portal-electric-net-saml-2026-06-17-08_13_44.png", "component_type": "button", "variant_label": "Configure SAML w icon", "box": [0.172, 0.16, 0.097, 0.04] },
+    { "file": "screencapture-ices-dev-portal-electric-net-saml-2026-06-17-08_13_44.png", "component_type": "avatar", "variant_label": "SAML key nav icon", "box": [0.143, 0.04, 0.04, 0.04] },
+
+    { "file": "screencapture-ices-dev-portal-electric-net-info-edr-2026-06-17-08_13_29.png", "component_type": "empty-state", "variant_label": "EDR coming soon promo", "box": [0.155, 0.09, 0.84, 0.25] },
+    { "file": "screencapture-ices-dev-portal-electric-net-info-edr-2026-06-17-08_13_29.png", "component_type": "button", "variant_label": "Learn More steel blue", "box": [0.17, 0.205, 0.09, 0.04] },
+    { "file": "screencapture-ices-dev-portal-electric-net-info-edr-2026-06-17-08_13_29.png", "component_type": "badge-status", "variant_label": "locked EDR nav lock", "box": [0.0, 0.413, 0.142, 0.04] }
+  ]
+}
